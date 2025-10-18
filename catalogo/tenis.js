@@ -238,7 +238,7 @@ const tenisBackup = [
     "Modelos": "NIKE AIR FORCE",
     "Venda": "R$ 259,90",
     "Tamanho": "34 - 39",
-    "Imagem1": "https://mvdrop.https//acdn-us.mitiendanube.com/stores/001/909/072/products/img_6597-1b2d2a9f8545c9456617483658058597-480-0.webpcom.br/produtos/nike-air-force56/?variant=1219232888",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_6597-1b2d2a9f8545c9456617483658058597-1024-1024.webp",
     "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_6631-f9fe03325eaebc1d7c17174520595819-480-0.webp",
     "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2764-236505c3916753ccb517418872104055-480-0.webp",
     "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_8973-da264e2e80531d044017522487837411-480-0.webp",
