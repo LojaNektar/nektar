@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Catálogo de Perfumes</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+	<div class="container py-4">
+		<h1 class="text-center mb-4">Catálogo de Perfumes</h1>
+		<div class="row mb-4">
+			<nav class="col-12 d-flex gap-2" aria-label="Menu principal">
+				<a href="index.html" class="btn-grad btn btn-outline-primary">Início</a>
+				<a href="arabes.html" class="btn-grad btn btn-outline-primary">Árabes</a>
+				<a href="tenis.html" class="btn-grad btn btn-outline-primary">Tênis</a>
+			</nav>
+		</div>
+
+		<!-- Campo de busca -->
+		<div class="row mb-4">
+			<div class="col-md-6 mx-auto">
+				<input type="text" id="search" class="form-control" placeholder="🔍 Buscar perfume ou marca...">
+			</div>
+		</div>
+
+		<!-- Header de categorias -->
+		<div class="categorias-header">
+			<h5>Filtrar por Marca</h5>
+			<div class="categorias-lista" id="marcasTabs"></div>
+		</div>
+
+		<!-- Conteúdo das abas -->
+		<div class="tab-content" id="marcasContent"></div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalOpcoes" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Outras opções disponíveis</h5>
+					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+				</div>
+				<div class="modal-body">
+					Consulte variações como <strong>30ml, 50ml, 100ml</strong> (pode variar conforme disponibilidade).
+					<br><br>
+					<em>Fale com a gente para confirmar!</em>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		let perfumes = [];
+		const generos = { "MASC": "Masculino", "FEM": "Feminino", "UNI": "Unissex" };
+
+		function renderizarMarcas(lista) {
+			const marcas = [...new Set(lista.map(p => p.Marca))].sort();
+			const tabs = document.getElementById("marcasTabs");
+			const content = document.getElementById("marcasContent");
+
+			tabs.innerHTML = "";
+			content.innerHTML = "";
+
+			tabs.innerHTML += `<button class="active" data-tab="tab-todos">Todos</button>`;
+			content.innerHTML += `<div class="tab-pane active" id="tab-todos"><div id="catalogo-todos"></div></div>`;
+
+			marcas.forEach(marca => {
+				const tabId = "tab-" + marca.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+				tabs.innerHTML += `<button data-tab="${tabId}">${marca}</button>`;
+				content.innerHTML += `<div class="tab-pane" id="${tabId}"><div id="catalogo-${tabId}"></div></div>`;
+			});
+
+			renderizarPerfumes(lista);
+
+			document.querySelectorAll('.categorias-lista button').forEach(btn => {
+				btn.addEventListener('click', () => {
+					document.querySelectorAll('.categorias-lista button').forEach(b => b.classList.remove('active'));
+					btn.classList.add('active');
+					document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+					document.getElementById(btn.dataset.tab).classList.add('active');
+				});
+			});
+		}
+
+		function renderizarPerfumes(lista) {
+			document.querySelectorAll('[id^="catalogo-"]').forEach(c => c.innerHTML = "");
+
+			const agruparPorGenero = dados =>
+				Object.keys(generos).map(gen => ({
+					genero: generos[gen],
+					itens: dados.filter(p => p.Genero.toUpperCase() === gen)
+				})).filter(g => g.itens.length > 0);
+
+			document.getElementById("catalogo-todos").innerHTML =
+				gerarHTMLCategorias(agruparPorGenero(lista));
+
+			[...new Set(lista.map(p => p.Marca))].forEach(marca => {
+				const tabId = "tab-" + marca.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+				const containerMarca = document.getElementById("catalogo-" + tabId);
+				containerMarca.innerHTML = gerarHTMLCategorias(
+					agruparPorGenero(lista.filter(p => p.Marca === marca))
+				);
+			});
+		}
+
+		function gerarHTMLCategorias(agrupados) {
+			return agrupados.map(g => `
+        <div class="categoria mb-4">
+          <h4 class="mb-3">${g.genero}</h4>
+          <div class="row g-3">
+            ${g.itens.map(p => `
+              <div class="col-6 col-md-4 col-lg-3">
+                <div class="card h-100" onclick="abrirOpcoes('${p.Perfume}')">
+                  <img src="${p.Imagem}" alt="${p.Perfume}">
+                  <div class="card-body">
+                    <h5>${p.Perfume}</h5>
+                    <p><strong>Marca:</strong> ${p.Marca}</p>
+                    <p>${p.Tipo} ${p.ml} a partir de <strong>${p.Venda}</strong></p>
+                    <p>* Valor sujeito a alteração conforme disponibilidade do fornecedor</p>
+                    <p>Consultar estoque e tamanhos: <a href="https://wa.me/5537998195214?text=Olá!%20Tenho%20interesse%20no%20perfume%20${encodeURIComponent(p.Marca)}%20${encodeURIComponent(p.Perfume)}." target="_blank" class="badge-what">WhatsApp</a></p>
+                  </div>
+                </div>
+              </div>
+            `).join("")}
+          </div>
+        </div>
+      `).join("");
+		}
+
+		function abrirOpcoes(nomePerfume) {
+			const modal = new bootstrap.Modal(document.getElementById("modalOpcoes"));
+			document.querySelector("#modalOpcoes .modal-title").innerText = nomePerfume + " – outras opções";
+			modal.show();
+		}
+
+		async function carregarDados() {
+			try {
+				const response = await fetch("catalogo/perfumes.json");
+				if (!response.ok) throw new Error("Falha no fetch do JSON");
+				perfumes = await response.json();
+				renderizarMarcas(perfumes);
+			} catch (error) {
+				console.warn("Erro ao carregar JSON, usando fallback JS:", error);
+				const script = document.createElement("script");
+				script.src = "catalogo/perfumes.js";
+				script.onload = () => {
+					if (typeof perfumesBackup !== "undefined") {
+						perfumes = perfumesBackup;
+						renderizarMarcas(perfumes);
+					}
+				};
+				document.body.appendChild(script);
+			}
+		}
+
+		document.getElementById("search").addEventListener("input", e => {
+			const termo = e.target.value.toLowerCase();
+			const filtrados = perfumes.filter(p =>
+				p.Perfume.toLowerCase().includes(termo) ||
+				p.Marca.toLowerCase().includes(termo)
+			);
+			renderizarMarcas(filtrados);
+		});
+
+		carregarDados();
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<!-- ===== FOOTER ===== -->
+	<footer>
+		© 2025 Nektar. Todos os direitos reservados.<br>
+		<small>Feito com 💙 e estilo.</small>
+	</footer>
+</body>
+
+</html>

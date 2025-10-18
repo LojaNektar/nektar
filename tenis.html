@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Tênis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        /* Ícone "Em breve" */
+        .em-breve {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 300px;
+            background: #111;
+            color: #888;
+            font-size: 1.2rem;
+            border-radius: 12px;
+            border: 1px dashed #333;
+        }
+
+        .modal-body img {
+            max-height: 400px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-4">
+        <h1 class="text-center mb-4">Catálogo de Tênis Premium e Importados</h1>
+
+        <!-- Navegação -->
+        <div class="row mb-4">
+            <nav class="col-12 d-flex flex-wrap gap-2 justify-content-center" aria-label="Menu principal">
+                <a href="index.html" class="btn-grad btn">Início</a>
+                <a href="importados.html" class="btn-grad btn">Perfumes Importados</a>
+                <a href="arabes.html" class="btn-grad btn">Perfumes Árabes</a>
+                <a href="tenis.html" class="btn-grad btn active">Tênis</a>
+            </nav>
+        </div>
+
+        <!-- Campo de busca -->
+        <div class="row mb-4">
+            <div class="col-md-6 mx-auto">
+                <input type="text" id="search" class="form-control" placeholder="🔍 Buscar modelo ou marca...">
+            </div>
+        </div>
+
+        <!-- Header de categorias -->
+        <div class="categorias-header">
+            <h5>Filtrar por Marca</h5>
+            <div class="categorias-lista" id="marcasTabs"></div>
+        </div>
+
+        <!-- Conteúdo das abas -->
+        <div class="tab-content" id="marcasContent"></div>
+    </div>
+
+    <!-- Modal de visualização -->
+    <div class="modal fade" id="modalImagem" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Visualização do produto</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body text-center" id="modalConteudo">
+                    <!-- conteúdo gerado dinamicamente -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let tenis = [];
+
+        // Renderiza abas de marcas
+        function renderizarMarcas(lista) {
+            const marcas = [...new Set(lista.map(p => p.Marca))].sort();
+            const tabs = document.getElementById("marcasTabs");
+            const content = document.getElementById("marcasContent");
+
+            tabs.innerHTML = "";
+            content.innerHTML = "";
+
+            tabs.innerHTML += `<button class="active" data-tab="tab-todos">Todos</button>`;
+            content.innerHTML += `<div class="tab-pane active" id="tab-todos"><div id="catalogo-todos"></div></div>`;
+
+            marcas.forEach(marca => {
+                const tabId = "tab-" + marca.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+                tabs.innerHTML += `<button data-tab="${tabId}">${marca}</button>`;
+                content.innerHTML += `<div class="tab-pane" id="${tabId}"><div id="catalogo-${tabId}"></div></div>`;
+            });
+
+            renderizarTenis(lista);
+
+            // Alternar abas
+            document.querySelectorAll('.categorias-lista button').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.categorias-lista button').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+                    document.getElementById(btn.dataset.tab).classList.add('active');
+                });
+            });
+        }
+
+        // Renderiza produtos
+        function renderizarTenis(lista) {
+            document.querySelectorAll('[id^="catalogo-"]').forEach(c => c.innerHTML = "");
+
+            document.getElementById("catalogo-todos").innerHTML = gerarHTML(lista);
+
+            [...new Set(lista.map(p => p.Marca))].forEach(marca => {
+                const tabId = "tab-" + marca.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+                const containerMarca = document.getElementById("catalogo-" + tabId);
+                containerMarca.innerHTML = gerarHTML(lista.filter(p => p.Marca === marca));
+            });
+        }
+
+        // Gera HTML dos cards
+        function gerarHTML(lista) {
+            return `
+				<div class="row g-3">
+					${lista.map(p => `
+						<div class="col-6 col-md-4 col-lg-3">
+							<div class="card h-100" onclick="abrirModal(${JSON.stringify(p).replace(/"/g, '&quot;')})">
+								<img src="${p.Imagem1 || 'https://via.placeholder.com/400x400?text=Em+breve'}" alt="${p.Modelos}">
+								<div class="card-body">
+									<h5>${p.Modelos}</h5>
+									<p><strong>Marca:</strong> ${p.Marca}</p>
+									<p><strong>Tamanho:</strong> ${p.Tamanho || 'N/D'}</p>
+									<p><strong>${p.Venda}</strong></p>
+									<a href="https://wa.me/5537998195214?text=Olá!%20Tenho%20interesse%20no%20tênis%20${encodeURIComponent(p.Marca)}%20${encodeURIComponent(p.Modelos)}." target="_blank" class="badge-what">WhatsApp</a>
+								</div>
+							</div>
+						</div>
+					`).join("")}
+				</div>
+			`;
+        }
+
+        // Modal de visualização
+        function abrirModal(produto) {
+            const modalConteudo = document.getElementById("modalConteudo");
+            const imagens = [
+                produto.Imagem1, produto.Imagem2, produto.Imagem3,
+                produto.Imagem4, produto.Imagem5, produto.Imagem6, produto.Imagem7
+            ].filter(img => img && img.trim() !== "");
+
+            if (imagens.length > 0) {
+                // Se houver várias imagens → carrossel
+                let carousel = `
+				<div id="carouselImagens" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						${imagens.map((img, i) => `
+							<div class="carousel-item ${i === 0 ? 'active' : ''}">
+								<img src="${img}" class="d-block w-100" alt="${produto.Modelos}">
+							</div>`).join("")}
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselImagens" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselImagens" data-bs-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</button>
+				</div>`;
+                modalConteudo.innerHTML = carousel;
+            } else {
+                // Caso sem imagens
+                modalConteudo.innerHTML = `<div class="em-breve">🕒 Imagens em breve</div>`;
+            }
+
+            document.querySelector("#modalImagem .modal-title").innerText = `${produto.Marca} - ${produto.Modelos}`;
+            new bootstrap.Modal(document.getElementById("modalImagem")).show();
+        }
+
+        // Carregar dados do JSON
+        async function carregarDados() {
+            try {
+                const response = await fetch("catalogo/tenis.json");
+                if (!response.ok) throw new Error("Falha no fetch do JSON");
+                perfumes = await response.json();
+                renderizarMarcas(perfumes);
+            } catch (error) {
+                console.warn("Erro ao carregar JSON, usando fallback JS:", error);
+                const script = document.createElement("script");
+                script.src = "catalogo/tenis.js";
+                script.onload = () => {
+                    if (typeof perfumesBackup !== "undefined") {
+                        perfumes = perfumesBackup;
+                        renderizarMarcas(perfumes);
+                    }
+                };
+                document.body.appendChild(script);
+            }
+        }
+
+        // Filtro de busca
+        document.getElementById("search").addEventListener("input", e => {
+            const termo = e.target.value.toLowerCase();
+            const filtrados = tenis.filter(p =>
+                p.Modelos.toLowerCase().includes(termo) ||
+                p.Marca.toLowerCase().includes(termo)
+            );
+            renderizarMarcas(filtrados);
+        });
+
+        carregarDados();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <footer>
+        © 2025 Nektar. Todos os direitos reservados.<br>
+        <small>Feito com 💙 e estilo.</small>
+    </footer>
+</body>
+
+</html>

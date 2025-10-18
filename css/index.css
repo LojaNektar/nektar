@@ -1,0 +1,277 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+  font-size: 2.4rem;
+  background: linear-gradient(90deg, #00c3ff, #7b2ff7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-top: .5rem;
+}
+
+/* ===== HERO / DESTAQUE ===== */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1rem;
+  background: radial-gradient(circle at top, rgba(0,195,255,0.15), rgba(0,0,0,0.9));
+  border-radius: 20px;
+  margin-bottom: 3rem;
+}
+
+.hero h2 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* ===== MENU DE CATEGORIAS ===== */
+.categorias-header {
+  margin-bottom: 1rem;
+}
+
+.categorias-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.categorias-lista button {
+  background: transparent;
+  border: 1px solid #00c3ff;
+  color: #00c3ff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.categorias-lista button:hover,
+.categorias-lista button.active {
+  background: linear-gradient(90deg, #00c3ff, #7b2ff7);
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 10px #00c3ff, 0 0 20px #7b2ff7;
+}
+
+/* Mobile - categorias em carrossel */
+@media (max-width: 768px) {
+  .categorias-lista {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .categorias-lista::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* ===== CARDS ===== */
+.card,
+.card-opcao {
+  background: #1a1a1a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.card:hover,
+.card-opcao:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #00c3ff, 0 0 30px #7b2ff7;
+}
+
+/* ===== IMAGENS ===== */
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* ===== CARD BODY ===== */
+.card-body {
+  background: #fff;
+  color: #000;
+  padding: 1rem;
+}
+
+.card-body h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: #000;
+}
+
+.card-body p {
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== CARDS DE AÇÃO (Landing) ===== */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+.card-opcao {
+  width: 280px;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.card-opcao i {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(90deg, #00c3ff, #7b2ff7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-opcao h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.card-opcao p {
+  color: #bbb;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* ===== BOTÕES ===== */
+.btn-grad,
+.badge-what {
+  background: linear-gradient(90deg, #00c3ff, #7b2ff7);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-grad {
+  padding: 0.6rem 1.4rem;
+  display: inline-block;
+}
+
+.badge-what {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.btn-grad:hover,
+.badge-what:hover {
+  opacity: 0.9;
+}
+
+.badge-opcoes {
+  background: #f2f2f2;
+  color: #00c3ff;
+  border: 1px solid #00c3ff;
+}
+
+/* ===== MODAL ===== */
+.modal-content {
+  background: #1a1a1a;
+  color: #f0f0f0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modal-header,
+.modal-footer {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.modal-title {
+  color: #fff;
+}
+
+.modal-footer .btn-primary {
+  background: linear-gradient(90deg, #00c3ff, #7b2ff7);
+  border: none;
+}
+
+.modal-footer .btn-primary:hover {
+  opacity: 0.9;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: #888;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+}
+
+/* ===== RESPONSIVIDADE ===== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero h2 {
+    font-size: 1.4rem;
+  }
+
+  .card img {
+    height: 220px;
+  }
+
+  .card-body h5 {
+    font-size: 1rem;
+  }
+
+  .card-opcao {
+    width: 90%;
+  }
+}
+
+@media (max-width: 576px) {
+  .card img {
+    height: 200px;
+  }
+
+  .categorias-lista button {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+}
