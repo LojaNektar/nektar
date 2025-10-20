@@ -19,10 +19,32 @@
 			border-radius: 12px;
 			border: 1px dashed #333;
 		}
-
-		.modal-body img {
-			max-height: 400px;
-			object-fit: contain;
+		
+		.zoom-container {
+			overflow: hidden;
+			position: relative;
+			touch-action: none;
+		}
+		
+		.zoom-container img {
+			transition: transform 0.25s ease;
+			cursor: zoom-in;
+			transform-origin: center center;
+		}
+		
+		.zoomed {
+			cursor: zoom-out;
+		}
+		
+		.valor {
+			font-size: 1rem;
+			margin-bottom: .3rem;
+		}
+		
+		.valor span {
+			display: block;
+			font-size: 0.9rem;
+			color: #555;
 		}
 	</style>
 </head>
@@ -100,26 +122,30 @@
 				<section id="${marca.toLowerCase().replace(/[^a-z0-9]+/g, "-")}" class="mb-5">
 					<h3 class="text-gradient mb-3">${marca}</h3>
 					<div class="row g-3">
-						${lista.map(p => `
-							<div class="col-6 col-md-4 col-lg-3">
-								<div class="card h-100" onclick='abrirModal(${JSON.stringify(p).replace(/"/g, "&quot;")})'>
-									${p.Imagem1 ? `<img src="${p.Imagem1}" alt="${p.Modelos}">`
+						${lista.map(p => {
+							const valorStr = p.Venda.replace(/[^\d,]/g, '').replace(',', '.');
+							const valor = parseFloat(valorStr);
+							const valorPix = isNaN(valor) ? null : (valor * 0.9).toFixed(2);
+							const valorPixFmt = valorPix ? `R$ ${valorPix.replace('.', ',')}` : '—';
+							return `
+								<div class="col-6 col-md-4 col-lg-3">
+									<div class="card h-100" onclick='abrirModal(${JSON.stringify(p).replace(/"/g, "&quot;")})'>
+										${p.Imagem1 ? `<img src="${p.Imagem1}" alt="${p.Modelos}">`
 										: `<div class="em-breve">🕒 Imagens em breve</div>`}
-									<div class="card-body">
-										<h5>${p.Modelos}</h5>
-										<p><strong>Marca:</strong> ${p.Marca}</p>
-										<p>${p.Tamanho ? `<strong>Tamanho:</strong> ${p.Tamanho}` : ""}</p>
-										<p>a partir de <strong>${p.Venda}</strong></p>
-										<p>* Valor sujeito a alteração</p>
-										<a href="https://wa.me/5537998195214?text=Olá!%20Tenho%20interesse%20no%20tênis%20${encodeURIComponent(p.Marca)}%20${encodeURIComponent(p.Modelos)}."
-											target="_blank" class="badge-what">💬 Falar no WhatsApp</a>
+										<div class="card-body">
+											<h5>${p.Modelos}</h5>
+											<p><strong>Marca:</strong> ${p.Marca}</p>
+											<p>${p.Tamanho ? `<strong>Tamanho:</strong> ${p.Tamanho}` : ""}</p>
+											<p class="valor"><strong>${p.Venda}</strong><span>em até 3x sem juros</span></p>
+											<p class="valor"><strong>${valorPixFmt}</strong><span>à vista no Pix (10% OFF)</span></p>
+											<a href="https://wa.me/5537998195214?text=Olá!%20Tenho%20interesse%20no%20tênis%20${encodeURIComponent(p.Marca)}%20${encodeURIComponent(p.Modelos)}."
+												target="_blank" class="badge-what">💬 Falar no WhatsApp</a>
+										</div>
 									</div>
-								</div>
-							</div>
-						`).join("")}
+								</div>`;
+						}).join("")}
 					</div>
-				</section>
-			`;
+				</section>`;
 		}
 
 		function scrollToSection(id) {
@@ -127,36 +153,84 @@
 			if (section) section.scrollIntoView({ behavior: "smooth", block: "start" });
 		}
 
-		function abrirModal(produto) {
-			const modalConteudo = document.getElementById("modalConteudo");
-			const imagens = [
-				produto.Imagem1, produto.Imagem2, produto.Imagem3,
-				produto.Imagem4, produto.Imagem5, produto.Imagem6, produto.Imagem7
-			].filter(img => img && img.trim() !== "");
+function abrirModal(produto) {
+      const modalConteudo = document.getElementById("modalConteudo");
+      const imagens = [
+        produto.Imagem1, produto.Imagem2, produto.Imagem3,
+        produto.Imagem4, produto.Imagem5, produto.Imagem6, produto.Imagem7
+      ].filter(img => img && img.trim() !== "");
 
-			if (imagens.length > 0) {
-				modalConteudo.innerHTML = `
-					<div id="carouselImagens" class="carousel slide" data-bs-ride="carousel">
-						<div class="carousel-inner">
-							${imagens.map((img, i) => `
-								<div class="carousel-item ${i === 0 ? 'active' : ''}">
-									<img src="${img}" class="d-block w-100" alt="${produto.Modelos}">
-								</div>`).join("")}
-						</div>
-						<button class="carousel-control-prev" type="button" data-bs-target="#carouselImagens" data-bs-slide="prev">
-							<span class="carousel-control-prev-icon"></span>
-						</button>
-						<button class="carousel-control-next" type="button" data-bs-target="#carouselImagens" data-bs-slide="next">
-							<span class="carousel-control-next-icon"></span>
-						</button>
-					</div>`;
-			} else {
-				modalConteudo.innerHTML = `<div class="em-breve">🕒 Imagens em breve</div>`;
-			}
+      if (imagens.length > 0) {
+        modalConteudo.innerHTML = `
+          <div id="carouselImagens" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              ${imagens.map((img, i) => `
+                <div class="carousel-item ${i === 0 ? 'active' : ''}">
+                  <div class="zoom-container">
+                    <img src="${img}" class="d-block w-100 zoomable" alt="${produto.Modelos}">
+                  </div>
+                </div>`).join("")}
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselImagens" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselImagens" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>`;
 
-			document.querySelector("#modalImagem .modal-title").innerText = `${produto.Marca} - ${produto.Modelos}`;
-			new bootstrap.Modal(document.getElementById("modalImagem")).show();
-		}
+        setTimeout(() => {
+          inicializarZoom();
+        }, 300);
+      } else {
+        modalConteudo.innerHTML = `<div class="em-breve">🕒 Imagens em breve</div>`;
+      }
+
+      document.querySelector("#modalImagem .modal-title").innerText = `${produto.Marca} - ${produto.Modelos}`;
+      new bootstrap.Modal(document.getElementById("modalImagem")).show();
+    }
+
+    function inicializarZoom() {
+      document.querySelectorAll('.zoomable').forEach(img => {
+        let scale = 1;
+        let startDistance = 0;
+        let startX = 0, startY = 0, moveX = 0, moveY = 0;
+
+        // Desktop: duplo clique para zoom
+        img.addEventListener('dblclick', () => {
+          if (scale === 1) {
+            img.style.transform = 'scale(2)';
+            img.classList.add('zoomed');
+            scale = 2;
+          } else {
+            img.style.transform = 'scale(1)';
+            img.classList.remove('zoomed');
+            scale = 1;
+          }
+        });
+
+        // Mobile: pinch zoom
+        img.addEventListener('touchstart', e => {
+          if (e.touches.length === 2) {
+            const dx = e.touches[0].pageX - e.touches[1].pageX;
+            const dy = e.touches[0].pageY - e.touches[1].pageY;
+            startDistance = Math.hypot(dx, dy);
+          }
+        });
+
+        img.addEventListener('touchmove', e => {
+          if (e.touches.length === 2) {
+            const dx = e.touches[0].pageX - e.touches[1].pageX;
+            const dy = e.touches[0].pageY - e.touches[1].pageY;
+            const newDistance = Math.hypot(dx, dy);
+            const zoomFactor = newDistance / startDistance;
+            scale = Math.min(Math.max(1, zoomFactor), 3);
+            img.style.transform = `scale(${scale})`;
+            e.preventDefault();
+          }
+        });
+      });
+    }
 
 		async function carregarDados() {
 			try {
