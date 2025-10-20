@@ -113,7 +113,7 @@
 
 		function gerarHTMLCategorias(agrupados) {
 			return agrupados.map(g => `
-				<section id="sec-${g.genero.toLowerCase().replace(/[^a-z0-9]+/g, "-")}" class="categoria mb-4">
+				<section id="${g.Marca.toLowerCase().replace(/[^a-z0-9]+/g, "-")}" class="categoria mb-4">
 			        <div class="categoria mb-4">
 			          <h4 class="mb-3">${g.genero}</h4>
 			          <div class="row g-3">
