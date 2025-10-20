@@ -4,21 +4,25 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Catálogo de Perfumes</title>
+	<title>Catálogo de Perfumes Árabes</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
 	<div class="container py-4">
-		<h1 class="text-center mb-4">Catálogo de Perfumes</h1>
+		<h1 class="text-center mb-4">Catálogo de Perfumes Árabes</h1>
+
+		<!-- Navegação -->
 		<div class="row mb-4">
-			<nav class="col-12 d-flex gap-2" aria-label="Menu principal">
+			<nav class="col-12 d-flex gap-2 flex-wrap justify-content-center" aria-label="Menu principal">
 				<a href="index.html" class="btn-grad btn btn-outline-primary">Início</a>
-				<a href="arabes.html" class="btn-grad btn btn-outline-primary">Árabes</a>
+				<a href="importados.html" class="btn-grad btn btn-outline-primary">Importados</a>
+				<a href="arabes.html" class="btn-grad btn btn-outline-primary active">Árabes</a>
 				<a href="tenis.html" class="btn-grad btn btn-outline-primary">Tênis</a>
 			</nav>
 		</div>
+
 		<!-- Campo de busca -->
 		<div class="row mb-4">
 			<div class="col-md-6 mx-auto">
@@ -27,13 +31,13 @@
 		</div>
 
 		<!-- Header de categorias -->
-		<div class="categorias-header">
+		<div class="categorias-header mb-4">
 			<h5>Filtrar por Marca</h5>
 			<div class="categorias-lista" id="marcasTabs"></div>
 		</div>
 
-		<!-- Conteúdo das abas -->
-		<div class="tab-content" id="marcasContent"></div>
+		<!-- Container das marcas -->
+		<div id="catalogoContainer"></div>
 	</div>
 
 	<!-- Modal -->
@@ -45,8 +49,7 @@
 					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
 				</div>
 				<div class="modal-body">
-					Consulte variações como <strong>30ml, 50ml, 100ml</strong> (pode variar conforme disponibilidade).
-					<br><br>
+					Consulte variações como <strong>30ml, 50ml, 100ml</strong> (pode variar conforme disponibilidade).<br><br>
 					<em>Fale com a gente para confirmar!</em>
 				</div>
 				<div class="modal-footer">
@@ -63,83 +66,81 @@
 		function renderizarMarcas(lista) {
 			const marcas = [...new Set(lista.map(p => p.Marca))].sort();
 			const tabs = document.getElementById("marcasTabs");
-			const content = document.getElementById("marcasContent");
+			const container = document.getElementById("catalogoContainer");
 
 			tabs.innerHTML = "";
-			content.innerHTML = "";
-
-			tabs.innerHTML += `<button class="active" data-tab="tab-todos">Todos</button>`;
-			content.innerHTML += `<div class="tab-pane active" id="tab-todos"><div id="catalogo-todos"></div></div>`;
+			container.innerHTML = "";
 
 			marcas.forEach(marca => {
-				const tabId = "tab-" + marca.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-				tabs.innerHTML += `<button data-tab="${tabId}">${marca}</button>`;
-				content.innerHTML += `<div class="tab-pane" id="${tabId}"><div id="catalogo-${tabId}"></div></div>`;
-			});
+				const marcaId = marca.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 
-			renderizarPerfumes(lista);
+				// Botão de navegação
+				tabs.innerHTML += `
+					<button onclick="scrollToSection('${marcaId}')">${marca}</button>
+				`;
 
-			document.querySelectorAll('.categorias-lista button').forEach(btn => {
-				btn.addEventListener('click', () => {
-					document.querySelectorAll('.categorias-lista button').forEach(b => b.classList.remove('active'));
-					btn.classList.add('active');
-					document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-					document.getElementById(btn.dataset.tab).classList.add('active');
-				});
+				// Dados filtrados por marca
+				const perfumesDaMarca = lista.filter(p => p.Marca === marca);
+				container.innerHTML += gerarHTMLMarca(marca, perfumesDaMarca);
 			});
 		}
 
-		function renderizarPerfumes(lista) {
-			document.querySelectorAll('[id^="catalogo-"]').forEach(c => c.innerHTML = "");
+		function gerarHTMLMarca(marca, itens) {
+			const agrupados = Object.keys(generos).map(gen => ({
+				genero: generos[gen],
+				itens: itens.filter(p => (p.Genero || "").toUpperCase() === gen)
+			})).filter(g => g.itens.length > 0);
 
-			const agruparPorGenero = dados =>
-				Object.keys(generos).map(gen => ({
-					genero: generos[gen],
-					itens: dados.filter(p => p.Genero.toUpperCase() === gen)
-				})).filter(g => g.itens.length > 0);
-
-			document.getElementById("catalogo-todos").innerHTML =
-				gerarHTMLCategorias(agruparPorGenero(lista));
-
-			[...new Set(lista.map(p => p.Marca))].forEach(marca => {
-				const tabId = "tab-" + marca.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-				const containerMarca = document.getElementById("catalogo-" + tabId);
-				containerMarca.innerHTML = gerarHTMLCategorias(
-					agruparPorGenero(lista.filter(p => p.Marca === marca))
-				);
-			});
+			return `
+				<section id="${marca.toLowerCase().replace(/[^a-z0-9]+/g, "-")}" class="mb-5">
+					<h3 class="text-gradient mb-3">${marca}</h3>
+					${agrupados.map(g => `
+						<div class="categoria mb-4">
+							<h4 class="mb-3">${g.genero}</h4>
+							<div class="row g-3">
+								${g.itens.map(p => `
+									<div class="col-6 col-md-4 col-lg-3">
+										<div class="card h-100" onclick="abrirOpcoes('${p.Perfume}')">
+											<img src="${p.Imagem || 'img/em-breve.webp'}" alt="${p.Perfume}">
+											<div class="card-body">
+												<h5>${p.Perfume} - ${p.ml}</h5>
+												<p><strong>Marca:</strong> ${p.Marca}</p>
+												<p>${p.Tipo || 'EDP'} a partir de <strong>${p.Venda}</strong></p>
+												${p.OBS ? `<p><em>${p.OBS}</em></p>` : ""}
+												<p>* Valor sujeito a alteração</p>
+												<a href="https://wa.me/5537998195214?text=Olá!%20Tenho%20interesse%20no%20perfume%20${encodeURIComponent(p.Marca)}%20${encodeURIComponent(p.Perfume)}." 
+													target="_blank" class="badge-what">💬 Falar no WhatsApp</a>
+											</div>
+										</div>
+									</div>
+								`).join("")}
+							</div>
+						</div>
+					`).join("")}
+				</section>
+			`;
 		}
 
-		function gerarHTMLCategorias(agrupados) {
-			return agrupados.map(g => `
-        <div class="categoria mb-4">
-          <h4 class="mb-3">${g.genero}</h4>
-          <div class="row g-3">
-            ${g.itens.map(p => `
-              <div class="col-6 col-md-4 col-lg-3">
-                <div class="card h-100">
-                  <img src="${p.Imagem}" alt="${p.Perfume}">
-                  <div class="card-body">
-                    <h5>${p.Perfume} - ${p.ml}</h5>
-                    <p><strong>Marca:</strong> ${p.Marca}</p>
-                    <p><strong>${p.Venda}</strong></p>
-                    <p>${p.OBS ? `<p>OBS: ${p.OBS}</p>` : ""}</p>
-                    <p>* Valor sujeito a alteração</p>
-                    <a href="https://wa.me/5537998195214?text=Olá!%20Tenho%20interesse%20no%20perfume%20${encodeURIComponent(p.Marca)}%20${encodeURIComponent(p.Perfume)}." target="_blank" class="badge-what">WhatsApp</a>
-                  </div>
-                </div>
-              </div>
-            `).join("")}
-          </div>
-        </div>
-      `).join("");
+		function scrollToSection(id) {
+			const section = document.getElementById(id);
+			if (section) section.scrollIntoView({ behavior: "smooth", block: "start" });
+		}
+
+		function abrirOpcoes(nomePerfume) {
+			const modal = new bootstrap.Modal(document.getElementById("modalOpcoes"));
+			document.querySelector("#modalOpcoes .modal-title").innerText = nomePerfume + " – outras opções";
+			modal.show();
 		}
 
 		async function carregarDados() {
-			const response = await fetch("catalogo/arabes.json");
-			if (!response.ok) throw new Error("Falha no fetch do JSON");
-			perfumes = await response.json();
-			renderizarMarcas(perfumes);
+			try {
+				const response = await fetch("catalogo/arabes.json");
+				if (!response.ok) throw new Error("Falha no fetch do JSON");
+				perfumes = await response.json();
+				renderizarMarcas(perfumes);
+			} catch (error) {
+				console.error("Erro ao carregar JSON:", error);
+			}
 		}
 
 		document.getElementById("search").addEventListener("input", e => {
@@ -153,8 +154,9 @@
 
 		carregarDados();
 	</script>
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-	<!-- ===== FOOTER ===== -->
+
 	<footer>
 		© 2025 Nektar. Todos os direitos reservados.<br>
 		<small>Feito com 💙 e estilo.</small>
