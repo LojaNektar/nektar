@@ -20,25 +20,27 @@
 			border: 1px dashed #333;
 		}
 
-		.zoom-area {
+		  .zoom-area {
 		    position: relative;
 		    overflow: hidden;
 		    background: #000;
 		    display: flex;
 		    justify-content: center;
 		    align-items: center;
-		    height: 480px;
+		    height: 460px;
 		    touch-action: none;
 		  }
 		
 		  .zoom-area img {
-		    transition: transform 0.25s ease;
+		    transition: transform 0.3s ease;
 		    max-height: 100%;
-		    cursor: grab;
+		    max-width: 100%;
+		    cursor: zoom-in;
+		    transform-origin: center center;
 		  }
 		
 		  .zoomed {
-		    cursor: grabbing !important;
+		    cursor: grab;
 		  }
 		
 		  @media (max-width: 768px) {
@@ -165,102 +167,116 @@
 		}
 
 	  function abrirModal(produto) {
-		const modalConteudo = document.getElementById("modalConteudo");
-		const imagens = [
-		  produto.Imagem1, produto.Imagem2, produto.Imagem3,
-		  produto.Imagem4, produto.Imagem5, produto.Imagem6, produto.Imagem7
-		].filter(img => img && img.trim() !== "");
-	
-		if (imagens.length > 0) {
-		  modalConteudo.innerHTML = `
-			<div id="carouselImagens" class="carousel slide" data-bs-ride="carousel">
-			  <div class="carousel-inner">
-				${imagens.map((img, i) => `
-				  <div class="carousel-item ${i === 0 ? 'active' : ''}">
-					<div class="zoom-area">
-					  <img src="${img}" class="zoomable d-block" alt="${produto.Modelos}">
-					</div>
-				  </div>`).join("")}
-			  </div>
-			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselImagens" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			  </button>
-			  <button class="carousel-control-next" type="button" data-bs-target="#carouselImagens" data-bs-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			  </button>
-			</div>`;
-		  setTimeout(inicializarZoom, 300);
-		} else {
-		  modalConteudo.innerHTML = `<div class="em-breve">🕒 Imagens em breve</div>`;
-		}
-	
-		document.querySelector("#modalImagem .modal-title").innerText =
-		  `${produto.Marca} - ${produto.Modelos}`;
-		new bootstrap.Modal(document.getElementById("modalImagem")).show();
-	  }
-	
-	  function inicializarZoom() {
-		document.querySelectorAll('.zoomable').forEach(img => {
-		  let scale = 1;
-		  let originX = 0, originY = 0;
-		  let isDragging = false, startX = 0, startY = 0;
-	
-		  // Zoom com scroll do mouse
-		  img.addEventListener('wheel', e => {
-			e.preventDefault();
-			const delta = e.deltaY > 0 ? -0.1 : 0.1;
-			scale = Math.min(Math.max(1, scale + delta), 3);
-			img.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
-		  });
-	
-		  // Clique e arraste (desktop)
-		  img.addEventListener('mousedown', e => {
-			if (scale > 1) {
-			  isDragging = true;
-			  startX = e.clientX;
-			  startY = e.clientY;
-			  img.classList.add('zoomed');
-			}
-		  });
-	
-		  window.addEventListener('mouseup', () => {
-			isDragging = false;
-			img.classList.remove('zoomed');
-		  });
-	
-		  img.addEventListener('mousemove', e => {
-			if (!isDragging) return;
-			originX += e.clientX - startX;
-			originY += e.clientY - startY;
-			startX = e.clientX;
-			startY = e.clientY;
-			img.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
-		  });
-	
-		  // Pinch Zoom no celular
-		  let startDistance = 0;
-		  img.addEventListener('touchstart', e => {
-			if (e.touches.length === 2) {
-			  const dx = e.touches[0].pageX - e.touches[1].pageX;
-			  const dy = e.touches[0].pageY - e.touches[1].pageY;
-			  startDistance = Math.hypot(dx, dy);
-			}
-		  });
-	
-		  img.addEventListener('touchmove', e => {
-			if (e.touches.length === 2) {
-			  const dx = e.touches[0].pageX - e.touches[1].pageX;
-			  const dy = e.touches[0].pageY - e.touches[1].pageY;
-			  const newDistance = Math.hypot(dx, dy);
-			  const zoomFactor = newDistance / startDistance;
-			  scale = Math.min(Math.max(1, zoomFactor * scale), 3);
-			  img.style.transform = `scale(${scale})`;
-			  e.preventDefault();
-			}
-		  });
-		});
-	  }
+    const modalConteudo = document.getElementById("modalConteudo");
+    const imagens = [
+      produto.Imagem1, produto.Imagem2, produto.Imagem3,
+      produto.Imagem4, produto.Imagem5, produto.Imagem6, produto.Imagem7
+    ].filter(img => img && img.trim() !== "");
 
+    if (imagens.length > 0) {
+      modalConteudo.innerHTML = `
+        <div id="carouselImagens" class="carousel slide" data-bs-interval="false">
+          <div class="carousel-inner">
+            ${imagens.map((img, i) => `
+              <div class="carousel-item ${i === 0 ? 'active' : ''}">
+                <div class="zoom-area">
+                  <img src="${img}" class="zoomable d-block" alt="${produto.Modelos}">
+                </div>
+              </div>`).join("")}
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselImagens" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselImagens" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>`;
+      setTimeout(inicializarZoom, 300);
+    } else {
+      modalConteudo.innerHTML = `<div class="em-breve">🕒 Imagens em breve</div>`;
+    }
+
+    document.querySelector("#modalImagem .modal-title").innerText =
+      `${produto.Marca} - ${produto.Modelos}`;
+    new bootstrap.Modal(document.getElementById("modalImagem")).show();
+  }
+
+	  function inicializarZoom() {
+	    document.querySelectorAll('.zoomable').forEach(img => {
+	      let scale = 1, lastScale = 1;
+	      let isDragging = false, startX = 0, startY = 0, originX = 0, originY = 0;
+	
+	      // Dê duplo clique para ampliar/reduzir
+	      const toggleZoom = e => {
+	        if (scale === 1) {
+	          scale = 2.2;
+	          img.classList.add('zoomed');
+	          img.style.cursor = 'grab';
+	        } else {
+	          scale = 1;
+	          originX = originY = 0;
+	          img.classList.remove('zoomed');
+	          img.style.cursor = 'zoom-in';
+	        }
+	        img.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
+	      };
+	
+	      img.addEventListener('dblclick', toggleZoom);
+	      img.addEventListener('touchend', e => {
+	        if (e.touches.length === 0 && e.changedTouches.length === 1) {
+	          // toque rápido (simulando duplo toque)
+	          const now = new Date().getTime();
+	          if (img.dataset.lastTouch && now - img.dataset.lastTouch < 300) {
+	            toggleZoom(e);
+	          }
+	          img.dataset.lastTouch = now;
+	        }
+	      });
+	
+	      // Arrastar imagem quando ampliada
+	      img.addEventListener('mousedown', e => {
+	        if (scale > 1) {
+	          isDragging = true;
+	          startX = e.clientX - originX;
+	          startY = e.clientY - originY;
+	          img.style.cursor = 'grabbing';
+	          e.preventDefault();
+	        }
+	      });
+	
+	      window.addEventListener('mouseup', () => {
+	        isDragging = false;
+	        img.style.cursor = scale > 1 ? 'grab' : 'zoom-in';
+	      });
+	
+	      window.addEventListener('mousemove', e => {
+	        if (!isDragging) return;
+	        originX = e.clientX - startX;
+	        originY = e.clientY - startY;
+	        img.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
+	      });
+	
+	      // Toque e arraste (mobile)
+	      let lastTouch = null;
+	      img.addEventListener('touchmove', e => {
+	        if (scale > 1 && e.touches.length === 1) {
+	          if (!lastTouch) {
+	            lastTouch = e.touches[0];
+	            return;
+	          }
+	          const dx = e.touches[0].pageX - lastTouch.pageX;
+	          const dy = e.touches[0].pageY - lastTouch.pageY;
+	          originX += dx;
+	          originY += dy;
+	          img.style.transform = `translate(${originX}px, ${originY}px) scale(${scale})`;
+	          lastTouch = e.touches[0];
+	          e.preventDefault();
+	        }
+	      });
+	
+	      img.addEventListener('touchend', () => (lastTouch = null));
+	    });
+	  }
 		async function carregarDados() {
 			try {
 				const response = await fetch("catalogo/tenis.json");
