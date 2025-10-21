@@ -1,7 +1,7 @@
 [
   {
     "Marca": "Adidas",
-    "Modelos": "ADIDAS ADI2000\r",
+    "Modelos": "ADI2000\r",
     "Venda": "R$ 367,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7158-58bfcb86130c42b19117322834268558-1024-1024.webp",
@@ -14,7 +14,7 @@
   },
   {
     "Marca": "Adidas",
-    "Modelos": "ADIDAS BAD BUNNY",
+    "Modelos": "BAD BUNNY",
     "Venda": "R$ 337,50",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5818-773bdc237c18f3521617168309004763-1024-1024.webp",
@@ -26,7 +26,7 @@
   },
   {
     "Marca": "Adidas",
-    "Modelos": "ADIDAS CAMPUS",
+    "Modelos": "CAMPUS",
     "Venda": "R$ 324,00",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1890-db480eefb7284ea35b17093251258651-1024-1024.webp",
@@ -39,7 +39,7 @@
   },
   {
     "Marca": "Adidas",
-    "Modelos": "ADIDAS SAMBA",
+    "Modelos": "SAMBA",
     "Venda": "R$ 255,00",
     "Tamanho": "34 - 39",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5437-26fb7350dacfed658917168365885715-1024-1024.webp",
@@ -52,7 +52,7 @@
   },
   {
     "Marca": "Adidas",
-    "Modelos": "ADIDAS SUPERSTAR",
+    "Modelos": "SUPERSTAR",
     "Venda": "R$ 295,65",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/c7cafcd5-3062-414e-974a-e0f870bc1a7f1-adb749b95f163b5c4f16782852568369-1024-1024.webp",
@@ -61,7 +61,7 @@
   },
   {
     "Marca": "Adidas",
-    "Modelos": "ADIDAS TRENZA",
+    "Modelos": "TRENZA",
     "Venda": "R$ 509,90",
     "Tamanho": "34 - 37",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9276-f19d4f93aad3f08f4817207427500942-480-0.webp",
@@ -79,6 +79,13 @@
     "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1419-6a2155070f79d69fc217561415714624-1024-1024.webp"
   },
   {
+    "Marca": "Asics",
+    "Modelos": "ASICS GEL",
+    "Venda": "R$ 337,50",
+    "Tamanho": "34 - 39",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2183-5a076a2dfc77b6a51a17569210141616-1024-1024.webp"
+  },
+  {
     "Marca": "Lacoste",
     "Modelos": "LACOSTE T-CLIP SPORT",
     "Venda": "R$ 310,50",
@@ -89,7 +96,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY 11",
+    "Modelos": "PROPHECY 11",
     "Venda": "R$ 494,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/648035d0-f3c8-4ab8-a235-c9522c584188-f641830f3310d211e616451607065723-480-0.webp",
@@ -99,7 +106,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY 11 S",
+    "Modelos": "PROPHECY 11 S",
     "Venda": "R$ 494,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/272070ed-102a-4a1d-9caa-19b6e18657e5-9d6cbb1084ad21e8cb16595370584736-480-0.webp",
@@ -109,7 +116,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY 12 S",
+    "Modelos": "PROPHECY 12 S",
     "Venda": "R$ 576,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/08634c31-2e0d-4db1-8d00-82f303acbe951-37251487243a18b7bb16808653526103-480-0.webp",
@@ -119,7 +126,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY 13",
+    "Modelos": "PROPHECY 13",
     "Venda": "R$ 474,50",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_8658-4369329e872d38881917200448247656-480-0.webp",
@@ -132,7 +139,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY 14",
+    "Modelos": "PROPHECY 14",
     "Venda": "R$ 535,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1661-8f92ab458fa488f6d417398262133305-480-0.webp",
@@ -145,7 +152,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY 6,7,8,9",
+    "Modelos": "PROPHECY 6,7,8,9",
     "Venda": "R$ 494,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/2dd94f8b-2ad5-4d14-8bbf-6ced626056ff-aa8ee9b5c7a878caa916595313931947-1024-1024.webp",
@@ -155,7 +162,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY BETA 2",
+    "Modelos": "PROPHECY BETA 2",
     "Venda": "R$ 479,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1742-1e626b05210baa184317091534519734-480-0.webp",
@@ -165,7 +172,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY LS",
+    "Modelos": "PROPHECY LS",
     "Venda": "R$ 479,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00311-86a80e66517a1ee7f716879572764998-480-0.webp",
@@ -175,7 +182,7 @@
   },
   {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY X",
+    "Modelos": "PROPHECY X",
     "Venda": "R$ 469,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/6c1181cd-498e-4b0f-9e90-5b2579573290-9ae2d3291515e2109016424537914977-480-0.webp",
@@ -187,7 +194,7 @@
   },
   {
     "Marca": "New Balance",
-    "Modelos": "NEW BALANCE 530",
+    "Modelos": "530",
     "Venda": "R$ 367,70",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1175-d2b256cabf4137d9a017240820255902-1024-1024.webp",
@@ -199,7 +206,7 @@
   },
   {
     "Marca": "New Balance",
-    "Modelos": "NEW BALANCE 550",
+    "Modelos": "550",
     "Venda": "R$ 380,70",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2878-31e2d8bcc11a15ab1d17260821029040-1024-1024.webp",
@@ -211,7 +218,7 @@
   },
   {
     "Marca": "New Balance",
-    "Modelos": "NEW BALANCE 9060",
+    "Modelos": "9060",
     "Venda": "R$ 367,20",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0760-3cb6aee2e7d861659a17383433305398-1024-1024.webp",
@@ -224,7 +231,7 @@
   },
   {
     "Marca": "New Balance",
-    "Modelos": "NEW BALANCE CT-303",
+    "Modelos": "CT-303",
     "Venda": "R$ 238,95",
     "Tamanho": "34 - 39",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3415-a7fd0f344b9511adf617428531097144-1024-1024.webp",
@@ -234,8 +241,46 @@
     "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3322-9946d378c015eb712c17428532463578-1024-1024.webp"
   },
   {
+    "Marca": "New Balance",
+    "Modelos": "1080",
+    "Venda": "R$ 309,50",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5601-7948c1309afdc42e2c17466486813569-1024-1024.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5589-ac36a991f001cc751117466493246219-1024-1024.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5573-c04815d37d04bc889e17466492286376-1024-1024.webp"
+  },
+  {
+    "Marca": "New Balance",
+    "Modelos": "1080",
+    "Venda": "R$ 309,50",
+    "Tamanho": "34 - 39",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5561-dfef6f41b3b972c8f417466503081557-1024-1024.webp"
+  },
+  {
+    "Marca": "New Balance",
+    "Modelos": "1906",
+    "Venda": "R$ 354,90",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9993-5fcb7f366f18ff3afe17538199568311-1024-1024.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9963-63c88d9b98ef5fd8ff17538200091425-1024-1024.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0001-6140c099da101e22a217538198947610-1024-1024.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9979-865d3965b0ac2f8d2d17538199843787-1024-1024.webp"
+  },
+  {
+    "Marca": "New Balance",
+    "Modelos": "1000",
+    "Venda": "R$ 374,60",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9342-2ff4336170abe1d97e17526856365289-1024-1024.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_6504-0ec3f7ef27fb2bc20117480088545722-1024-1024.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0923-f2a416b0df4823997717552691146870-1024-1024.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9328-3c91a5bf5281ebea5317526856867321-1024-1024.webp",
+    "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9314-faaccc581645cfe78b17526857145829-1024-1024.webp",
+    "Imagem6": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0126-796a1496f1927e675e17539833994034-1024-1024.webp"
+  },
+  {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR FORCE",
+    "Modelos": "AIR FORCE",
     "Venda": "R$ 259,90",
     "Tamanho": "34 - 39",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_6597-1b2d2a9f8545c9456617483658058597-1024-1024.webp",
@@ -248,7 +293,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR FORCE",
+    "Modelos": "AIR FORCE",
     "Venda": "R$ 259,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0730-7d6d9ebf807c0caace17383433818804-1024-1024.webp",
@@ -261,7 +306,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR JORDAN 1 HIGH",
+    "Modelos": "AIR JORDAN 1 HIGH",
     "Venda": "R$ 324,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2065-ce84ec3b8faecc75ad17241658001185-1024-1024.webp",
@@ -271,7 +316,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR JORDAN 1 LOW",
+    "Modelos": "AIR JORDAN 1 LOW",
     "Venda": "R$ 268,65",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1307-f7a4ef21f814c01a9317393017838758-1024-1024.webp",
@@ -282,7 +327,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR JORDAN 1 TRAVIS SCOTT",
+    "Modelos": "AIR JORDAN 1 TRAVIS SCOTT",
     "Venda": "R$ 295,65",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1686-4a70fcae2a109c969317243623839328-480-0.webp",
@@ -292,7 +337,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR MAX 90",
+    "Modelos": "AIR MAX 90",
     "Venda": "R$ 494,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2196-0cd4b4641d9f67282917097617230002-1024-1024.webp",
@@ -302,7 +347,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR MAX 95",
+    "Modelos": "AIR MAX 95",
     "Venda": "R$ 519,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7324-780135f99cf5fcf15e17328835148959-480-0.webp",
@@ -315,7 +360,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR MAX DN",
+    "Modelos": "AIR MAX DN",
     "Venda": "R$ 579,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_6527-7738d7b562c0b4a02517207300067456-480-0.webp",
@@ -328,7 +373,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR MAX ONE",
+    "Modelos": "AIR MAX ONE",
     "Venda": "R$ 369,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7133-5cdaa97731b89bc67c17322914597637-480-0.webp",
@@ -338,7 +383,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE AIR MAX TN PLUS",
+    "Modelos": "AIR MAX TN PLUS",
     "Venda": "R$ 495,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1532-10812107379a68001817243647756783-640-0.webp",
@@ -351,7 +396,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE BAILLELI",
+    "Modelos": "BAILLELI",
     "Venda": "R$ 634,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3383-3640fe58f7b42c00b317428524216729-480-0.webp",
@@ -364,7 +409,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE BAILLELI",
+    "Modelos": "BAILLELI",
     "Venda": "R$ 634,90",
     "Tamanho": "34 - 39",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3353-b91049f1fcf7121b2517428525063063-480-0.webp",
@@ -374,7 +419,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE CONFI RIDE",
+    "Modelos": "CONFI RIDE",
     "Venda": "R$ 469,00",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_8231-8af24d161c460604e017507810194962-480-0.webp",
@@ -387,7 +432,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE COURT VISION",
+    "Modelos": "COURT VISION",
     "Venda": "R$ 269,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_6722-5b79d52ebcd82d5ed317485346932921-480-0.webp",
@@ -397,7 +442,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE COURT VISION ALTA",
+    "Modelos": "COURT VISION ALTA",
     "Venda": "R$ 269,00",
     "Tamanho": "34 - 39",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4261-22e88914453fcdb61a17440730012851-480-0.webp",
@@ -409,7 +454,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE COURT VISION BOROUGH",
+    "Modelos": "COURT VISION BOROUGH",
     "Venda": "R$ 269,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3646-753ba5b15f5f1f5d5b17587509635670-1024-1024.webp",
@@ -418,7 +463,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE DUNK",
+    "Modelos": "DUNK",
     "Venda": "R$ 255,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_6722-37f682f2f36ad3d38d17175089198025-1024-1024.webp",
@@ -430,7 +475,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE NOCTA",
+    "Modelos": "NOCTUA",
     "Venda": "R$ 579,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9956-0163010d64722bd36817374097636181-480-0.webp",
@@ -439,7 +484,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE PORTAL",
+    "Modelos": "PORTAL",
     "Venda": "R$ 664,90",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_9543-66e6f4de0f6e0184e117364320840783-480-0.webp",
@@ -449,7 +494,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE ZOOMX",
+    "Modelos": "ZOOMX",
     "Venda": "R$ 300,00",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4929-ee93971dfc0da453bd17454369165472-480-0.webp",
@@ -458,7 +503,7 @@
   },
   {
     "Marca": "Nike",
-    "Modelos": "NIKE ZOOMX",
+    "Modelos": "ZOOMX",
     "Venda": "R$ 300,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3240-9e8f21eb71bde4946517265964004690-480-0.webp",
@@ -474,12 +519,11 @@
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5259-c14fc3f7033ca54ad817605638542110-480-0.webp",
     "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5235-7c46c5bf3e99d6ef2817605640404494-480-0.webp",
     "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5273-a8146602cf0dfb0f6017605640017995-480-0.webp",
-    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5280-af7bc642765d61c4b217605639515605-480-0.webp",
-    "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3656-14f9cccc71f77dd1a417587510082997-480-0.webp"
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5280-af7bc642765d61c4b217605639515605-480-0.webp"
   },
   {
     "Marca": "Puma",
-    "Modelos": "PUMA PALERMO",
+    "Modelos": "PALERMO",
     "Venda": "R$ 239,90",
     "Tamanho": "34 - 39",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3675-1b739fab3241e9f71317431101657901-1024-1024.webp",
@@ -490,7 +534,7 @@
   },
   {
     "Marca": "Puma",
-    "Modelos": "PUMA SUEDE XL",
+    "Modelos": "SUEDE XL",
     "Venda": "R$ 324,90",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0859-7baee40fc5f3d433a817386040748002-1024-1024.webp",
@@ -498,7 +542,7 @@
   },
   {
     "Marca": "Vans",
-    "Modelos": "VANS HYLANE",
+    "Modelos": "HYLANE",
     "Venda": "R$ 255,00",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7477-39c2f0a91c9d34cb2717495653467556-1024-1024.webp",
@@ -507,7 +551,7 @@
   },
   {
     "Marca": "Vans",
-    "Modelos": "VANS KNU SKOOL",
+    "Modelos": "KNU SKOOL",
     "Venda": "R$ 269,00",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4550-970321461b7326d19b17134798310804-1024-1024.webp",
@@ -519,14 +563,14 @@
   },
   {
     "Marca": "Vans",
-    "Modelos": "VANS TRADICIONAL",
+    "Modelos": "TRADICIONAL",
     "Venda": "R$ 255,00",
     "Tamanho": "34 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0708-25a3c0eff63ba0210417066375969376-1024-1024.webp"
   },
   {
     "Marca": "Vans",
-    "Modelos": "VANS ULTRARANGE VR3",
+    "Modelos": "ULTRARANGE VR3",
     "Venda": "R$ 280,00",
     "Tamanho": "38 - 43",
     "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7880-d88db79d7b578c84f817189048489275-1024-1024.webp",
