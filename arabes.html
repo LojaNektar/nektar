@@ -40,25 +40,6 @@
 		<div id="catalogoContainer"></div>
 	</div>
 
-	<!-- Modal -->
-	<div class="modal fade" id="modalOpcoes" tabindex="-1">
-		<div class="modal-dialog modal-dialog-centered">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Outras opções disponíveis</h5>
-					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-				</div>
-				<div class="modal-body">
-					Consulte variações como <strong>30ml, 50ml, 100ml</strong> (pode variar conforme disponibilidade).<br><br>
-					<em>Fale com a gente para confirmar!</em>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<script>
 		let perfumes = [];
 		const generos = { "MASC": "Masculino", "FEM": "Feminino", "UNI": "Unissex" };
@@ -100,7 +81,7 @@
 							<div class="row g-3">
 								${g.itens.map(p => `
 									<div class="col-6 col-md-4 col-lg-3">
-										<div class="card h-100" onclick="abrirOpcoes('${p.Perfume}')">
+										<div class="card h-100" >
 											<img src="${p.Imagem || 'img/em-breve.webp'}" alt="${p.Perfume}">
 											<div class="card-body">
 												<h5>${p.Perfume} - ${p.ml}</h5>
