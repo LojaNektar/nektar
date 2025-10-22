@@ -4,8 +4,6 @@ const perfumesBackup = [
     "Perfume": "Her Golden Secret",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 179,00",
-    "Base": "R$ 115,00",
     "Venda": "R$ 165,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_23D96734-F3C2-4C36-BD49-CC8825B16C29.jpg?alt=media"
@@ -15,8 +13,6 @@ const perfumesBackup = [
     "Perfume": "Her Golden Secret Desire",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 189,00",
-    "Base": "R$ 115,00",
     "Venda": "R$ 165,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_63841215-4A73-4A6E-A53A-9657517995A3.jpg?alt=media"
@@ -26,8 +22,6 @@ const perfumesBackup = [
     "Perfume": "Her Golden Secret Temptation",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 189,00",
-    "Base": "R$ 115,00",
     "Venda": "R$ 165,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_224E4C5C-5CD5-4C99-AB7A-D2649B3F243F.jpg?alt=media"
@@ -37,8 +31,6 @@ const perfumesBackup = [
     "Perfume": "Icon",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 289,00",
-    "Base": "R$ 220,00",
     "Venda": "R$ 270,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_E843ECCD-39F4-4B92-8CEE-97F02141F5B8.jpg?alt=media"
@@ -48,8 +40,6 @@ const perfumesBackup = [
     "Perfume": "Icon Black",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 289,00",
-    "Base": "R$ 220,00",
     "Venda": "R$ 270,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_563068E9-6AEF-4527-B369-8985604EDE9B.jpg?alt=media"
@@ -59,8 +49,6 @@ const perfumesBackup = [
     "Perfume": "Icon Blue",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 229,00",
-    "Base": "R$ 210,00",
     "Venda": "R$ 260,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_C7D12E81-8FD7-4304-8BA4-D7ED70E26349.jpg?alt=media"
@@ -70,8 +58,6 @@ const perfumesBackup = [
     "Perfume": "Icon Splendid",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 220,00",
-    "Base": "R$ 199,00",
     "Venda": "R$ 249,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_D635A3D2-F24D-43CD-B51D-F5DD718C9C45.jpg?alt=media"
@@ -81,8 +67,6 @@ const perfumesBackup = [
     "Perfume": "The Secret",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 159,00",
-    "Base": "R$ 115,00",
     "Venda": "R$ 165,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_2F39C80B-C022-49FC-A543-109595A58390.jpg?alt=media"
@@ -92,8 +76,6 @@ const perfumesBackup = [
     "Perfume": "The Secret Golden",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 140,00",
-    "Base": "R$ 115,00",
     "Venda": "R$ 165,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_0007C6C5-FA5E-432E-BEB2-B69DA043AF28.jpg?alt=media"
@@ -103,8 +85,6 @@ const perfumesBackup = [
     "Perfume": "Azzaro",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 190,00",
-    "Base": "R$ 215,00",
     "Venda": "R$ 265,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_B9D127DB-24EE-4435-B058-D8503037715C.jpg?alt=media"
@@ -114,8 +94,6 @@ const perfumesBackup = [
     "Perfume": "Chrome",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Medio": "R$ 338,00",
-    "Base": "R$ 215,00",
     "Venda": "R$ 265,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_76CE5804-5A83-4074-86EA-24FA5FBBF9C5.jpg?alt=media"
@@ -125,8 +103,6 @@ const perfumesBackup = [
     "Perfume": "Most Wanted",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 880,00",
-    "Base": "R$ 905,00",
     "Venda": "R$ 955,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_715F24F1-FC42-4E55-9295-12742E0BE87F.jpg?alt=media"
@@ -136,8 +112,6 @@ const perfumesBackup = [
     "Perfume": "Wanted",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 493,00",
-    "Base": "R$ 430,00",
     "Venda": "R$ 480,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_01D9C88A-02FA-42BC-A1E5-50AFBB12CCBF.jpg?alt=media"
@@ -147,8 +121,6 @@ const perfumesBackup = [
     "Perfume": "Aqva Pour Homme",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 420,00",
-    "Base": "R$ 420,00",
     "Venda": "R$ 470,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_4D2E545A-58D2-438D-9FF9-D16F35A1094D.jpg?alt=media"
@@ -158,7 +130,6 @@ const perfumesBackup = [
     "Perfume": "Aqva Pour Homme Marine",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Base": "R$ 765,00",
     "Venda": "R$ 815,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_9YbvxXYhlbf7S1t5x7wSkw%3D%3D.jpg?alt=media"
@@ -168,8 +139,6 @@ const perfumesBackup = [
     "Perfume": "Man In Black",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 979,00",
-    "Base": "R$ 895,00",
     "Venda": "R$ 945,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_VxlIEhjwJZhBEMVtBXbjA%3D%3D.jpg?alt=media"
@@ -179,8 +148,6 @@ const perfumesBackup = [
     "Perfume": "Rose Goldea Blossom Delight",
     "Tipo": "EDP",
     "ml": "75 ML",
-    "Medio": "R$ 825,00",
-    "Base": "R$ 585,00",
     "Venda": "R$ 635,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_YzvIjniMARqNSV0YwWIdPg%3D%3D.jpg?alt=media"
@@ -190,8 +157,6 @@ const perfumesBackup = [
     "Perfume": "Amor Amor",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Medio": "R$ 144,00",
-    "Base": "R$ 162,00",
     "Venda": "R$ 212,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_bOqcSKg5WQaQTS8DBrwcaA%3D%3D.jpg?alt=media"
@@ -201,8 +166,6 @@ const perfumesBackup = [
     "Perfume": "CK Be",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 297,00",
-    "Base": "R$ 199,00",
     "Venda": "R$ 249,00",
     "Genero": "UNI",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_VOXiGnRF7elFKJE0zL7A5g%3D%3D.jpg?alt=media"
@@ -212,8 +175,6 @@ const perfumesBackup = [
     "Perfume": "CK One",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 300,00",
-    "Base": "R$ 215,00",
     "Venda": "R$ 265,00",
     "Genero": "UNI",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_8BLdKCovy35dftTKH6zRnQ%3D%3D.jpg?alt=media"
@@ -223,8 +184,6 @@ const perfumesBackup = [
     "Perfume": "Defy",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 328,00",
-    "Base": "R$ 297,00",
     "Venda": "R$ 347,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_4FC43450-46E9-4599-ACD1-A0626F78A08B.jpg?alt=media"
@@ -234,8 +193,6 @@ const perfumesBackup = [
     "Perfume": "Ehphoria",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 303,54",
-    "Base": "R$ 265,00",
     "Venda": "R$ 315,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_A965B083-91BB-4402-A580-0502457EA575.jpg?alt=media"
@@ -245,8 +202,6 @@ const perfumesBackup = [
     "Perfume": "Eternity",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 320,00",
-    "Base": "R$ 265,00",
     "Venda": "R$ 315,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_84E73E4A-ABC3-4E79-A16A-B9F41FA706D2.jpg?alt=media"
@@ -256,7 +211,6 @@ const perfumesBackup = [
     "Perfume": "212",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Base": "R$ 324,90",
     "Venda": "R$ 374,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_6F87FB77-5D6A-4737-A3B7-CD0E31F4F83E.jpg?alt=media"
@@ -266,7 +220,6 @@ const perfumesBackup = [
     "Perfume": "212 Heroes",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 349,90",
     "Venda": "R$ 399,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_591E7A26-1B1D-4B8B-873A-DF9D27AB1C44.jpg?alt=media"
@@ -276,7 +229,6 @@ const perfumesBackup = [
     "Perfume": "212 Heroes",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Base": "R$ 444,90",
     "Venda": "R$ 494,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_1A82B036-9980-4DA5-9B35-1B02F9A05A4C.jpg?alt=media"
@@ -286,7 +238,6 @@ const perfumesBackup = [
     "Perfume": "212 Men",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Base": "R$ 309,90",
     "Venda": "R$ 359,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_C32B9BE8-E4DF-4180-A13F-B2C247CF2A24.jpg?alt=media"
@@ -296,7 +247,6 @@ const perfumesBackup = [
     "Perfume": "212 Sexy",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 324,90",
     "Venda": "R$ 374,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_C56B1022-A145-4FE3-9766-C0F6DC6E3A27.jpg?alt=media"
@@ -306,8 +256,7 @@ const perfumesBackup = [
     "Perfume": "212 Sexy Man",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Base": "R$ 2.279,90",
-    "Venda": "R$ 2.329,90",
+    "Venda": "R$ 329,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_46F0AEA4-1A3D-48DB-91D5-5AD6E03993E9.jpg?alt=media"
   },
@@ -316,7 +265,6 @@ const perfumesBackup = [
     "Perfume": "212 Vip",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 315,00",
     "Venda": "R$ 365,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_A02682A3-EE62-4CB0-B359-9AEE506260DA.jpg?alt=media"
@@ -326,7 +274,6 @@ const perfumesBackup = [
     "Perfume": "212 Vip Man Black",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Base": "R$ 464,90",
     "Venda": "R$ 514,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_A91FB984-2391-4555-9018-E11756033357.jpg?alt=media"
@@ -336,7 +283,6 @@ const perfumesBackup = [
     "Perfume": "212 Vip Men",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Base": "R$ 430,00",
     "Venda": "R$ 480,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_553DFB50-582B-421D-A572-88856D80B994.jpg?alt=media"
@@ -346,7 +292,6 @@ const perfumesBackup = [
     "Perfume": "212 Vip Rosé",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 369,00",
     "Venda": "R$ 419,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_9E38678C-2ACB-4589-B057-AD3A65E26D80.jpg?alt=media"
@@ -356,7 +301,6 @@ const perfumesBackup = [
     "Perfume": "Bad Boy",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Base": "R$ 469,90",
     "Venda": "R$ 519,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_22053548-588E-458D-A8B0-30617DE5D528.jpg?alt=media"
@@ -366,7 +310,6 @@ const perfumesBackup = [
     "Perfume": "Bad Boy Cobalt",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Base": "R$ 599,90",
     "Venda": "R$ 649,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_A3B09FE8-976A-43DC-8DD9-6C1D18AA4C4B.jpg?alt=media"
@@ -376,7 +319,6 @@ const perfumesBackup = [
     "Perfume": "Bad Boy Extreme",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Base": "R$ 625,50",
     "Venda": "R$ 675,50",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_68D8017B-1116-4CAA-AAC1-1F6D00D40004.jpg?alt=media"
@@ -386,7 +328,6 @@ const perfumesBackup = [
     "Perfume": "Bad Boy Le Parfum",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Base": "R$ 465,90",
     "Venda": "R$ 515,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_25B91BF7-D164-4858-885A-EEAEAC16825B.jpg?alt=media"
@@ -396,8 +337,6 @@ const perfumesBackup = [
     "Perfume": "Good Girl",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 419,00",
-    "Base": "R$ 399,00",
     "Venda": "R$ 449,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_BAB3C6CD-8ABC-4471-8CC3-D2A9FFDC2416.jpg?alt=media"
@@ -407,7 +346,6 @@ const perfumesBackup = [
     "Perfume": "Good Girl Blush",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 404,90",
     "Venda": "R$ 454,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_DC987EDF-DBBA-459A-8F5E-20F516EE3027.jpg?alt=media"
@@ -417,7 +355,6 @@ const perfumesBackup = [
     "Perfume": "Good Girl Blush Elixir",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 449,90",
     "Venda": "R$ 499,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_01833E5E-0F93-4721-BBCD-4A4EF9A3929C.jpg?alt=media"
@@ -427,7 +364,6 @@ const perfumesBackup = [
     "Perfume": "Good Girl Legere",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 349,90",
     "Venda": "R$ 399,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_6E1F6DFD-6B80-4E48-BBAE-182C1F133DAC.jpg?alt=media"
@@ -437,7 +373,6 @@ const perfumesBackup = [
     "Perfume": "Good Girl Supreme",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 379,22",
     "Venda": "R$ 429,22",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_85EB99FE-84DF-4A3B-AE16-AF3AB1B1C7A9.jpg?alt=media"
@@ -447,7 +382,6 @@ const perfumesBackup = [
     "Perfume": "Good Girl Very",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 405,00",
     "Venda": "R$ 455,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_25E77685-5486-4DD8-A05D-D5E828067AF9.jpg?alt=media"
@@ -457,7 +391,6 @@ const perfumesBackup = [
     "Perfume": "Good Girl Very Elixir",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 449,42",
     "Venda": "R$ 499,42",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_C80DFEE7-D0DF-4CB5-AB38-A499E19A16F4.jpg?alt=media"
@@ -467,7 +400,6 @@ const perfumesBackup = [
     "Perfume": "Good Girl Very Glam",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 369,00",
     "Venda": "R$ 419,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_C80DFEE7-D0DF-4CB5-AB38-A499E19A16F4.jpg?alt=media"
@@ -477,8 +409,6 @@ const perfumesBackup = [
     "Perfume": "Allure Homme",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 960,00",
-    "Base": "R$ 999,00",
     "Venda": "R$ 1.049,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_0A735443-62C7-4104-AB4E-3CA5CF61FA1B.jpg?alt=media"
@@ -488,8 +418,6 @@ const perfumesBackup = [
     "Perfume": "Allure Homme Sport",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 960,00",
-    "Base": "R$ 1.015,00",
     "Venda": "R$ 1.065,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_E71A1B2A-1D5E-4E63-9473-74B05C36E8EF.jpg?alt=media"
@@ -499,8 +427,6 @@ const perfumesBackup = [
     "Perfume": "Bleu de Chanel",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 960,00",
-    "Base": "R$ 1.015,00",
     "Venda": "R$ 1.065,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_1C4FA183-1AA3-43A0-9D3A-171F76819A98.jpg?alt=media"
@@ -510,8 +436,6 @@ const perfumesBackup = [
     "Perfume": "Bleu de Chanel",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 960,00",
-    "Base": "R$ 1.235,00",
     "Venda": "R$ 1.285,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_1C4FA183-1AA3-43A0-9D3A-171F76819A98.jpg?alt=media"
@@ -521,8 +445,6 @@ const perfumesBackup = [
     "Perfume": "Chance Eau Tendre",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 1.135,00",
-    "Base": "R$ 1.120,00",
     "Venda": "R$ 1.170,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_91974378-BA83-4309-AA73-41CE5DF31EAB.jpg?alt=media"
@@ -532,8 +454,6 @@ const perfumesBackup = [
     "Perfume": "Coco Mademoiselle",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 1.135,00",
-    "Base": "R$ 1.120,00",
     "Venda": "R$ 1.170,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_1354F2A7-1C57-4752-831C-58F136444778.jpg?alt=media"
@@ -543,8 +463,6 @@ const perfumesBackup = [
     "Perfume": "No.5",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 1.310,00",
-    "Base": "R$ 1.310,00",
     "Venda": "R$ 1.360,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_0D0ABB71-698A-4ACA-8D29-0462518685BB.jpg?alt=media"
@@ -554,8 +472,6 @@ const perfumesBackup = [
     "Perfume": "Chloe Signature",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 415,00",
-    "Base": "R$ 398,00",
     "Venda": "R$ 448,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_2F875AEF-BB82-46F2-8473-79388CD8D504.jpg?alt=media"
@@ -565,8 +481,6 @@ const perfumesBackup = [
     "Perfume": "Love Story",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 376,00",
-    "Base": "R$ 342,00",
     "Venda": "R$ 392,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_5C0E8D67-225B-4F76-9E86-256A94EF9547.jpg?alt=media"
@@ -576,8 +490,6 @@ const perfumesBackup = [
     "Perfume": "Naturelle",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 579,00",
-    "Base": "R$ 500,00",
     "Venda": "R$ 550,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_10B29003-732D-4708-9F83-5B0BF3DED8E9.jpg?alt=media"
@@ -587,8 +499,6 @@ const perfumesBackup = [
     "Perfume": "Naturelle Intense",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 592,00",
-    "Base": "R$ 520,00",
     "Venda": "R$ 570,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_38452893-1154-4698-B668-69A08C99EB2A.jpg?alt=media"
@@ -598,8 +508,6 @@ const perfumesBackup = [
     "Perfume": "Nomade",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 412,00",
-    "Base": "R$ 375,00",
     "Venda": "R$ 425,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_658FCA27-7D84-4027-82A2-B40DEA239DA0.jpg?alt=media"
@@ -609,8 +517,6 @@ const perfumesBackup = [
     "Perfume": "For Men",
     "Tipo": "EDT",
     "ml": "40 ml",
-    "Medio": "R$ 285,00",
-    "Base": "R$ 259,90",
     "Venda": "R$ 309,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_74BB5840-6EAA-4DF9-9C25-A0155A34F4E4.jpg?alt=media"
@@ -620,8 +526,6 @@ const perfumesBackup = [
     "Perfume": "For Women",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 360,00",
-    "Base": "R$ 269,50",
     "Venda": "R$ 319,50",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_8F7347DC-475A-4B31-8667-E274319DC1D4.jpg?alt=media"
@@ -631,7 +535,6 @@ const perfumesBackup = [
     "Perfume": "Aventus",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Base": "R$ 3.226,50",
     "Venda": "R$ 3.276,50",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_B62F091F-1C46-46D3-9C41-A5854EB8CD88.jpg?alt=media"
@@ -641,8 +544,6 @@ const perfumesBackup = [
     "Perfume": "Aventus For Her",
     "Tipo": "EDP",
     "ml": "75 ml",
-    "Medio": "R$ 3.000,00",
-    "Base": "R$ 2.845,50",
     "Venda": "R$ 2.895,50",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_6A0EF2E2-001E-456F-8CFB-6BBC6DCE0B30.jpg?alt=media"
@@ -652,8 +553,6 @@ const perfumesBackup = [
     "Perfume": "Hypnotic Poison",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Medio": "R$ 555,00",
-    "Base": "R$ 405,00",
     "Venda": "R$ 455,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_56jcDRBsYUKiyda9A2RW7w%3D%3D.jpg?alt=media"
@@ -663,8 +562,6 @@ const perfumesBackup = [
     "Perfume": "J'Adore",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 615,00",
-    "Base": "R$ 650,00",
     "Venda": "R$ 700,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_WQXusCHKOyCe%2BYjpK%2BPVfg%3D%3D.jpg?alt=media"
@@ -674,8 +571,6 @@ const perfumesBackup = [
     "Perfume": "Miss Dior",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 699,00",
-    "Base": "R$ 559,90",
     "Venda": "R$ 609,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_Ds0QQzuza6sH8276CIJy8g%3D%3D.jpg?alt=media"
@@ -685,7 +580,6 @@ const perfumesBackup = [
     "Perfume": "Sauvage",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Base": "R$ 1.045,00",
     "Venda": "R$ 1.095,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_tyOsKUwyX1bL5WrNaiiJg%3D%3D.jpg?alt=media"
@@ -695,7 +589,6 @@ const perfumesBackup = [
     "Perfume": "Sauvage",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Base": "R$ 855,00",
     "Venda": "R$ 905,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_tyOsKUwyX1bL5WrNaiiJg%3D%3D.jpg?alt=media"
@@ -705,7 +598,6 @@ const perfumesBackup = [
     "Perfume": "Sauvage",
     "Tipo": "Parfum",
     "ml": "100 ml",
-    "Base": "R$ 1.189,90",
     "Venda": "R$ 1.239,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_eVONb6Jdo22oU9sGxUmXg%3D%3D.jpg?alt=media"
@@ -715,8 +607,6 @@ const perfumesBackup = [
     "Perfume": "Light Blue",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 735,00",
-    "Base": "R$ 470,00",
     "Venda": "R$ 520,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_yjnWyqtaw50DphBzgUNcJQ%3D%3D.jpg?alt=media"
@@ -726,8 +616,6 @@ const perfumesBackup = [
     "Perfume": "Light Blue Pour Homme",
     "Tipo": "EDT",
     "ml": "75 ml",
-    "Medio": "R$ 645,00",
-    "Base": "R$ 469,00",
     "Venda": "R$ 519,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_XiyP8oIX7gj1dwjenoUIsQ%3D%3D.jpg?alt=media"
@@ -737,8 +625,6 @@ const perfumesBackup = [
     "Perfume": "The One",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 685,00",
-    "Base": "R$ 669,90",
     "Venda": "R$ 719,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_RH8czXUHiO%2BHC5aeuaCd5Q%3D%3D.jpg?alt=media"
@@ -748,8 +634,6 @@ const perfumesBackup = [
     "Perfume": "Ferrari Back",
     "Tipo": "EDT",
     "ml": "125 ml",
-    "Medio": "R$ 197,00",
-    "Base": "R$ 240,00",
     "Venda": "R$ 290,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_VbnKz9HBtPc7TSxqhPWGsw%3D%3D.jpg?alt=media"
@@ -759,7 +643,6 @@ const perfumesBackup = [
     "Perfume": "Ferrari Red",
     "Tipo": "EDT",
     "ml": "125 ml",
-    "Base": "R$ 260,00",
     "Venda": "R$ 310,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_r5jBKbcNhH3NHcyH7PRUhA%3D%3D.jpg?alt=media"
@@ -769,8 +652,6 @@ const perfumesBackup = [
     "Perfume": "Acqua di Giò",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 629,00",
-    "Base": "R$ 457,90",
     "Venda": "R$ 507,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_F9C078CF-1A26-4983-872B-8EB49F0CFF77.jpg?alt=media"
@@ -780,8 +661,6 @@ const perfumesBackup = [
     "Perfume": "Acqua di Giò Profumo",
     "Tipo": "Parfum",
     "ml": "50 ml",
-    "Medio": "R$ 769,00",
-    "Base": "R$ 465,50",
     "Venda": "R$ 515,50",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_YOzmoSa38ZkrcuRHc7q67g%3D%3D.jpg?alt=media"
@@ -791,8 +670,6 @@ const perfumesBackup = [
     "Perfume": "Acqua di Giòa",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 379,00",
-    "Base": "R$ 356,90",
     "Venda": "R$ 406,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_h6jGLAzd8rQ7LEd20xINJQ%3D%3D.jpg?alt=media"
@@ -802,8 +679,6 @@ const perfumesBackup = [
     "Perfume": "Armani Code",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 509,00",
-    "Base": "R$ 459,00",
     "Venda": "R$ 509,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_Dbqk%2Bok79zOdODYNsRevbw%3D%3D.jpg?alt=media"
@@ -813,8 +688,6 @@ const perfumesBackup = [
     "Perfume": "My Way",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 490,00",
-    "Base": "R$ 425,00",
     "Venda": "R$ 475,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_F62565D0-B380-44F5-BFC7-5C3EB7DCEF5C.jpg?alt=media"
@@ -824,8 +697,6 @@ const perfumesBackup = [
     "Perfume": "Stronger With You",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 422,00",
-    "Base": "R$ 444,00",
     "Venda": "R$ 494,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_A4EF45DD-1C9A-41CA-B5EB-25F29596B254.jpg?alt=media"
@@ -835,8 +706,6 @@ const perfumesBackup = [
     "Perfume": "Bloom",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 593,00",
-    "Base": "R$ 520,00",
     "Venda": "R$ 570,00",
     "Genero": "FEM",
     "Imagem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/404240-800-800/gucci-bloom-gucci-perfume-feminino-eau-de-parfum-30ml--2-.jpg?v=637366361162300000"
@@ -846,8 +715,6 @@ const perfumesBackup = [
     "Perfume": "Flora Gorgeous Gardenia",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 639,00",
-    "Base": "R$ 574,90",
     "Venda": "R$ 624,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_rrIARDb%2BCu%2BI3SkbtQNJUw%3D%3D.jpg?alt=media"
@@ -857,8 +724,6 @@ const perfumesBackup = [
     "Perfume": "Flora Gorgeous Jasmine",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 606,75",
-    "Base": "R$ 625,00",
     "Venda": "R$ 675,00",
     "Genero": "FEM",
     "Imagem": "https://epocacosmeticos.vteximg.com.br/arquivos/ids/718979-800-800/3616302968534---1-.jpg?v=638699585826300000"
@@ -868,8 +733,6 @@ const perfumesBackup = [
     "Perfume": "Guilty Pour Femme",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 669,00",
-    "Base": "R$ 640,00",
     "Venda": "R$ 690,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_9%2BYVjJIHgEj1tlD9U6zC9A%3D%3D.jpg?alt=media"
@@ -879,8 +742,6 @@ const perfumesBackup = [
     "Perfume": "Guilty Pour Homme",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 627,00",
-    "Base": "R$ 530,00",
     "Venda": "R$ 580,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_RrQv%2BbQBdDrfkfW8Z3XBQ%3D%3D.jpg?alt=media"
@@ -890,8 +751,6 @@ const perfumesBackup = [
     "Perfume": "Jardin Sur Le Lagune",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 882,00",
-    "Base": "R$ 800,00",
     "Venda": "R$ 850,00",
     "Genero": "UNI",
     "Imagem": "https://www.giraofertas.com.br/wp-content/uploads/2019/06/Un-Jardin-sur-la-Lagune-Hermes-08.jpg"
@@ -901,8 +760,6 @@ const perfumesBackup = [
     "Perfume": "Jardin Sur Le Toit",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 1.039,00",
-    "Base": "R$ 800,00",
     "Venda": "R$ 850,00",
     "Genero": "UNI",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwc3a92ff2/images/hi-res-BR/3346132400019_28103_2000x2000_PFO_2.jpg?sw=556&sh=680&sm=fit"
@@ -912,8 +769,6 @@ const perfumesBackup = [
     "Perfume": "Terre d'Hermes",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 449,00",
-    "Base": "R$ 405,00",
     "Venda": "R$ 455,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_3J3dJnyt8cBsbVcc%2Bq9t%2BQ%3D%3D.jpg?alt=media"
@@ -923,8 +778,6 @@ const perfumesBackup = [
     "Perfume": "Twilly d’Hermès",
     "Tipo": "EDP",
     "ml": "85 ml",
-    "Medio": "R$ 1.079,00",
-    "Base": "R$ 900,00",
     "Venda": "R$ 950,00",
     "Genero": "FEM",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwfc841340/images/hi-res-BR/3346133202520_100806V0_1200x1200_PFO_2.jpg?sw=556&sh=680&sm=fit"
@@ -934,8 +787,6 @@ const perfumesBackup = [
     "Perfume": "Bottle",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Medio": "R$ 283,00",
-    "Base": "R$ 250,00",
     "Venda": "R$ 300,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_RZ6ULtNQJFQHViB4qjaSw%3D%3D.jpg?alt=media"
@@ -945,8 +796,6 @@ const perfumesBackup = [
     "Perfume": "The Scent",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 498,00",
-    "Base": "R$ 420,00",
     "Venda": "R$ 470,00",
     "Genero": "MASC",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw0c2b74ef/images/hi-res-BR/HBO_SCENT_MAGN_M_23_EDP_50ml_pack_1000px.jpg?sw=556&sh=680&sm=fit"
@@ -956,8 +805,6 @@ const perfumesBackup = [
     "Perfume": "The Scent",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 719,00",
-    "Base": "R$ 420,00",
     "Venda": "R$ 470,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_nCPMAgh7KpcOG0GmV5WiOQ%3D%3D.jpg?alt=media"
@@ -967,7 +814,6 @@ const perfumesBackup = [
     "Perfume": "Silver Scent",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Base": "R$ 239,90",
     "Venda": "R$ 289,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_YVgf0S06yi10%2BO7FDr0OFg%3D%3D.jpg?alt=media"
@@ -977,7 +823,6 @@ const perfumesBackup = [
     "Perfume": "La Belle",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 367,00",
     "Venda": "R$ 417,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_Z673SemzM4Qk6zoDHWh3fA%3D%3D.jpg?alt=media"
@@ -987,7 +832,6 @@ const perfumesBackup = [
     "Perfume": "Le Beau",
     "Tipo": "EDT",
     "ml": "75 ml",
-    "Base": "R$ 469,90",
     "Venda": "R$ 519,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_FnE6HicV4esVGRvhZEuruQ%3D%3D.jpg?alt=media"
@@ -997,7 +841,6 @@ const perfumesBackup = [
     "Perfume": "Le Beau Le Parfum",
     "Tipo": "EDP",
     "ml": "75 ml",
-    "Base": "R$ 534,50",
     "Venda": "R$ 584,50",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_CJ%2Byl25hsVWV9MlvTGi44A%3D%3D.jpg?alt=media"
@@ -1007,7 +850,6 @@ const perfumesBackup = [
     "Perfume": "Le Male",
     "Tipo": "EDT",
     "ml": "40 ml",
-    "Base": "R$ 329,90",
     "Venda": "R$ 379,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_uMARyo6gNLutPOEheFJoQ%3D%3D.jpg?alt=media"
@@ -1017,7 +859,6 @@ const perfumesBackup = [
     "Perfume": "Le Male Elixir",
     "Tipo": "PARFUM",
     "ml": "75 ml",
-    "Base": "R$ 559,90",
     "Venda": "R$ 609,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_BYPXbGi5xJ6ug7eUN3PfsA%3D%3D.jpg?alt=media"
@@ -1027,7 +868,6 @@ const perfumesBackup = [
     "Perfume": "Le Male Elixir Absolu",
     "Tipo": "PARFUM",
     "ml": "125 ml",
-    "Base": "R$ 755,00",
     "Venda": "R$ 805,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_myQHfdFXGl6xiakOh0JuA%3D%3D.jpg?alt=media"
@@ -1037,7 +877,6 @@ const perfumesBackup = [
     "Perfume": "Le Male Le Parfum",
     "Tipo": "EDP",
     "ml": "75 ml",
-    "Base": "R$ 515,00",
     "Venda": "R$ 565,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_UVTYF1%2Butj%2BRPjLqE1eCrQ%3D%3D.jpg?alt=media"
@@ -1047,7 +886,6 @@ const perfumesBackup = [
     "Perfume": "Scandal",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 375,00",
     "Venda": "R$ 425,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_3i2B3ITTLaxlaJEwk8Tug%3D%3D.jpg?alt=media"
@@ -1057,7 +895,6 @@ const perfumesBackup = [
     "Perfume": "Scandal Absolu",
     "Tipo": "PARFUM",
     "ml": "30 ml",
-    "Base": "R$ 419,90",
     "Venda": "R$ 469,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_RecNlLMaYiygcPuAM28CQ%3D%3D.jpg?alt=media"
@@ -1067,7 +904,6 @@ const perfumesBackup = [
     "Perfume": "Scandal Absolu Him",
     "Tipo": "PARFUM",
     "ml": "50 ml",
-    "Base": "R$ 559,90",
     "Venda": "R$ 609,90",
     "Genero": "MASC",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwbe6b1028/images/hi-res-BR/_8435415080378_0065189838_1_1000px.jpg?sw=556&sh=680&sm=fit"
@@ -1077,7 +913,6 @@ const perfumesBackup = [
     "Perfume": "Scandal Him Pour Homme",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Base": "R$ 485,50",
     "Venda": "R$ 535,50",
     "Genero": "MASC",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw6a724e6c/images/hi-res-BR/8435415055963.2_1500px.jpg?sw=556&sh=680&sm=fit"
@@ -1087,7 +922,6 @@ const perfumesBackup = [
     "Perfume": "Scandal Intense",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 430,50",
     "Venda": "R$ 480,50",
     "Genero": "FEM",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw4a5e3920/images/hi-res-BR/Frag/Nova%20pasta/Wesley/_8435415102681_0065214931_1.jpg?sw=556&sh=680&sm=fit"
@@ -1097,7 +931,6 @@ const perfumesBackup = [
     "Perfume": "Scandal Intense Him",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Base": "R$ 574,50",
     "Venda": "R$ 624,50",
     "Genero": "MASC",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw0e788e4d/images/hi-res-BR/Frag/Nova%20pasta/Maria%20Helena%202.0/869bf4fc041fd0bcdc5201a627124631d2411165.png?sw=556&sh=680&sm=fit"
@@ -1107,7 +940,6 @@ const perfumesBackup = [
     "Perfume": "Scandal Le Parfum",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 434,90",
     "Venda": "R$ 484,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_9lYRoxj8Cy8F458wDE1eAA%3D%3D.jpg?alt=media"
@@ -1117,7 +949,6 @@ const perfumesBackup = [
     "Perfume": "Scandal Le Parfum Him",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Base": "R$ 526,50",
     "Venda": "R$ 576,50",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_mdQ09HyNDXEBM4PgrWgvNQ%3D%3D.jpg?alt=media"
@@ -1127,7 +958,6 @@ const perfumesBackup = [
     "Perfume": "So Scandal",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Base": "R$ 379,90",
     "Venda": "R$ 429,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_tkghPmhBjk1bXTPaDYpNQ%3D%3D.jpg?alt=media"
@@ -1137,7 +967,6 @@ const perfumesBackup = [
     "Perfume": "Ultramale",
     "Tipo": "EDT",
     "ml": "40 ml",
-    "Base": "R$ 325,50",
     "Venda": "R$ 375,50",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_37ICqrOmtuG5OgRAzTD9GA%3D%3D.jpg?alt=media"
@@ -1147,7 +976,6 @@ const perfumesBackup = [
     "Perfume": "Booster",
     "Tipo": "EDT",
     "ml": "125 ml",
-    "Base": "R$ 369,90",
     "Venda": "R$ 419,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_oYquW2zN0ocq7DZ7KgE5A%3D%3D.jpg?alt=media"
@@ -1157,8 +985,6 @@ const perfumesBackup = [
     "Perfume": "L.12.12 Blanc",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 679,00",
-    "Base": "R$ 405,00",
     "Venda": "R$ 455,00",
     "Genero": "MASC",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwc852f0de/images/hi-res-BR/3386460149105.2_1000px.jpg?sw=556&sh=680&sm=fit"
@@ -1168,8 +994,6 @@ const perfumesBackup = [
     "Perfume": "L.12.12 Noir",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 555,00",
-    "Base": "R$ 425,00",
     "Venda": "R$ 475,00",
     "Genero": "MASC",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwb3b1846e/images/hi-res-BR/3386460149174.2_1000px.jpg?sw=556&sh=680&sm=fit"
@@ -1179,8 +1003,6 @@ const perfumesBackup = [
     "Perfume": "Hypnose",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 512,00",
-    "Base": "R$ 449,90",
     "Venda": "R$ 499,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_H1fQbJgwrmf%2BUoeQMROQ%3D%3D.jpg?alt=media"
@@ -1190,8 +1012,6 @@ const perfumesBackup = [
     "Perfume": "Idole",
     "Tipo": "EDP",
     "ml": "25 ml",
-    "Medio": "R$ 362,00",
-    "Base": "R$ 360,00",
     "Venda": "R$ 410,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_l%2BDjEfNatijkGTc1FELqPA%3D%3D.jpg?alt=media"
@@ -1201,8 +1021,6 @@ const perfumesBackup = [
     "Perfume": "Idole Aura",
     "Tipo": "EDP",
     "ml": "25 ml",
-    "Medio": "R$ 509,00",
-    "Base": "R$ 349,90",
     "Venda": "R$ 399,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_rNH8Z5Z9PSCRy1O%2B%2Btjw%3D%3D.jpg?alt=media"
@@ -1212,8 +1030,6 @@ const perfumesBackup = [
     "Perfume": "Idole Intense",
     "Tipo": "EDP",
     "ml": "25 ml",
-    "Medio": "R$ 423,00",
-    "Base": "R$ 360,00",
     "Venda": "R$ 410,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_7hwQ3TZKK3duca4F14Tg%3D%3D.jpg?alt=media"
@@ -1223,8 +1039,6 @@ const perfumesBackup = [
     "Perfume": "Idole Néctar",
     "Tipo": "EDP",
     "ml": "25 ml",
-    "Medio": "R$ 369,00",
-    "Base": "R$ 349,90",
     "Venda": "R$ 399,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_OzEhI98kD7SDKfmiGVS8A%3D%3D.jpg?alt=media"
@@ -1234,8 +1048,6 @@ const perfumesBackup = [
     "Perfume": "Idole Now",
     "Tipo": "EDP",
     "ml": "25 ml",
-    "Medio": "R$ 403,00",
-    "Base": "R$ 349,90",
     "Venda": "R$ 399,90",
     "Genero": "FEM",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dw108ea27c/images/hi-res-BR/614273927345.1_1500px.jpg?sw=556&sh=680&sm=fit"
@@ -1245,8 +1057,6 @@ const perfumesBackup = [
     "Perfume": "La Vie Est Belle",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 349,00",
-    "Base": "R$ 355,00",
     "Venda": "R$ 405,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_NbyrZYslLdlLQiheUdlOQ%3D%3D.jpg?alt=media"
@@ -1256,8 +1066,6 @@ const perfumesBackup = [
     "Perfume": "La Vie Est Belle Elixir",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 449,00",
-    "Base": "R$ 465,60",
     "Venda": "R$ 515,60",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_UlEoIflmtPr5Q1wpgprlQ%3D%3D.jpg?alt=media"
@@ -1267,8 +1075,6 @@ const perfumesBackup = [
     "Perfume": "La Vie Est Belle Intensement",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 729,00",
-    "Base": "R$ 559,00",
     "Venda": "R$ 609,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_im3o2uzyVBX9W2aANlfM0w%3D%3D.jpg?alt=media"
@@ -1278,8 +1084,6 @@ const perfumesBackup = [
     "Perfume": "Emblem",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 619,00",
-    "Base": "R$ 430,00",
     "Venda": "R$ 480,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_7824DEFC-1708-4B7D-845E-B1A81584F183.jpg?alt=media"
@@ -1289,8 +1093,6 @@ const perfumesBackup = [
     "Perfume": "Explorer",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 420,69",
-    "Base": "R$ 300,00",
     "Venda": "R$ 350,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_E0A38353-3886-42AB-92D7-DF9976BF2540.jpg?alt=media"
@@ -1300,8 +1102,6 @@ const perfumesBackup = [
     "Perfume": "Legend",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 709,00",
-    "Base": "R$ 380,00",
     "Venda": "R$ 430,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_52AKNCzw5qRDpaheDnylFw%3D%3D.jpg?alt=media"
@@ -1311,8 +1111,6 @@ const perfumesBackup = [
     "Perfume": "Fresh Couture",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 549,00",
-    "Base": "R$ 380,00",
     "Venda": "R$ 430,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_A1B85A93-20B5-43F0-857F-B442A5673335.jpg?alt=media"
@@ -1322,8 +1120,6 @@ const perfumesBackup = [
     "Perfume": "Toy 2",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 316,00",
-    "Base": "R$ 305,00",
     "Venda": "R$ 355,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_FADDD868-06FC-4CE0-97ED-2354CF01D0D4.jpg?alt=media"
@@ -1333,8 +1129,6 @@ const perfumesBackup = [
     "Perfume": "Toy Boy",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 399,00",
-    "Base": "R$ 305,00",
     "Venda": "R$ 355,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_AE7016D7-FCF6-48F8-B3B6-C52D34F89BD9.jpg?alt=media"
@@ -1344,8 +1138,6 @@ const perfumesBackup = [
     "Perfume": "Alien",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 587,00",
-    "Base": "R$ 597,90",
     "Venda": "R$ 647,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_6EAE6F11-D7FD-4126-822F-8F34E0FDD3C5.jpg?alt=media"
@@ -1355,8 +1147,6 @@ const perfumesBackup = [
     "Perfume": "For Her",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 739,00",
-    "Base": "R$ 599,90",
     "Venda": "R$ 649,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_C3864E71-549E-4AA0-9013-1AA809763DC6.jpg?alt=media"
@@ -1366,8 +1156,6 @@ const perfumesBackup = [
     "Perfume": "Pure Musk",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 738,50",
-    "Base": "R$ 830,00",
     "Venda": "R$ 880,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_BF2433B9-486D-4D4D-882A-70FCA56C7856.jpg?alt=media"
@@ -1377,8 +1165,6 @@ const perfumesBackup = [
     "Perfume": "1 Million",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 599,00",
-    "Base": "R$ 489,90",
     "Venda": "R$ 539,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_F0644699-AE44-4B8F-9D20-75B251577E30.jpg?alt=media"
@@ -1388,8 +1174,6 @@ const perfumesBackup = [
     "Perfume": "1 Million Elixir",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 550,00",
-    "Base": "R$ 520,90",
     "Venda": "R$ 570,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_C2D8DAA4-67CC-4E8A-953C-B34C09D1E8B4.jpg?alt=media"
@@ -1399,8 +1183,6 @@ const perfumesBackup = [
     "Perfume": "1 Million Parfum",
     "Tipo": "PARFUM",
     "ml": "50 ml",
-    "Medio": "R$ 527,00",
-    "Base": "R$ 449,90",
     "Venda": "R$ 499,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_A4FC8F6F-B189-40ED-8602-5703DF9D4425.jpg?alt=media"
@@ -1410,8 +1192,6 @@ const perfumesBackup = [
     "Perfume": "Black XS",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 447,00",
-    "Base": "R$ 430,00",
     "Venda": "R$ 480,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_572A731C-9F2F-413B-907C-E389DDC47CD7.jpg?alt=media"
@@ -1421,8 +1201,6 @@ const perfumesBackup = [
     "Perfume": "Black XS",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 330,00",
-    "Base": "R$ 355,00",
     "Venda": "R$ 405,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_2D7A5F10-1B8F-4967-984A-5AB852DBC85F.jpg?alt=media"
@@ -1432,8 +1210,6 @@ const perfumesBackup = [
     "Perfume": "Fame",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 499,00",
-    "Base": "R$ 375,50",
     "Venda": "R$ 425,50",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_4EDAF094-6274-45C6-952C-DFB61DBD45EB.jpg?alt=media"
@@ -1443,8 +1219,6 @@ const perfumesBackup = [
     "Perfume": "Fame Intense",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 415,00",
-    "Base": "R$ 399,00",
     "Venda": "R$ 449,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_9D4CA1EE-CDCD-47E7-BD6D-EC56F4188F60.jpg?alt=media"
@@ -1454,8 +1228,6 @@ const perfumesBackup = [
     "Perfume": "Fame Parfum",
     "Tipo": "PARFUM",
     "ml": "50 ml",
-    "Medio": "R$ 616,00",
-    "Base": "R$ 500,00",
     "Venda": "R$ 550,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_73A9D9AD-A0A8-4948-BBBF-E25FF27E0397.jpg?alt=media"
@@ -1465,8 +1237,6 @@ const perfumesBackup = [
     "Perfume": "Invictus",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 452,66",
-    "Base": "R$ 490,00",
     "Venda": "R$ 540,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_4F6502DC-55EA-4C37-B382-B6F5BA80CECD.jpg?alt=media"
@@ -1476,8 +1246,6 @@ const perfumesBackup = [
     "Perfume": "Invictus Parfum",
     "Tipo": "PARFUM",
     "ml": "50 ml",
-    "Medio": "R$ 532,00",
-    "Base": "R$ 500,00",
     "Venda": "R$ 550,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_C186ECFB-9B97-4C91-B3DE-68387AF2B8AA.jpg?alt=media"
@@ -1487,8 +1255,6 @@ const perfumesBackup = [
     "Perfume": "Invictus Victory",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 829,00",
-    "Base": "R$ 599,90",
     "Venda": "R$ 649,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_78147DF2-70CA-4031-BEC6-281C1D9A01E4.jpg?alt=media"
@@ -1498,8 +1264,6 @@ const perfumesBackup = [
     "Perfume": "Lady Million",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 599,00",
-    "Base": "R$ 546,60",
     "Venda": "R$ 596,60",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_0F1034AA-9E18-4133-A733-6B81534A8BF5.jpg?alt=media"
@@ -1509,8 +1273,6 @@ const perfumesBackup = [
     "Perfume": "Lady Million Empire",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 369,00",
-    "Base": "R$ 305,00",
     "Venda": "R$ 355,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_6632007A-AD14-4364-816D-7FE49B1FBD07.jpg?alt=media"
@@ -1520,8 +1282,6 @@ const perfumesBackup = [
     "Perfume": "Lady Million Fabulous",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 599,00",
-    "Base": "R$ 449,90",
     "Venda": "R$ 499,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_949F3FF6-9B56-4AD0-B044-30E3FDC754F9.jpg?alt=media"
@@ -1531,8 +1291,6 @@ const perfumesBackup = [
     "Perfume": "Lady Million Royal",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 439,00",
-    "Base": "R$ 349,90",
     "Venda": "R$ 399,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_CC54F75C-59B8-47CD-A0BA-3B770E906842.jpg?alt=media"
@@ -1542,8 +1300,6 @@ const perfumesBackup = [
     "Perfume": "Million Gold For Her",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 634,00",
-    "Base": "R$ 625,50",
     "Venda": "R$ 675,50",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_091EE7BE-9178-4666-A9E6-2A9B260EB73F.jpg?alt=media"
@@ -1553,8 +1309,6 @@ const perfumesBackup = [
     "Perfume": "Million Gold Intense",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 610,00",
-    "Base": "R$ 599,90",
     "Venda": "R$ 649,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_091EE7BE-9178-4666-A9E6-2A9B260EB73F.jpg?alt=media"
@@ -1564,8 +1318,6 @@ const perfumesBackup = [
     "Perfume": "Olympea",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 375,00",
-    "Base": "R$ 370,00",
     "Venda": "R$ 420,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_60567236-F1EB-4772-8A30-6782900D1AB7.jpg?alt=media"
@@ -1575,8 +1327,6 @@ const perfumesBackup = [
     "Perfume": "Olympea Absolu",
     "Tipo": "PARFUM",
     "ml": "30 ml",
-    "Medio": "R$ 599,00",
-    "Base": "R$ 495,50",
     "Venda": "R$ 545,50",
     "Genero": "FEM",
     "Imagem": "https://www.sephora.com.br/dw/image/v2/BFJC_PRD/on/demandware.static/-/Sites-masterCatalog_Sephora/pt_BR/dwcbd76815/images/hi-res-BR/Frag/Nova%20pasta/Wesley/_3349668641758_0065215201_1.jpg?sw=556&sh=680&sm=fit"
@@ -1586,8 +1336,6 @@ const perfumesBackup = [
     "Perfume": "Olympea Blossom",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 429,00",
-    "Base": "R$ 295,90",
     "Venda": "R$ 345,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_7C643258-00B3-4354-B637-380F78FBD60A.jpg?alt=media"
@@ -1597,8 +1345,6 @@ const perfumesBackup = [
     "Perfume": "Olympea Flora",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 384,38",
-    "Base": "R$ 379,90",
     "Venda": "R$ 429,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_1EFDDC46-4CA1-40BA-9E4D-526A99F789BB.jpg?alt=media"
@@ -1608,8 +1354,6 @@ const perfumesBackup = [
     "Perfume": "Olympea Parfum",
     "Tipo": "PARFUM",
     "ml": "30 ml",
-    "Medio": "R$ 539,00",
-    "Base": "R$ 439,90",
     "Venda": "R$ 489,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_CFAC6545-16FF-4F29-8448-143047BCF02A.jpg?alt=media"
@@ -1619,8 +1363,6 @@ const perfumesBackup = [
     "Perfume": "Olympea Solar",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 499,00",
-    "Base": "R$ 379,90",
     "Venda": "R$ 429,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_0A0A7A00-4762-419B-82ED-C2DF329915C9.jpg?alt=media"
@@ -1630,8 +1372,6 @@ const perfumesBackup = [
     "Perfume": "Phantom",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 769,00",
-    "Base": "R$ 575,00",
     "Venda": "R$ 625,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_32F4A07A-7DCD-4B07-ADE9-2FBC41EA49A6.jpg?alt=media"
@@ -1641,8 +1381,6 @@ const perfumesBackup = [
     "Perfume": "Phantom Intense",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 519,54",
-    "Base": "R$ 520,90",
     "Venda": "R$ 570,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_D8320C35-1038-4885-98D1-3D415879EB04.jpg?alt=media"
@@ -1652,8 +1390,6 @@ const perfumesBackup = [
     "Perfume": "Phantom Parfum",
     "Tipo": "PARFUM",
     "ml": "100 ml",
-    "Medio": "R$ 819,00",
-    "Base": "R$ 627,50",
     "Venda": "R$ 677,50",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_2C852E19-8E68-44DC-B753-1B552159F901.jpg?alt=media"
@@ -1663,8 +1399,6 @@ const perfumesBackup = [
     "Perfume": "XS Homme",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Medio": "R$ 519,54",
-    "Base": "R$ 520,90",
     "Venda": "R$ 570,90",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_19E01C9C-625E-4268-820A-53A374695B8D.jpg?alt=media"
@@ -1674,8 +1408,6 @@ const perfumesBackup = [
     "Perfume": "Candy",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 508,00",
-    "Base": "R$ 485,80",
     "Venda": "R$ 535,80",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_93CB0D00-B043-48FE-9A50-53D89069420D.jpg?alt=media"
@@ -1685,8 +1417,6 @@ const perfumesBackup = [
     "Perfume": "L'Homme Prada",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 799,00",
-    "Base": "R$ 530,50",
     "Venda": "R$ 580,50",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_F63CA80C-E56D-465E-8C37-85F84C0F3C99.jpg?alt=media"
@@ -1696,7 +1426,6 @@ const perfumesBackup = [
     "Perfume": "Luna Rossa",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Base": "R$ 660,00",
     "Venda": "R$ 710,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_168514E8-1C9C-4C7C-9262-E8B065487583.jpg?alt=media"
@@ -1706,7 +1435,6 @@ const perfumesBackup = [
     "Perfume": "Luna Rossa Black",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Base": "R$ 700,00",
     "Venda": "R$ 750,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_25187FAA-0DF5-4F74-A862-C2444748AE5A.jpg?alt=media"
@@ -1716,7 +1444,6 @@ const perfumesBackup = [
     "Perfume": "Luna Rossa Ocean",
     "Tipo": "EDT",
     "ml": "100 ml",
-    "Base": "R$ 660,00",
     "Venda": "R$ 710,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_1005EB8F-BD4F-4D80-A101-D5007AB72446.jpg?alt=media"
@@ -1726,7 +1453,6 @@ const perfumesBackup = [
     "Perfume": "Luna Rossa Carbom",
     "Tipo": "EDT",
     "ml": "150 ml",
-    "Base": "R$ 765,00",
     "Venda": "R$ 815,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_04729B28-EC3A-4190-8F02-53CD7459F4F8.jpg?alt=media"
@@ -1736,8 +1462,6 @@ const perfumesBackup = [
     "Perfume": "Paradoxe",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 508,00",
-    "Base": "R$ 481,00",
     "Venda": "R$ 531,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_970C1B97-6366-47FB-AA00-31C9CBB7973A.jpg?alt=media"
@@ -1747,8 +1471,6 @@ const perfumesBackup = [
     "Perfume": "Paradoxe Intense",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 679,00",
-    "Base": "R$ 597,00",
     "Venda": "R$ 647,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_jkM1u5unpJLaYFF5tTXtKQ%3D%3D.jpg?alt=media"
@@ -1758,8 +1480,6 @@ const perfumesBackup = [
     "Perfume": "Paradoxe Virtual Flower",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 479,00",
-    "Base": "R$ 558,00",
     "Venda": "R$ 608,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/8H31s1TSqGdW1Y1AYnNKJQdUdvs2%2Fthumb_280_T72MeH%2B9fl09auaSoOQKzg%3D%3D.jpg?alt=media"
@@ -1769,8 +1489,6 @@ const perfumesBackup = [
     "Perfume": "Crystal",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Medio": "R$ 330,00",
-    "Base": "R$ 315,90",
     "Venda": "R$ 365,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_2E5AE94F-FCA0-4AD0-B1FF-E0F87D48480F.jpg?alt=media"
@@ -1780,8 +1498,6 @@ const perfumesBackup = [
     "Perfume": "Crystal Noir",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Medio": "R$ 439,00",
-    "Base": "R$ 320,00",
     "Venda": "R$ 370,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_DD0816F4-8C40-4FD2-B8B3-FC51CF791CDA.jpg?alt=media"
@@ -1791,8 +1507,6 @@ const perfumesBackup = [
     "Perfume": "Eros",
     "Tipo": "EDT",
     "ml": "30 ml",
-    "Medio": "R$ 439,00",
-    "Base": "R$ 315,00",
     "Venda": "R$ 365,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_0E932E49-A715-472C-8B15-53F8BEDA8B3C.jpg?alt=media"
@@ -1802,8 +1516,6 @@ const perfumesBackup = [
     "Perfume": "Eros Flame",
     "Tipo": "EDP",
     "ml": "30 ml",
-    "Medio": "R$ 371,00",
-    "Base": "R$ 279,00",
     "Venda": "R$ 329,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_A72D7A7A-00EB-48B7-B2CB-F40EB50E0771.jpg?alt=media"
@@ -1813,8 +1525,6 @@ const perfumesBackup = [
     "Perfume": "Flowerbomb",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 1.398,00",
-    "Base": "R$ 1.162,00",
     "Venda": "R$ 1.212,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_205BCDF3-EECC-48E0-9FCD-5ABA4338E21E.jpg?alt=media"
@@ -1824,8 +1534,6 @@ const perfumesBackup = [
     "Perfume": "Spicebomb",
     "Tipo": "EDT",
     "ml": "90 ml",
-    "Medio": "R$ 1.000,00",
-    "Base": "R$ 830,00",
     "Venda": "R$ 880,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_32E1171E-2E9E-46E4-BCDB-6C1FE34743C5.jpg?alt=media"
@@ -1835,8 +1543,6 @@ const perfumesBackup = [
     "Perfume": "Libre",
     "Tipo": "EDT",
     "ml": "50 ml",
-    "Medio": "R$ 441,00",
-    "Base": "R$ 669,90",
     "Venda": "R$ 719,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_37347DAD-D802-4E3B-AA48-C4E8D93BFCB0.jpg?alt=media"
@@ -1846,8 +1552,6 @@ const perfumesBackup = [
     "Perfume": "Libre Le Parfum",
     "Tipo": "Parfum",
     "ml": "30 ml",
-    "Medio": "R$ 699,00",
-    "Base": "R$ 459,00",
     "Venda": "R$ 509,00",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_4231404D-B845-4B2F-80AE-D03421C0305C.jpg?alt=media"
@@ -1857,8 +1561,6 @@ const perfumesBackup = [
     "Perfume": "Mon Paris",
     "Tipo": "EDP",
     "ml": "90 ml",
-    "Medio": "R$ 1.099,00",
-    "Base": "R$ 779,90",
     "Venda": "R$ 829,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_79B1F57F-39CC-47A0-86F1-4F66BD0A1EE9.jpg?alt=media"
@@ -1868,8 +1570,6 @@ const perfumesBackup = [
     "Perfume": "Opium Black",
     "Tipo": "EDP",
     "ml": "50 ml",
-    "Medio": "R$ 765,00",
-    "Base": "R$ 459,90",
     "Venda": "R$ 509,90",
     "Genero": "FEM",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_7BE11152-D528-42CD-B9C4-04E6D217D9C9.jpg?alt=media"
@@ -1879,8 +1579,6 @@ const perfumesBackup = [
     "Perfume": "MySelf",
     "Tipo": "EDP",
     "ml": "100 ml",
-    "Medio": "R$ 979,00",
-    "Base": "R$ 1.179,00",
     "Venda": "R$ 1.229,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_04390E1B-8D74-40A6-89DA-14B8229DFBBA.jpg?alt=media"
@@ -1890,8 +1588,6 @@ const perfumesBackup = [
     "Perfume": "Y",
     "Tipo": "EDP",
     "ml": "60 ml",
-    "Medio": "R$ 589,43",
-    "Base": "R$ 435,00",
     "Venda": "R$ 485,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_CD3C0F1F-D870-44E7-A71B-AFC4ED2926AE.jpg?alt=media"
@@ -1901,8 +1597,6 @@ const perfumesBackup = [
     "Perfume": "Y",
     "Tipo": "EDT",
     "ml": "60 ml",
-    "Medio": "R$ 522,00",
-    "Base": "R$ 430,00",
     "Venda": "R$ 480,00",
     "Genero": "MASC",
     "Imagem": "https://firebasestorage.stagebeta.kyte.site/v0/b/kyte-7c484.appspot.com/o/hVtcg2MWe8Uy81uCzZTAxvvGiYv2%2Fthumb_280_94609ECA-67BB-4E63-9391-C8E44B2B2DCC.jpg?alt=media"
