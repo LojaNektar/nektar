@@ -278,23 +278,45 @@
 	    });
 	  }
 		async function carregarDados() {
-			try {
-				const response = await fetch("catalogo/tenis.json");
-				if (!response.ok) throw new Error("Falha no fetch do JSON");
-				tenis = await response.json();
-				renderizarMarcas(tenis);
-			} catch (error) {
-				console.warn("Erro ao carregar JSON, usando fallback JS:", error);
-				const script = document.createElement("script");
-				script.src = "catalogo/tenis.js";
-				script.onload = () => {
-					if (typeof tenisBackup !== "undefined") {
-						tenis = tenisBackup;
-						renderizarMarcas(tenis);
-					}
-				};
-				document.body.appendChild(script);
-			}
+		  try {
+		    const response = await fetch("catalogo/tenis.json");
+		    if (!response.ok) throw new Error("Falha no fetch do JSON");
+		    tenis = await response.json();
+		    renderizarMarcas(tenis);
+		
+		    // Se a URL tiver um hash (#nike, #adidas, etc), rola após o render
+		    setTimeout(() => {
+		      const hash = window.location.hash.replace("#", "");
+		      if (hash) {
+		        const target = document.getElementById(hash);
+		        if (target) {
+		          target.scrollIntoView({ behavior: "smooth", block: "start" });
+		        }
+		      }
+		    }, 400); // aguarda o DOM renderizar
+		  } catch (error) {
+		    console.warn("Erro ao carregar JSON, usando fallback JS:", error);
+		    const script = document.createElement("script");
+		    script.src = "catalogo/tenis.js";
+		    script.onload = () => {
+		      if (typeof tenisBackup !== "undefined") {
+		        tenis = tenisBackup;
+		        renderizarMarcas(tenis);
+		
+		        // Também suporta hash mesmo no fallback JS
+		        setTimeout(() => {
+		          const hash = window.location.hash.replace("#", "");
+		          if (hash) {
+		            const target = document.getElementById(hash);
+		            if (target) {
+		              target.scrollIntoView({ behavior: "smooth", block: "start" });
+		            }
+		          }
+		        }, 400);
+		      }
+		    };
+		    document.body.appendChild(script);
+		  }
 		}
 
 		document.getElementById("search").addEventListener("input", e => {
