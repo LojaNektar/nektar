@@ -141,6 +141,15 @@
 				if (!response.ok) throw new Error("Falha no fetch do JSON");
 				perfumes = await response.json();
 				renderizarMarcas(perfumes);
+				setTimeout(() => {
+			      const hash = window.location.hash.replace("#", "");
+			      if (hash) {
+			        const target = document.getElementById(hash);
+			        if (target) {
+			          target.scrollIntoView({ behavior: "smooth", block: "start" });
+			        }
+			      }
+			    }, 400); // aguarda o DOM renderizar
 			} catch (error) {
 				console.error("Erro ao carregar JSON:", error);
 			}
