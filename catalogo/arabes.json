@@ -19,12 +19,39 @@
   },
   {
     "Marca": "Al Wataniah",
+    "Perfume": "Ameerati EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 243,00",
+    "OBS": "Inspirado no Woman de Ralph Lauren",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9e6b1787837504344b44ce620d07bfd3.webp"
+  },
+  {
+    "Marca": "Al Wataniah",
+    "Perfume": "Oud Mystery Intense",
+    "Genero": "UNI",
+    "ml": "100 ml",
+    "Venda": "R$ 270,00",
+    "OBS": "Inspirado no Oud for Greatness Initio Parfums",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/c174e67e-04ef-40a8-8aa0-43de69ae6d2e-oud-mystery-intense-al-wataniah-eau-de-parfum-perfume-unissex-100ml-d1b3e638a403eabdcb17394756825163-1024-1024.webp"
+  },
+  {
+    "Marca": "Al Wataniah",
     "Perfume": "Sabah Al Ward EDP",
     "Genero": "FEM",
     "ml": "100 ml",
-    "Venda": "R$ 270,00",
+    "Venda": "R$ 285,90",
     "OBS": "Inspirado no Lancôme Trésor Midnight Rose",
     "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-16t174332-646-3cee855b3cc3759abf17448362260087-1024-1024.webp"
+  },
+  {
+    "Marca": "Al Wataniah",
+    "Perfume": "Shagaf Al Ward EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 270,00",
+    "OBS": "Inspirado no Good Girl de Carolina Herrera",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/56ef71adf7ab63827c6753ce8894fee3.webp"
   },
   {
     "Marca": "Armaf",
@@ -55,6 +82,15 @@
   },
   {
     "Marca": "Armaf",
+    "Perfume": "Club de Nuit Urban Elixir EDT",
+    "Genero": "MASC",
+    "ml": "105 ml",
+    "Venda": "R$ 414,90",
+    "OBS": "Mix de Dior Sauvage Elixir + Creed Aventus nuances",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/de-nuit-elixir1-8bbff4fca1648e408716778457471078-1024-1024.webp"
+  },
+  {
+    "Marca": "Armaf",
     "Perfume": "Club de Nuit Woman EDP",
     "Genero": "FEM",
     "ml": "105 ml",
@@ -64,12 +100,12 @@
   },
   {
     "Marca": "Armaf",
-    "Perfume": "Club de Nuit Urban Elixir EDT",
-    "Genero": "MASC",
-    "ml": "105 ml",
-    "Venda": "R$ 414,90",
-    "OBS": "Mix de Dior Sauvage Elixir + Creed Aventus nuances",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/de-nuit-elixir1-8bbff4fca1648e408716778457471078-1024-1024.webp"
+    "Perfume": "Yum Yum EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 499,50",
+    "OBS": "Inspirado no Carolina Herrera Good Girl Glam",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/330176a75db0f9f9bbe6dbe6a3ac1896.webp"
   },
   {
     "Marca": "Bharara",
@@ -81,40 +117,58 @@
     "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/king1-cfba4321fa284a0a2f16838234953077-1024-1024.webp"
   },
   {
-    "Marca": "Lattafa",
-    "Perfume": "Asad EDP",
-    "Genero": "MASC",
+    "Marca": "French Avenue",
+    "Perfume": "Vulcan Feu",
+    "Genero": "UNI",
     "ml": "100 ml",
-    "Venda": "R$ 299,90",
-    "OBS": "Inspirado no Dior Sauvage",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-16t174744-430-de302fe5f526603f2f17448365249290-1024-1024.webp"
+    "Venda": "R$ 540,00",
+    "OBS": "Inspirado no God of Fire Stéphane Humbert Lucas",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/77af568de79722d1ca651e22f3fd0174.webp"
+  },
+  {
+    "Marca": "French Avenue",
+    "Perfume": "Veneno",
+    "Genero": "UNI",
+    "ml": "100 ml",
+    "Venda": "R$ 539,90",
+    "OBS": "Inspirado em Smoking Hot de Kilian Paris",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/59254591bc57d8944b5b97092b1905c1.webp"
+  },
+  {
+    "Marca": "French Avenue",
+    "Perfume": "Veneno Bianco",
+    "Genero": "UNI",
+    "ml": "100 ml",
+    "Venda": "R$ 555,00",
+    "OBS": "Inspirado em Sunkissed Goddess de Kilian Paris",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a107457ca79b79927a1cf405ae0fc4ca.webp"
   },
   {
     "Marca": "Lattafa",
     "Perfume": "Asad Bourbon EDP",
     "Genero": "MASC",
     "ml": "100 ml",
-    "Venda": "R$ 349,90",
-    "OBS": "Inspirado no Dior Sauvage Elixir ou Most Wanted",
+    "Venda": "R$ 354,90",
+    "OBS": "Inspirado no Azarro Most Wanted",
     "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-07-03t114458-843-5d33a9a599e2b7368b17515539057887-1024-1024.webp"
   },
   {
     "Marca": "Lattafa",
-    "Perfume": "Musamam White Intense",
-    "Genero": "FEM",
+    "Perfume": "Asad EDP",
+    "Genero": "MASC",
     "ml": "100 ml",
-    "Venda": "R$ 539,90",
-    "OBS": "Inspirado no La Vie Est Belle",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/miss-37186ac1009b217fa717180189469447-1024-1024.webp"
+    "Venda": "R$ 299,90",
+    "OBS": "Inspirado no Dior Sauvage",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-16t174744-430-de302fe5f526603f2f17448365R$ 267,90290-1024-1024.webp"
   },
   {
     "Marca": "Lattafa",
-    "Perfume": "Khamrah EDP",
+    "Perfume": "Asad Elixir EDP",
     "Genero": "MASC",
     "ml": "100 ml",
-    "Venda": "R$ 429,90",
-    "OBS": "Inspirado no Kilian Angel’s Share",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-16t174751-088-0ca022a6feeb3b154617448365073512-1024-1024.webp"
+    "Venda": "R$ 419,90",
+    "OBS": "Inspirado no Dior Sauvage Elixir",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e42dbf9602572b4acbae5926ce1bbaad.webp"
   },
   {
     "Marca": "Lattafa",
@@ -127,37 +181,10 @@
   },
   {
     "Marca": "Lattafa",
-    "Perfume": "Yara EDP",
-    "Genero": "FEM",
-    "ml": "100 ml",
-    "Venda": "R$ 399,90",
-    "OBS": "Um dos femininos árabes mais virais (Identidade prórpia)",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/yara1-bb83ae1fcc8f5fe1e716940110576981-1024-1024.webp"
-  },
-  {
-    "Marca": "Lattafa",
-    "Perfume": "Yara Moi EDP",
-    "Genero": "FEM",
-    "ml": "100 ml",
-    "Venda": "R$ 299,90",
-    "OBS": "Similar ao YSL Black Opium Intense",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/yara-2af04e4a5977def71516968893462259-1024-1024.webp"
-  },
-  {
-    "Marca": "Lattafa",
-    "Perfume": "Yara Candy EDP",
-    "Genero": "FEM",
-    "ml": "100 ml",
-    "Venda": "R$ 299,90",
-    "OBS": "Inspiração em Ariana Grande Cloud / Baccarat Rouge 540",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/novo-projeto-2025-04-18t205613-623-6eff1356c2a76deba817450205783887-1024-1024.webp"
-  },
-  {
-    "Marca": "Lattafa",
     "Perfume": "Fakhar Black EDP",
     "Genero": "MASC",
     "ml": "100 ml",
-    "Venda": "R$ 399,90",
+    "Venda": "R$ 310,50",
     "OBS": "Inspirado no Armani Stronger With You Intensely",
     "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-17t083133-078-0984fb89b76a442e3417448895034417-1024-1024.webp"
   },
@@ -166,7 +193,7 @@
     "Perfume": "Fakhar Extrait EDP",
     "Genero": "MASC",
     "ml": "100 ml",
-    "Venda": "R$ 399,90",
+    "Venda": "R$ 310,50",
     "OBS": "Inspirado no Creed Aventus com mais dulçor",
     "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-07-03t115029-228-4f07f2e4bab706bd1017515542347529-1024-1024.webp"
   },
@@ -175,9 +202,27 @@
     "Perfume": "Fakhar Rose EDP",
     "Genero": "FEM",
     "ml": "100 ml",
-    "Venda": "R$ 414,90",
+    "Venda": "R$ 310,50",
     "OBS": "Inspirado em Lancôme La Vie Est Belle",
     "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-17t081255-096-98cd8633daa061b7ea17448884302623-1024-1024.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Khamrah EDP",
+    "Genero": "MASC",
+    "ml": "100 ml",
+    "Venda": "R$ 429,90",
+    "OBS": "Inspirado no Kilian Angel’s Share",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-16t174751-088-0ca022a6feeb3b154617448365073512-1024-1024.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Musamam White Intense",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 539,90",
+    "OBS": "Inspirado no La Vie Est Belle",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/miss-37186ac1009b217fa717180189469447-1024-1024.webp"
   },
   {
     "Marca": "Lattafa",
@@ -190,15 +235,6 @@
   },
   {
     "Marca": "Lattafa",
-    "Perfume": "Tharwah Gold",
-    "Genero": "FEM",
-    "ml": "100 ml",
-    "Venda": "R$ 374,90",
-    "OBS": "Inspirado no Paco Rabanne Olympea",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/novo-projeto-9-23c0dc94052120654e17200398434328-1024-1024.webp"
-  },
-  {
-    "Marca": "Lattafa",
     "Perfume": "Shaheen Gold",
     "Genero": "FEM",
     "ml": "100 ml",
@@ -207,13 +243,67 @@
     "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/shaheen1-d824df1351794a971116796721824811-1024-1024.webp"
   },
   {
+    "Marca": "Lattafa",
+    "Perfume": "Tharwah Gold",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 408,90",
+    "OBS": "Inspirado no Paco Rabanne Olympea",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/novo-projeto-9-23c0dc94052120654e17200398434328-1024-1024.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Yara Candy EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 299,90",
+    "OBS": "Inspiração em Ariana Grande Cloud / Baccarat Rouge 540",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/novo-projeto-2025-04-18t205613-623-6eff1356c2a76deba817450205783887-1024-1024.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Yara EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 325,00",
+    "OBS": "Um dos femininos árabes mais virais (Identidade prórpia)",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/yara1-bb83ae1fcc8f5fe1e716940110576981-1024-1024.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Yara Elixir EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 455,50",
+    "OBS": "Inspirado no Marshmallow Blush de Paris Corner",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/43e62ac5960465de4d4853563dbcef3e.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Yara Moi EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 310,00",
+    "OBS": "Similar ao YSL Black Opium Intense",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/yara-2af04e4a5977def71516968893462259-1024-1024.webp"
+  },
+  {
     "Marca": "Maison Alhambra",
-    "Perfume": "Salvo EDP",
-    "Genero": "MASC",
+    "Perfume": "Como Moiselle EDP",
+    "Genero": "FEM",
     "ml": "100 ml",
     "Venda": "R$ 255,90",
-    "OBS": "Dupe do Dior Sauvage",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-17t081917-657-1aca8124178b6855c817448888019021-1024-1024.webp"
+    "OBS": "Inspirado no Coco Mademoiselle da Chanel",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/167/965/products/coco1-e85524f722a905321116867736410229-1024-1024.webp"
+  },
+  {
+    "Marca": "Maison Alhambra",
+    "Perfume": "Delilah EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 255,90",
+    "OBS": "Inspirado no Delina de Parfums de Marly",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/delilah-9aa0116e84e5cb6f7117168081634449-1024-1024.webp"
   },
   {
     "Marca": "Maison Alhambra",
@@ -226,15 +316,6 @@
   },
   {
     "Marca": "Maison Alhambra",
-    "Perfume": "Como Moiselle EDP",
-    "Genero": "FEM",
-    "ml": "100 ml",
-    "Venda": "R$ 255,90",
-    "OBS": "Inspirado no Coco Mademoiselle da Chanel",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-17t081712-877-e17389f70a2b661e4217448886559861-1024-1024.png"
-  },
-  {
-    "Marca": "Maison Alhambra",
     "Perfume": "Rose Seduction EDP",
     "Genero": "FEM",
     "ml": "100 ml",
@@ -244,12 +325,12 @@
   },
   {
     "Marca": "Maison Alhambra",
-    "Perfume": "Delilah EDP",
-    "Genero": "FEM",
+    "Perfume": "Salvo EDP",
+    "Genero": "MASC",
     "ml": "100 ml",
     "Venda": "R$ 255,90",
-    "OBS": "Inspirado no Delina de Parfums de Marly",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/delilah-9aa0116e84e5cb6f7117168081634449-1024-1024.webp"
+    "OBS": "Dupe do Dior Sauvage",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-17t081917-657-1aca8124178b6855c817448888019021-1024-1024.webp"
   },
   {
     "Marca": "Orientica",
@@ -259,5 +340,14 @@
     "Venda": "R$ 714,90",
     "OBS": "Inspirado no Xerjoff Erba Pura",
     "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/orientica-royal-amber-eau-de-parfum-80ml-spray-p67508-22768_zoom1-a8232a3cbdc42ac1cb16299238354400-1024-1024.webp"
+  },
+  {
+    "Marca": "Rasasi",
+    "Perfume": "Hawas Black",
+    "Genero": "MASC",
+    "ml": "100 ml",
+    "Venda": "R$ 374,90",
+    "OBS": "Inspirado no Hacivat Nishane",
+    "Imagem": "https://www.domperfumes.com.br/cdn/shop/files/51qvwayoo1l-_ac_uf10001000_ql80.png?v=1751187207&width=600"
   }
 ]
