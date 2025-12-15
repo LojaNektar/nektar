@@ -167,11 +167,20 @@
 		}
 		
 		function removerDoCarrinho(id) {
-			// Filtra o carrinho, mantendo apenas os itens que NÃO possuem o ID fornecido
+		    // 1. Remove o item
 		    carrinho = carrinho.filter(item => item.id !== id);
 		    salvarCarrinho();
-			// Re-renderiza o modal para mostrar a lista atualizada
-			abrirModalCarrinho(true); 
+		
+		    // 2. Verifica se o carrinho ficou vazio após a remoção
+		    if (carrinho.length === 0) {
+		        // Se estiver vazio, fecha o modal imediatamente
+		        const modalEl = document.getElementById('modalCarrinho');
+		        const modal = bootstrap.Modal.getInstance(modalEl);
+		        if (modal) modal.hide();
+		    } else {
+		        // Se ainda houver itens, re-renderiza a lista (mantendo o modal aberto)
+		        abrirModalCarrinho(true); 
+		    }
 		}
 		
 		// Converte string de preço (R$ 1.000,00) para número (1000.00)
@@ -182,42 +191,48 @@
 
 		// Abre o Modal, preenchendo a lista de itens
 		function abrirModalCarrinho(reabrir = false) {
-			if (carrinho.length === 0) {
-				alert("Seu pedido está vazio. Adicione um ou mais produtos!");
-				return;
-			}
-			
-			const listaContainer = document.getElementById('itensCarrinhoLista');
-			let html = `<ul class="list-group list-group-flush">`;
-			let totalEstimado = 0;
-
-			carrinho.forEach(item => {
-				const valorItem = stringParaFloat(item.preco);
-				totalEstimado += valorItem;
-
-				html += `
-					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<div>
-							<strong>${item.tipo}:</strong> ${item.nome} (${item.marca})<br>
-							<small class="text-muted">${item.preco}</small>
-						</div>
-						<button class="btn btn-sm btn-danger" onclick="removerDoCarrinho(${item.id})">
-							Remover
-						</button>
-					</li>
-				`;
-			});
-
-			html += `</ul>`;
-			listaContainer.innerHTML = html;
-
-			const totalFormatado = totalEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-			document.getElementById('carrinhoTotal').innerHTML = `Total Estimado: ${totalFormatado}`;
-			
-			if (!reabrir) {
-				const modal = new bootstrap.Modal(document.getElementById("modalCarrinho"));
-				modal.show();
-			}
+		    // 1. Mova a verificação de carrinho vazio para a abertura do modal principal (se não for re-renderização)
+		    if (carrinho.length === 0) {
+		        // Se for uma tentativa de abertura e estiver vazio, mostra o alerta e retorna
+		        if (!reabrir) {
+		            alert("Seu pedido está vazio. Adicione um ou mais produtos!");
+		        }
+		        return;
+		    }
+		    
+		    // 2. Se houver itens, preenche o modal normalmente
+		    const listaContainer = document.getElementById('itensCarrinhoLista');
+		    let html = `<ul class="list-group list-group-flush">`;
+		    let totalEstimado = 0;
+		
+		    carrinho.forEach(item => {
+		        const valorItem = stringParaFloat(item.preco);
+		        totalEstimado += valorItem;
+		
+		        html += `
+		            <li class="list-group-item d-flex justify-content-between align-items-center">
+		                <div>
+		                    <strong>${item.tipo}:</strong> ${item.nome} (${item.marca})<br>
+		                    <small class="text-muted">${item.preco}</small>
+		                </div>
+		                <button class="btn btn-sm btn-danger" onclick="removerDoCarrinho(${item.id})">
+		                    Remover
+		                </button>
+		            </li>
+		        `;
+		    });
+		
+		    html += `</ul>`;
+		    listaContainer.innerHTML = html;
+		
+		    const totalFormatado = totalEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+		    document.getElementById('carrinhoTotal').innerHTML = `Total Estimado: ${totalFormatado}`;
+		    
+		    if (!reabrir) {
+		        // Apenas abre o modal se não estivermos apenas re-renderizando
+		        const modal = new bootstrap.Modal(document.getElementById("modalCarrinho"));
+		        modal.show();
+		    }
 		}
 
 		function finalizarPedidoWhatsApp() {
