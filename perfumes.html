@@ -7,13 +7,71 @@
 	<title>Catálogo de Perfumes</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
+	
+	<style>
+		.carrinho-flutuante {
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			background-color: #25D366; /* Cor do WhatsApp */
+			color: white;
+			border: none;
+			border-radius: 50px;
+			padding: 15px 25px;
+			font-size: 1.1em;
+			font-weight: bold;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			cursor: pointer;
+			z-index: 1000;
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			transition: background-color 0.3s;
+		}
+
+		.carrinho-flutuante:hover {
+			background-color: #128C7E;
+		}
+
+		#contadorCarrinho {
+			background-color: #ffc107;
+			color: #333;
+			border-radius: 50%;
+			padding: 4px 8px;
+			font-size: 0.9em;
+			line-height: 1;
+		}
+		
+		/* Ajuste para o botão no card */
+		.btn-add-carrinho {
+		    background-color: #198754; /* Verde do Success */
+		    color: white;
+		    border: none;
+		    transition: background-color 0.3s;
+			margin-top: 10px; /* Adiciona um pequeno espaço acima */
+		}
+		
+		.btn-add-carrinho:hover {
+		    background-color: #157347;
+		    color: white;
+		}
+		
+		/* Garante que o card-body tenha padding na parte inferior */
+		.card-body {
+			padding-bottom: 15px !important;
+		}
+
+		/* Remove o onclick do card para evitar conflito com o botão de adicionar */
+		.card[onclick] {
+			cursor: default !important;
+		}
+	</style>
 </head>
 
 <body>
 	<div class="container py-4">
 		<h1 class="text-center mb-4">Catálogo de Perfumes</h1>
 
-		<!-- Navegação -->
 		<div class="row mb-4">
 			<nav class="col-12 d-flex gap-2 flex-wrap justify-content-center" aria-label="Menu principal">
 				<a href="index.html" class="btn-grad btn btn-outline-primary">Início</a>
@@ -23,24 +81,20 @@
 			</nav>
 		</div>
 
-		<!-- Campo de busca -->
 		<div class="row mb-4">
 			<div class="col-md-6 mx-auto">
 				<input type="text" id="search" class="form-control" placeholder="🔍 Buscar perfume ou marca...">
 			</div>
 		</div>
 
-		<!-- Header de categorias -->
 		<div class="categorias-header">
 			<h5>Filtrar por Marca</h5>
 			<div class="categorias-lista" id="marcasTabs"></div>
 		</div>
 
-		<!-- Conteúdo -->
 		<div id="catalogoContainer"></div>
 	</div>
 
-	<!-- Modal -->
 	<div class="modal fade" id="modalOpcoes" tabindex="-1">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
@@ -60,9 +114,85 @@
 		</div>
 	</div>
 
+	<button id="abrirCarrinho" class="carrinho-flutuante" onclick="gerarMensagemWhatsApp()">
+	    🛒 Pedido WhatsApp (<span id="contadorCarrinho">0</span>)
+	</button>
 	<script>
 		let perfumes = [];
 		const generos = { "MASC": "Masculino", "FEM": "Feminino", "UNI": "Unissex" };
+		const NUMERO_WHATSAPP = "5537998195214";
+		let carrinho = []; // Variável global para armazenar o carrinho
+		
+		// --- Funções de Carrinho ---
+		function carregarCarrinho() {
+			try {
+				// Tenta carregar o carrinho, se não tiver nada, inicia como array vazio
+				carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
+			} catch (e) {
+				console.error("Erro ao carregar carrinho do localStorage:", e);
+				carrinho = [];
+			}
+			atualizarContadorCarrinho();
+		}
+		
+		function salvarCarrinho() {
+		    localStorage.setItem('carrinho', JSON.stringify(carrinho));
+		    atualizarContadorCarrinho();
+		}
+
+		function atualizarContadorCarrinho() {
+			const contador = document.getElementById('contadorCarrinho');
+			if (contador) {
+				contador.innerText = carrinho.length;
+			}
+		}
+
+		function adicionarAoCarrinho(perfume, marca, venda) {
+			const item = {
+				perfume: perfume,
+				marca: marca,
+				preco: venda,
+				id: Date.now() 
+			};
+			carrinho.push(item);
+			salvarCarrinho();
+			alert(`${perfume} (${marca}) foi adicionado ao seu pedido!`);
+		}
+		
+		function gerarMensagemWhatsApp() {
+		    if (carrinho.length === 0) {
+		        alert("Seu pedido está vazio. Adicione um ou mais perfumes!");
+		        return;
+		    }
+		
+		    let mensagem = "Olá! Tenho interesse nos seguintes perfumes:\n\n";
+		    let totalEstimado = 0;
+		
+		    carrinho.forEach((item, index) => {
+		        // Extrai o valor do preço para cálculo (R$ 469,90 -> 469.90)
+		        const precoLimpo = item.preco.replace('R$', '').replace('.', '').replace(',', '.').trim();
+		        const valorItem = parseFloat(precoLimpo) || 0;
+		        totalEstimado += valorItem;
+		
+		        mensagem += `${index + 1}. ${item.perfume} (${item.marca}) - ${item.preco}\n`;
+		    });
+		
+		    // Formata o total de volta para moeda
+		    const totalFormatado = totalEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+		    
+		    mensagem += `\nTotal Estimado: ${totalFormatado}`;
+		    mensagem += `\n*Atenção: Os valores são estimados e sujeitos a confirmação.`;
+		
+		    const linkWhatsApp = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensagem)}`;
+		
+		    window.open(linkWhatsApp, '_blank');
+		    
+		    // Opcional: Esvaziar o carrinho após o envio
+		    // carrinho = [];
+		    // salvarCarrinho();
+		}
+		
+		// --- Funções de Renderização e Catálogo (Modificadas) ---
 
 		// Monta a lista de marcas (botões e seções)
 		function renderizarMarcas(lista) {
@@ -108,11 +238,11 @@
 												<p><strong>Marca:</strong> ${p.Marca}</p>
 												<p>${p.Tipo} ${p.ml} a partir de <strong>${p.Venda}</strong></p>
 												<p>* Valor sujeito a alteração conforme disponibilidade</p>
-												<p>
-													<a href="https://wa.me/5537998195214?text=Olá!%20Tenho%20interesse%20no%20perfume%20${encodeURIComponent(p.Marca)}%20${encodeURIComponent(p.Perfume)}." 
-														target="_blank" 
-														class="badge-what">💬 Consultar no WhatsApp</a>
-												</p>
+												
+												<button onclick="event.stopPropagation(); adicionarAoCarrinho('${p.Perfume}', '${p.Marca}', '${p.Venda}')" 
+													class="btn btn-sm btn-add-carrinho w-100">
+													🛍️ Adicionar ao Pedido
+												</button>
 											</div>
 										</div>
 									</div>
@@ -136,20 +266,21 @@
 		}
 
 		async function carregarDados() {
+			carregarCarrinho(); // Carrega o carrinho antes de tudo
 			try {
 				const response = await fetch("catalogo/perfumes.json");
 				if (!response.ok) throw new Error("Falha no fetch do JSON");
 				perfumes = await response.json();
 				renderizarMarcas(perfumes);
 				setTimeout(() => {
-			      const hash = window.location.hash.replace("#", "");
-			      if (hash) {
-			        const target = document.getElementById(hash);
-			        if (target) {
-			          target.scrollIntoView({ behavior: "smooth", block: "start" });
-			        }
-			      }
-			    }, 400); // aguarda o DOM renderizar
+			      const hash = window.location.hash.replace("#", "");
+			      if (hash) {
+			        const target = document.getElementById(hash);
+			        if (target) {
+			          target.scrollIntoView({ behavior: "smooth", block: "start" });
+			        }
+			      }
+			    }, 400); // aguarda o DOM renderizar
 			} catch (error) {
 				console.error("Erro ao carregar JSON:", error);
 			}
