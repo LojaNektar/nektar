@@ -60,12 +60,12 @@
 			color: #555;
 		}
 		
-		/* --- ESTILOS DO CARRINHO (NOVOS) --- */
+		/* --- ESTILOS DO CARRINHO --- */
 		.carrinho-flutuante {
 			position: fixed;
 			bottom: 20px;
 			right: 20px;
-			background-color: #25D366; /* Cor do WhatsApp */
+			background-color: #25D366;
 			color: white;
 			border: none;
 			border-radius: 50px;
@@ -107,14 +107,22 @@
 		    color: white;
 		}
 		
-		/* Garante que o card-body tenha padding na parte inferior */
 		.card-body {
 			padding-bottom: 15px !important;
 		}
 		
-		/* Faz com que a imagem do card tenha cursor para indicar clique */
+		/* Faz com que a imagem do card tenha cursor para indicar clique (para abrir o zoom modal) */
 		.card-img-top {
 			cursor: zoom-in;
+		}
+		
+		/* Estilo para o modal de carrinho */
+		#modalCarrinho .modal-footer {
+			border-top: none;
+			padding-top: 0;
+		}
+		#modalCarrinho .modal-body {
+			padding-bottom: 0;
 		}
 	</style>
 </head>
@@ -161,15 +169,38 @@
 	  </div>
 	</div>
 
-	<button id="abrirCarrinho" class="carrinho-flutuante" onclick="gerarMensagemWhatsApp()">
-	    🛒 Pedido WhatsApp (<span id="contadorCarrinho">0</span>)
+	<button id="abrirCarrinho" class="carrinho-flutuante" onclick="abrirModalCarrinho()">
+	    🛒 Meu Pedido (<span id="contadorCarrinho">0</span>)
 	</button>
+	<div class="modal fade" id="modalCarrinho" tabindex="-1" aria-labelledby="modalCarrinhoLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="modalCarrinhoLabel">🛒 Seu Pedido</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div id="itensCarrinhoLista">
+						</div>
+				</div>
+				<div class="modal-footer d-flex flex-column align-items-stretch">
+					<p class="h4 text-end mb-3" id="carrinhoTotal">Total Estimado: R$ 0,00</p>
+					<button type="button" class="btn btn-success btn-lg w-100" onclick="finalizarPedidoWhatsApp()">
+						✅ Finalizar Pedido no WhatsApp
+					</button>
+					<button type="button" class="btn btn-outline-secondary mt-2" data-bs-dismiss="modal">
+						Continuar Comprando
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script>
 		let tenis = [];
 		const NUMERO_WHATSAPP = "5537998195214";
 		let carrinho = [];
 
-		// --- Funções de Carrinho ---
+		// --- Funções de Carrinho (NOVAS) ---
 		function carregarCarrinho() {
 			try {
 				carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
@@ -191,52 +222,101 @@
 			}
 		}
 
-		function adicionarAoCarrinho(modelo, marca, venda) {
+		function adicionarAoCarrinho(nome, marca, venda, tipo = 'Tênis') {
 			const item = {
-				perfume: modelo, // Reutilizando a chave 'perfume' para simplificar o JSON do carrinho
+				nome: nome,
 				marca: marca,
 				preco: venda,
-				tipo: 'Tênis',
+				tipo: tipo,
 				id: Date.now() 
 			};
 			carrinho.push(item);
 			salvarCarrinho();
-			alert(`${marca} - ${modelo} foi adicionado ao seu pedido!`);
+			alert(`${nome} (${marca}) foi adicionado ao seu pedido!`);
 		}
 		
-		function gerarMensagemWhatsApp() {
+		function removerDoCarrinho(id) {
+		    carrinho = carrinho.filter(item => item.id !== id);
+		    salvarCarrinho();
+			abrirModalCarrinho(true); 
+		}
+		
+		function stringParaFloat(precoStr) {
+			if (!precoStr) return 0;
+			return parseFloat(precoStr.replace('R$', '').replace('.', '').replace(',', '.').trim()) || 0;
+		}
+
+		function abrirModalCarrinho(reabrir = false) {
+			if (carrinho.length === 0) {
+				alert("Seu pedido está vazio. Adicione um ou mais produtos!");
+				return;
+			}
+			
+			const listaContainer = document.getElementById('itensCarrinhoLista');
+			let html = `<ul class="list-group list-group-flush">`;
+			let totalEstimado = 0;
+
+			carrinho.forEach(item => {
+				const valorItem = stringParaFloat(item.preco);
+				totalEstimado += valorItem;
+
+				html += `
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<div>
+							<strong>${item.tipo}:</strong> ${item.nome} (${item.marca})<br>
+							<small class="text-muted">${item.preco}</small>
+						</div>
+						<button class="btn btn-sm btn-danger" onclick="removerDoCarrinho(${item.id})">
+							Remover
+						</button>
+					</li>
+				`;
+			});
+
+			html += `</ul>`;
+			listaContainer.innerHTML = html;
+
+			const totalFormatado = totalEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+			document.getElementById('carrinhoTotal').innerHTML = `Total Estimado: ${totalFormatado}`;
+			
+			if (!reabrir) {
+				const modal = new bootstrap.Modal(document.getElementById("modalCarrinho"));
+				modal.show();
+			}
+		}
+
+		function finalizarPedidoWhatsApp() {
 		    if (carrinho.length === 0) {
-		        alert("Seu pedido está vazio. Adicione um ou mais itens!");
+		        alert("O carrinho está vazio. Adicione itens antes de finalizar.");
 		        return;
 		    }
 		
-		    let mensagem = "Olá! Tenho interesse nos seguintes produtos:\n\n";
+		    let mensagem = "Olá! Gostaria de finalizar a compra dos seguintes itens:\n\n";
 		    let totalEstimado = 0;
 		
 		    carrinho.forEach((item, index) => {
-		        // Extrai o valor da VENDA (que já inclui R$...) para cálculo
-		        const precoLimpo = item.preco.replace('R$', '').replace('.', '').replace(',', '.').trim();
-		        const valorItem = parseFloat(precoLimpo) || 0;
+		        const valorItem = stringParaFloat(item.preco);
 		        totalEstimado += valorItem;
 		
-		        mensagem += `${index + 1}. ${item.tipo || 'Produto'} ${item.perfume} (${item.marca}) - ${item.preco}\n`;
+		        mensagem += `${index + 1}. [${item.tipo}] ${item.nome} (${item.marca}) - ${item.preco}\n`;
 		    });
 		
 		    const totalFormatado = totalEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 		    
 		    mensagem += `\nTotal Estimado: ${totalFormatado}`;
-		    mensagem += `\n*Atenção: Os valores são estimados e sujeitos a confirmação.`;
+		    mensagem += `\n*Os valores são estimados. Favor confirmar disponibilidade e preço final.`;
 		
 		    const linkWhatsApp = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensagem)}`;
 		
+			// Fecha o modal antes de abrir o WhatsApp
+			const modalEl = document.getElementById('modalCarrinho');
+			const modal = bootstrap.Modal.getInstance(modalEl);
+			if (modal) modal.hide();
+			
 		    window.open(linkWhatsApp, '_blank');
-		    
-		    // Recomendado: Esvaziar o carrinho após o envio
-		    // carrinho = [];
-		    // salvarCarrinho();
 		}
 
-		// --- Funções de Renderização e Catálogo (Modificadas) ---
+		// --- Funções de Renderização e Zoom (Mantidas) ---
 
 		function renderizarMarcas(lista) {
 			const marcas = [...new Set(lista.map(p => p.Marca))].sort();
@@ -283,7 +363,7 @@
 											<p class="valor"><strong>${p.Venda}</strong><span>em até 3x sem juros</span></p>
 											<p class="valor"><strong>${valorPixFmt}</strong><span>à vista no Pix (10% OFF)</span></p>
 											
-											<button onclick="adicionarAoCarrinho('${p.Modelos}', '${p.Marca}', '${p.Venda}')" 
+											<button onclick="adicionarAoCarrinho('${p.Modelos}', '${p.Marca}', '${p.Venda}', 'Tênis')" 
 												class="btn btn-sm btn-add-carrinho w-100">
 												🛍️ Adicionar ao Pedido
 											</button>
@@ -336,7 +416,7 @@
     new bootstrap.Modal(document.getElementById("modalImagem")).show();
   }
 	
-	// A função de inicializar o zoom foi mantida na íntegra
+	// Função de inicializar o zoom (mantida)
 	  function inicializarZoom() {
 	    document.querySelectorAll('.zoomable').forEach(img => {
 	      let scale = 1, lastScale = 1;
@@ -420,7 +500,7 @@
 	  }
 	  
 		async function carregarDados() {
-			carregarCarrinho(); // Carrega o carrinho antes de tudo
+			carregarCarrinho();
 		  try {
 		    const response = await fetch("catalogo/tenis.json");
 		    if (!response.ok) throw new Error("Falha no fetch do JSON");
@@ -436,7 +516,7 @@
 		          target.scrollIntoView({ behavior: "smooth", block: "start" });
 		        }
 		      }
-		    }, 400); // aguarda o DOM renderizar
+		    }, 400); 
 		  } catch (error) {
 		    console.warn("Erro ao carregar JSON, usando fallback JS:", error);
 		    const script = document.createElement("script");
@@ -446,7 +526,6 @@
 		        tenis = tenisBackup;
 		        renderizarMarcas(tenis);
 		
-		        // Também suporta hash mesmo no fallback JS
 		        setTimeout(() => {
 		          const hash = window.location.hash.replace("#", "");
 		          if (hash) {
