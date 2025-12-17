@@ -20,7 +20,7 @@
 			border: 1px dashed #333;
 		}
 
-		/* AJUSTE DE ZOOM MOBILE */
+		/* ZOOM MOBILE OTIMIZADO */
 		.zoom-area {
 			position: relative;
 			overflow: hidden;
@@ -28,7 +28,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			height: 70vh; /* Usa 70% da altura da tela para melhor visualização */
+			height: 70vh; 
 			touch-action: none;
 		}
 		
@@ -36,32 +36,20 @@
 			transition: transform 0.3s ease;
 			max-height: 100%;
 			max-width: 100%;
-			width: auto;
-			height: auto;
-			object-fit: contain; /* Garante que a imagem apareça inteira */
+			object-fit: contain;
 			cursor: zoom-in;
 		}
 		
-		.zoomed {
-			cursor: grab;
-		}
+		.zoomed { cursor: grab; }
 		
 		@media (max-width: 768px) {
-			.zoom-area {
-				height: 60vh;
-			}
+			.zoom-area { height: 60vh; }
 		}
 		
-		.valor {
-			font-size: 1rem;
-			margin-bottom: .3rem;
-		}
-		
-		.valor span {
-			display: block;
-			font-size: 0.9rem;
-			color: #555;
-		}
+		.valor-box { margin-bottom: 1rem; }
+		.valor-principal { font-size: 1.1rem; font-weight: bold; margin-bottom: 0; }
+		.valor-sub { font-size: 0.85rem; color: #666; display: block; margin-bottom: 0.4rem; }
+		.valor-pix { color: #198754; font-weight: bold; font-size: 1.1rem; margin-bottom: 0; }
 		
 		/* ESTILOS DO CARRINHO */
 		.carrinho-flutuante {
@@ -72,14 +60,14 @@
 			color: white;
 			border: none;
 			border-radius: 50px;
-			padding: 12px 20px;
+			padding: 12px 22px;
 			font-size: 1rem;
 			font-weight: bold;
-			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+			box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 			z-index: 1050;
 			display: flex;
 			align-items: center;
-			gap: 8px;
+			gap: 10px;
 		}
 
 		#contadorCarrinho {
@@ -87,7 +75,7 @@
 			color: #000;
 			border-radius: 50%;
 			padding: 2px 8px;
-			font-size: 0.85em;
+			font-size: 0.9em;
 		}
 		
 		.btn-add-carrinho {
@@ -95,7 +83,8 @@
 		    color: white;
 		    border: none;
 			margin-top: 10px;
-			font-weight: 500;
+			font-weight: 600;
+			padding: 8px;
 		}
 		
 		.card-img-top { cursor: zoom-in; }
@@ -133,7 +122,7 @@
 		<div class="modal-dialog modal-dialog-centered modal-lg">
 			<div class="modal-content bg-dark text-light border-0">
 				<div class="modal-header border-0">
-					<h5 class="modal-title">Visualização</h5>
+					<h5 class="modal-title">Visualização do Produto</h5>
 					<button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
 				</div>
 				<div class="modal-body p-0 text-center" id="modalConteudo"></div>
@@ -158,7 +147,7 @@
 				<div class="modal-footer d-flex flex-column align-items-stretch">
 					<p class="h4 text-end mb-3" id="carrinhoTotal">Total Estimado: R$ 0,00</p>
 					<button type="button" class="btn btn-success btn-lg w-100" onclick="finalizarPedidoWhatsApp()">
-						✅ Finalizar no WhatsApp
+						✅ Finalizar Pedido no WhatsApp
 					</button>
 				</div>
 			</div>
@@ -170,7 +159,7 @@
 		const NUMERO_WHATSAPP = "5537998195214";
 		let carrinho = [];
 
-		// --- LOGICA CARRINHO CORRIGIDA ---
+		// --- GESTÃO DO CARRINHO ---
 		function carregarCarrinho() {
 			carrinho = JSON.parse(localStorage.getItem('carrinho')) || [];
 			atualizarContadorCarrinho();
@@ -188,15 +177,15 @@
 		function adicionarAoCarrinho(nome, marca, venda) {
 			carrinho.push({ nome, marca, preco: venda, tipo: 'Tênis', id: Date.now() });
 			salvarCarrinho();
-			alert(`${nome} adicionado!`);
+			alert(`${nome} adicionado ao seu pedido!`);
 		}
 		
 		function removerDoCarrinho(id) {
 		    carrinho = carrinho.filter(item => item.id !== id);
 		    salvarCarrinho();
 			if (carrinho.length === 0) {
-				const modal = bootstrap.Modal.getInstance(document.getElementById('modalCarrinho'));
-				if (modal) modal.hide();
+				const modalInstance = bootstrap.Modal.getInstance(document.getElementById('modalCarrinho'));
+				if (modalInstance) modalInstance.hide();
 			} else {
 				abrirModalCarrinho(true); 
 			}
@@ -216,7 +205,7 @@
 				total += parseFloat(item.preco.replace('R$', '').replace('.', '').replace(',', '.').trim()) || 0;
 				html += `
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<div><strong>${item.nome}</strong><br><small>${item.preco}</small></div>
+						<div><strong>${item.nome}</strong><br><small class="text-muted">${item.preco}</small></div>
 						<button class="btn btn-sm btn-danger" onclick="removerDoCarrinho(${item.id})">Remover</button>
 					</li>`;
 			});
@@ -224,16 +213,19 @@
 			listaContainer.innerHTML = html + `</ul>`;
 			document.getElementById('carrinhoTotal').innerText = `Total Estimado: ${total.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`;
 			
-			if (!reabrir) new bootstrap.Modal(document.getElementById("modalCarrinho")).show();
+			if (!reabrir) {
+                const m = new bootstrap.Modal(document.getElementById("modalCarrinho"));
+                m.show();
+            }
 		}
 
 		function finalizarPedidoWhatsApp() {
-		    let msg = "Olá! Quero pedir:\n\n";
+		    let msg = "Olá! Gostaria de encomendar os seguintes modelos:\n\n";
 		    carrinho.forEach((item, i) => msg += `${i+1}. ${item.nome} (${item.marca}) - ${item.preco}\n`);
 		    window.open(`https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(msg)}`, '_blank');
 		}
 
-		// --- RENDERIZAÇÃO E ZOOM ---
+		// --- RENDERIZAÇÃO DO CATÁLOGO ---
 		function renderizarMarcas(lista) {
 			const marcas = [...new Set(lista.map(p => p.Marca))].sort();
 			const tabs = document.getElementById("marcasTabs");
@@ -244,21 +236,37 @@
 				const marcaId = marca.toLowerCase().replace(/[^a-z0-9]+/g, "-");
 				tabs.innerHTML += `<button onclick="scrollToSection('${marcaId}')">${marca}</button>`;
 				const produtos = lista.filter(p => p.Marca === marca);
+				
 				container.innerHTML += `
 					<section id="${marcaId}" class="mb-5">
 						<h3 class="text-gradient mb-3">${marca}</h3>
 						<div class="row g-3">
-							${produtos.map(p => `
+							${produtos.map(p => {
+                                // Cálculo de Valores
+                                const valorLimpo = parseFloat(p.Venda.replace(/[^\d,]/g, '').replace(',', '.')) || 0;
+                                const valorPix = (valorLimpo * 0.9).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
+								return `
 								<div class="col-6 col-md-4 col-lg-3">
 									<div class="card h-100">
 										<img src="${p.Imagem1}" class="card-img-top" onclick='abrirModal(${JSON.stringify(p).replace(/"/g, "&quot;")})'>
 										<div class="card-body">
 											<h5>${p.Modelos}</h5>
-											<p class="valor"><strong>${p.Venda}</strong></p>
-											<button onclick="adicionarAoCarrinho('${p.Modelos}', '${p.Marca}', '${p.Venda}')" class="btn btn-sm btn-add-carrinho w-100">🛍️ Adicionar</button>
+											<p class="mb-1 text-muted">Marca: ${p.Marca}</p>
+											<p class="mb-2"><strong>Tamanho:</strong> ${p.Tamanho || 'Consultar'}</p>
+											
+											<div class="valor-box">
+												<p class="valor-principal">${p.Venda}</p>
+												<span class="valor-sub">em até 3x sem juros</span>
+												<p class="valor-pix">${valorPix}</p>
+												<span class="valor-sub">à vista no Pix (10% OFF)</span>
+											</div>
+
+											<button onclick="adicionarAoCarrinho('${p.Modelos}', '${p.Marca}', '${p.Venda}')" class="btn btn-sm btn-add-carrinho w-100">🛍️ Adicionar ao Pedido</button>
 										</div>
 									</div>
-								</div>`).join("")}
+								</div>`;
+							}).join("")}
 						</div>
 					</section>`;
 			});
@@ -266,8 +274,9 @@
 
 		function scrollToSection(id) { document.getElementById(id).scrollIntoView({ behavior: "smooth" }); }
 
+		// --- ZOOM E CARROSSEL ---
 		function abrirModal(produto) {
-			const imagens = [produto.Imagem1, produto.Imagem2, produto.Imagem3, produto.Imagem4, produto.Imagem5].filter(img => img);
+			const imagens = [produto.Imagem1, produto.Imagem2, produto.Imagem3, produto.Imagem4, produto.Imagem5, produto.Imagem6, produto.Imagem7].filter(img => img && img.trim() !== "");
 			document.getElementById("modalConteudo").innerHTML = `
 				<div id="carouselImagens" class="carousel slide" data-bs-interval="false">
 					<div class="carousel-inner">
@@ -285,9 +294,9 @@
 
 		function inicializarZoom() {
 			document.querySelectorAll('.zoomable').forEach(img => {
-				let scale = 1, originX = 0, originY = 0;
+				let scale = 1;
 				img.addEventListener('click', () => {
-					scale = scale === 1 ? 2 : 1;
+					scale = (scale === 1) ? 2 : 1;
 					img.style.transform = `scale(${scale})`;
 					img.classList.toggle('zoomed', scale > 1);
 				});
@@ -300,7 +309,7 @@
 				const response = await fetch("catalogo/tenis.json");
 				tenis = await response.json();
 				renderizarMarcas(tenis);
-			} catch (e) { console.error(e); }
+			} catch (e) { console.error("Erro ao carregar dados:", e); }
 		}
 
 		carregarDados();
