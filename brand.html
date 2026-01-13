@@ -260,7 +260,7 @@
           const response = await fetch("brand.json");
           if (!response.ok) throw new Error("Falha no fetch do JSON");
           perfumes = await response.json();
-          renderizarMarcas(perfumes);
+          renderizarCatalogo(perfumes);
           setTimeout(() => {
             const hash = window.location.hash.replace("#", "");
             if (hash) {
