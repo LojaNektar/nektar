@@ -257,7 +257,7 @@
       async function carregarDados() {
         carregarCarrinho();
         try {
-          const response = await fetch("brand.json");
+          const response = await fetch("catalogo/brand.json");
           if (!response.ok) throw new Error("Falha no fetch do JSON");
           perfumes = await response.json();
           renderizarCatalogo(perfumes);
