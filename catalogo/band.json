@@ -1,702 +1,867 @@
 [
   {
     "Perfume": "001 - Chanel Allure Sport M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/97a31ea2cc3bd4996d7840a0343bbbde.webp"
-  },
-  {
-    "Perfume": "004 - Carolina Herrera M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/95f1695e8cb9d894f5b226a42d05bda0.webp"
-  },
-  {
-    "Perfume": "005 - One Million M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d3a87f77027973b3cdee43d69d6906c6.webp"
-  },
-  {
-    "Perfume": "007 - J’adore F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4ecff62cc4c5371f16db0e06985da573.webp"
-  },
-  {
-    "Perfume": "009 - 212 VIP Feminino F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/fb7d3c8691f99166a34083407b828a8c.webp"
-  },
-  {
-    "Perfume": "011 - Angel Iced Star F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/482c53e72c7cdecb93f4330eb3ebfc7b.webp"
-  },
-  {
-    "Perfume": "012 - La Vie Est Belle F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f3f2230a85f3b095cf4a52036579e9bf.webp"
-  },
-  {
-    "Perfume": "017 - Nina Ricci F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/31992c3e95d349f8cf79ed0520503bb2.webp"
-  },
-  {
-    "Perfume": "018 - Hugo Boss Just Different M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/27800693622c73af5dcb926b04b1d629.webp"
-  },
-  {
-    "Perfume": "021 - Chanel Coco Mademoiselle F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/56033ef5692bf8d4a253509dcff36690.webp"
-  },
-  {
-    "Perfume": "022 - Marc Jacob’s Decadense - 25ml",
-    "Venda": "R$79,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/60a9943695314db9dcd96969edd18a69.webp"
-  },
-  {
-    "Perfume": "023 - Versace Cristal Noir F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ad899e0b87c7a3624b6d3fca593301a2.webp"
-  },
-  {
-    "Perfume": "024 - Versace Bright Crystal - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bda071b9d8704c1c9a9b57eef08b4405.webp"
-  },
-  {
-    "Perfume": "027 - Dior Hypnotic Poison F 25ml",
-    "Venda": "R$67,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/95766adb941a97b4c6043bfc23df4e28.webp"
-  },
-  {
-    "Perfume": "028 - Hugo Boss M - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/590febd550e942b7940932e61c5e761f.webp"
-  },
-  {
-    "Perfume": "029 - Nina Ricci Nina L’elixir F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5c7af5bb68e42bc3b301c6a0f998a2c3.webp"
-  },
-  {
-    "Perfume": "030 - Versace Bright Crystal Absolute F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5a3550b72ecaaa262ed266f35186dbde.webp"
-  },
-  {
-    "Perfume": "034 - 212 VIP Rose Carolina Herrera F",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d48a124f4be4c85329b7d77a9ea34ac5.webp"
-  },
-  {
-    "Perfume": "036 - Lacoste Branco F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9672e0e6c482f5b08dcfbe33261a0a8e.webp"
-  },
-  {
-    "Perfume": "069 - Chanel Chance F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/33cc74bcfb5abb6ba6d52c81bc98e9cc.webp"
-  },
-  {
-    "Perfume": "043 - Alien F 25ml",
-    "Venda": "R$67,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5adbf6d553a6cc6993249f3b328024c0.webp"
-  },
-  {
-    "Perfume": "052 - Addict to Blue- F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9f73bdf280cc7e3a186d6baac0260c27.webp"
-  },
-  {
-    "Perfume": "055 - YSL Black Opium F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f69f20b1037eff69dad4c25090cd896e.webp"
-  },
-  {
-    "Perfume": "058 - Hugo Boss Orange M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/48356b070db0b402dc5ba32fb2a121ef.webp"
-  },
-  {
-    "Perfume": "060 - Narciso Rodriguez Parfum F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5c6e02001b456fd01b5ee34f92232f94.webp"
-  },
-  {
-    "Perfume": "061 - Dior Adict F 25ml",
-    "Venda": "R$69,90",
+    "Venda": "R$68,90",
     "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5618786b27f508574c79765e0bd9a875.webp"
   },
   {
-    "Perfume": "062 - Nina Ricci Ricci F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d58dfe0e0a87796bc17d906e15813787.webp"
+    "Perfume": "002 - Armani Code M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/02111f181f08740f90787e9154f280a7.webp"
   },
   {
-    "Perfume": "063 - Si de Giorgio Armani F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8176d75649430d0ffd5626a8b70a519c.webp"
+    "Perfume": "003 - Bad Boy M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e549117769992524a877546419747971.webp"
   },
   {
-    "Perfume": "064 - Elie Saab F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d23f76825e69b5e16178b749b8f2684b.webp"
+    "Perfume": "005 - Invictus M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f7c1303106519f7988358f2789182046.webp"
   },
   {
-    "Perfume": "066 - Silver Scent Intense M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0a4429451eebfe2ffcdfc98f42927a12.webp"
+    "Perfume": "007 - One Million M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/986b245be52003c2090885e3328e716e.webp"
   },
   {
-    "Perfume": "069 - La Nuit Trésor F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/29afe82331c2d2dc4a811d21608f8b89.webp"
+    "Perfume": "008 - Sauvage M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c081e64175373373268487216f46618e.webp"
   },
   {
-    "Perfume": "070 - Bleu de Chanel M 25ml",
-    "Venda": "R$66,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8efcc2d257a9986b63460a071e6b276a.webp"
+    "Perfume": "009 - Silver Scent M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2df302f37803a649d2906e3e5362e49d.webp"
   },
   {
-    "Perfume": "076 - La Vie Est Belle Intense F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c50e6ecc9889a0a60ae1d0d6a64b0e36.webp"
+    "Perfume": "010 - 212 Vip Black M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/71be2b5f795908a705666299f06f5281.webp"
   },
   {
-    "Perfume": "078 - Carolina Herrera Wild Party F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ebbebf6504d9d77ec81069801c6ca8ec.webp"
+    "Perfume": "011 - 212 Vip Men M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f032338243177660995a16584c6e3d23.webp"
   },
   {
-    "Perfume": "080 - Ange or Demon Le Secret F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/161133ae54cb7d84c244bc32e18ca815.webp"
+    "Perfume": "012 - 212 Sexy Men M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4a742b083b4b8f52285e6ef664327ca3.webp"
   },
   {
-    "Perfume": "083 - Mont Blanc Legend Spirit M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7b69220ff65fa8d3155c4905743a70aa.webp"
+    "Perfume": "014 - Ferrari Black M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3091e08922370e28f39566e133c94f5a.webp"
   },
   {
-    "Perfume": "085 - Dolce & Gabanna Vermelho F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d1f9c30d6977c2175798062cdd540290.webp"
+    "Perfume": "015 - Hugo Boss Bottled M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/76f000b0532724641551061988915e61.webp"
   },
   {
-    "Perfume": "087 - Olympea F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/71e2fd4cb17ba73f5584d07502327071.webp"
+    "Perfume": "016 - Polo Blue M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4be80649726207038936932463e26462.webp"
   },
   {
-    "Perfume": "090 - Chopard Happy Spirit - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f74c3631371070cd6f55d31b923e71a6.webp"
+    "Perfume": "019 - 212 Vip Rose F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/714f331904791016896200e6c78e9064.webp"
   },
   {
-    "Perfume": "091 - Calvin Klein Euphoria M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/fbbb5375f032b86af01aeeabf8adf4ac.webp"
+    "Perfume": "020 - 212 Vip F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/02e975481747805626210604c538a798.webp"
   },
   {
-    "Perfume": "094 - Valentina Poudre F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1016b19a80e9c053ab2c61720151810b.webp"
+    "Perfume": "021 - 212 Sexy F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/351662998638644383187c3e21827409.webp"
   },
   {
-    "Perfume": "097 - Calvin Klein Euphoria F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e9ae01ead7691dbc2c31fc916e335179.webp"
+    "Perfume": "024 - Chanel Nº 5 F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7f20231643486301389e181f08e5e6c1.webp"
   },
   {
-    "Perfume": "099 - Calvin Klein Euphoria Deep F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/02e065a90675c693d3f26ef931208729.webp"
+    "Perfume": "025 - Coco Mademoiselle F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/082725597753556550787e91d8e19c36.webp"
   },
   {
-    "Perfume": "100 - Sauvage Dior M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/61704a0ec607c4b80ce0bea7b11821fe.webp"
+    "Perfume": "026 - Euphoria F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/596001004381395777187c3e03882772.webp"
   },
   {
-    "Perfume": "102 - 212 Nyc M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8805e788db030fd1c4a9665c7670b579.webp"
+    "Perfume": "027 - Fantasy F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/07f168f00030588636287e91500746e3.webp"
   },
   {
-    "Perfume": "105 - Lady Million F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7569bf74092b6868d7f487b98d8b7dc1.webp"
+    "Perfume": "028 - Gabriela Sabatini F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/337191147983658510787e9188365985.webp"
   },
   {
-    "Perfume": "107 - Hollywood F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d4279b67eae16eeb9a328061eee50f23.webp"
+    "Perfume": "029 - Good Girl F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/301191069720042456287e91e8460592.webp"
   },
   {
-    "Perfume": "109 - Kenzo World F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3bc71fb107963c27ba6c63661acf877e.webp"
+    "Perfume": "030 - J'adore F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/889262071279213190787e9124316942.webp"
   },
   {
-    "Perfume": "113 - Guerlain Mon Guerlain - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b3ffd30ed9bfd2961a59a60ca0f5500d.webp"
+    "Perfume": "031 - La Vie Est Belle F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/952136154625291410787e916c523456.webp"
   },
   {
-    "Perfume": "116 - Invictus Paco Rabanne M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2986c36c62c66e5ff7d70dd961fd863e.webp"
+    "Perfume": "032 - Lady Million F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/010260492471644073187c3e60226462.webp"
   },
   {
-    "Perfume": "132 - Fantasy F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/83635c6951bc280582cf090f09e2b1b4.webp"
+    "Perfume": "033 - Olympéa F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/809131644485573420787e9140916e33.webp"
   },
   {
-    "Perfume": "133 - Eternity Calvin Klein F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4ff51b7a7ebecf028087e02b0ece20cb.webp"
+    "Perfume": "034 - Scandal F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/802260683058864073187c3e2022e333.webp"
   },
   {
-    "Perfume": "134 - Chanel Gabrielle F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4a8af235d187901a3cedf12d013cd7ab.webp"
+    "Perfume": "040 - Bleu de Chanel M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b04231641020297310787e9140426462.webp"
   },
   {
-    "Perfume": "135 - Issey Miyaki M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5ba5a4943b2a6697026f465fd6a4af0c.webp"
+    "Perfume": "042 - Lacoste Blanc M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c02260683616644073187c3e2022e333.webp"
   },
   {
-    "Perfume": "136 - JP Scandal F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/517d9c6278f487a487146982ca4d97cc.webp"
+    "Perfume": "057 - Scandal By Night F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/705231644018335420787e9150523456.webp"
   },
   {
-    "Perfume": "137 - Gucci Bloom F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e119e1230e82535e90a9cbeda97a948b.webp"
+    "Perfume": "060 - Light Blue F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/060231644615215420787e9106023456.webp"
   },
   {
-    "Perfume": "169 - Amor Amor F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1f008450645c0498cc103343d652d00a.webp"
+    "Perfume": "064 - One Million Lucky M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/460231641018315420787e9146023456.webp"
   },
   {
-    "Perfume": "152 - Meliora Perfums De Marly 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/318e40616914943f7107ed2c668f9537.webp"
+    "Perfume": "073 - Pure XS M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/370231641018335420787e9137023456.webp"
   },
   {
-    "Perfume": "156 - 212 Sexy F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c9c9ab66ccc6a69da74ac80ba69c1ca8.webp"
+    "Perfume": "080 - 212 Heroes F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/080231644020131420787e9108023456.webp"
   },
   {
-    "Perfume": "159 - YSL Libre F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a4f098e68cdffeddbaafe14e969792ef.webp"
+    "Perfume": "083 - Explorer M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/380231641618335420787e9138023456.webp"
   },
   {
-    "Perfume": "163 - Hypnose Lancôme F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ea782e009e1b79a29d329286624a9ea8.webp"
+    "Perfume": "084 - Phantom M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/480231641018335420787e9148023456.webp"
   },
   {
-    "Perfume": "165 - Armani Code Colombia M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4a4f79d6cb9becbe32c3456cd74cb96e.webp"
+    "Perfume": "085 - Toy Boy M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/580231641018335420787e9158023456.webp"
   },
   {
-    "Perfume": "169 - Dior Pure Poison F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/fbcdfb9b0e719ee271b5f825313a4d48.webp"
+    "Perfume": "088 - Invictus Victory M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/880231641018335420787e9188023456.webp"
   },
   {
-    "Perfume": "171 - Jean Paul Gualtier Classique F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9fa2dcb4149702a073fc15d676967f13.webp"
+    "Perfume": "091 - My Way F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/190231644020131420787e9119023456.webp"
   },
   {
-    "Perfume": "173- Good Girl Legere 25ml",
-    "Venda": "R$78,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1d048d337983cd15a007f254b35dc87a.webp"
+    "Perfume": "092 - Scandal Le Parfum F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/290231644020131420787e9129023456.webp"
   },
   {
-    "Perfume": "175 - Azzaro Pour Home M - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/92c44e4c7f9d95289dfcccaf48c59e45.webp"
+    "Perfume": "095 - Libre F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/590231644020131420787e9159023456.webp"
   },
   {
-    "Perfume": "178 - Pure Xs Paco Rabanne M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/255e209fd0dc25bc6f5c7ba73ca9719d.webp"
+    "Perfume": "096 - Idôle F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/690231644020131420787e9169023456.webp"
   },
   {
-    "Perfume": "179 - Si Passione Giorgio Armani M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/de27bb5570ee5dbb442630f75d9cb894.webp"
+    "Perfume": "098 - Lady Million Empire F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/890231644020131420787e9189023456.webp"
   },
   {
-    "Perfume": "187 - Versace Yellow Diamond - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7e83f98e373dd5c43375652b7e416817.webp"
+    "Perfume": "101 - CH Men M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/101231641018335420787e9110123456.webp"
   },
   {
-    "Perfume": "188 - My Way F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/67968289b708dd43de73d4a3400a6d59.webp"
+    "Perfume": "111 - 212 VIP Black Smiley M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/111231641018335420787e9111123456.webp"
   },
   {
-    "Perfume": "190 - Animale Men 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/36d421b19565c30db2910b5f4c02fc9d.webp"
+    "Perfume": "112 - 212 VIP Rose Smiley F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/211231644020131420787e9121123456.webp"
   },
   {
-    "Perfume": "193 - Good Girl Velvet - Fem. - 25ml",
-    "Venda": "R$79,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/afc72c5ca3c57169bdebf8b542bd87f5.webp"
+    "Perfume": "115 - Scandal Gold F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/511231644020131420787e9151123456.webp"
   },
   {
-    "Perfume": "197 - Allien Flora Future F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2c3ef3d5a06c1a45f67ffad70dc5ef3b.webp"
+    "Perfume": "116 - Angel F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/611231644020131420787e9161123456.webp"
   },
   {
-    "Perfume": "202 - Black XS M - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7d5e3c295c8fc0a7af87aff664a0d4b4.webp"
+    "Perfume": "117 - L'Interdit F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/711231644020131420787e9171123456.webp"
   },
   {
-    "Perfume": "214 - Invictus Victory Paco Rabanne M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e6bb1421db6d7782670d20869d26c8fc.webp"
+    "Perfume": "120 - Sauvage Elixir M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/021231641018335420787e9102123456.webp"
   },
   {
-    "Perfume": "216 - Kenzo Flower F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a400fc986fc108fe22b4fa18e6c0f30c.webp"
+    "Perfume": "121 - 212 VIP Wins M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/121231641018335420787e9112123456.webp"
   },
   {
-    "Perfume": "225 - Victoria Secret Bombshell - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/24a680f71c867d2d8560e9cac7883558.webp"
+    "Perfume": "122 - 212 VIP Rose Wins F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/221231644020131420787e9122123456.webp"
   },
   {
-    "Perfume": "226 - Lacoste Pour Femme - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/35d7b14b69875eba5278537aa0179a85.webp"
+    "Perfume": "123 - Bad Boy Le Parfum M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/321231641018335420787e9132123456.webp"
   },
   {
-    "Perfume": "226 - Lacoste Pour Femme F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1c726654a6b2cbd7cdd01a1bdccf514f.webp"
+    "Perfume": "124 - Boss Bottled Infinite M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/421231641018335420787e9142123456.webp"
   },
   {
-    "Perfume": "229 - Chanel N• 05 Red - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b26d3a4c25b5a3ef87d7c2e35c869903.webp"
+    "Perfume": "125 - Good Girl Supreme F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/521231644020131420787e9152123456.webp"
   },
   {
-    "Perfume": "230 - Jimmy Choo Fem - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1cf9560417f18e6e69d364a162bfc3dc.webp"
+    "Perfume": "126 - Invictus Legend M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/621231641018335420787e9162123456.webp"
   },
   {
-    "Perfume": "233 - Armani Because It’s You F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d4ac3f8cd4d9bf011c7b432588858c4d.webp"
+    "Perfume": "127 - Olympea Legend F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/721231644020131420787e9172123456.webp"
   },
   {
-    "Perfume": "236 - L’eau Par Kenzo Pour Homme M - 25ml",
-    "Venda": "R$87,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e69edb849ee03ab49e26577dca074943.webp"
+    "Perfume": "128 - Scandal A Paris F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/821231644020131420787e9182123456.webp"
   },
   {
-    "Perfume": "237 - L’eau Par Kenzo For Woman F - 25ml",
-    "Venda": "R$87,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/96fd7ee05733d75c809a9b1a269d8fe8.webp"
+    "Perfume": "129 - Silver Scent Pure M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/921231641018335420787e9192123456.webp"
   },
   {
-    "Perfume": "269- Idole Lancôme F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e86fff88cff82735d4cf69c499886a83.webp"
+    "Perfume": "130 - Azzaro Wanted M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/031231641018335420787e9103123456.webp"
   },
   {
-    "Perfume": "269 - Dior Joy - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ca0ff04d9ef18c1a9c71ac09b2e813ec.webp"
+    "Perfume": "131 - Wanted Girl F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/131231644020131420787e9113123456.webp"
   },
   {
-    "Perfume": "240 - Ex Nihilo Fleur Narcotique - 25ml",
-    "Venda": "R$63,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3bcc8c2e69f536db42558f2730799449.webp"
+    "Perfume": "133 - Silver Scent Midnight M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/331231641018335420787e9133123456.webp"
   },
   {
-    "Perfume": "246 - Burberry For Her F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/fc7dc750fd66e1a691dd5d6479033dd2.webp"
+    "Perfume": "134 - 212 VIP Black Red M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/431231641018335420787e9143123456.webp"
   },
   {
-    "Perfume": "279 - Baccarat Rouge 540 F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2876c5ad61dc594e02e05964f9c5fde5.webp"
+    "Perfume": "135 - 212 VIP Rose Red F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/531231644020131420787e9153123456.webp"
   },
   {
-    "Perfume": "251 - Guerlain Santal Royal - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e0f431db451410fc0752f1ebb907ee84.webp"
+    "Perfume": "136 - Chloe F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/631231644020131420787e9163123456.webp"
   },
   {
-    "Perfume": "253 - La Vie Est Belle Le Clat 25 mL F",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d58ae13d0921427ca5f9b5464349a768.webp"
+    "Perfume": "137 - Eros Flame M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/731231641018335420787e9173123456.webp"
   },
   {
-    "Perfume": "256 - Lady Million Empire F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/05612794ade3e4922352d82a3cda4556.webp"
+    "Perfume": "138 - Light Blue M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/831231641018335420787e9183123456.webp"
   },
   {
-    "Perfume": "265 - Versace Dylan Blue F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1f42fee8252ce44a1b590a529526223c.webp"
+    "Perfume": "139 - Polo Red M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/931231641018335420787e9193123456.webp"
   },
   {
-    "Perfume": "267- Good Girl Supreme 25ml",
-    "Venda": "R$79,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b6698093584e02d996b644efa9de461b.webp"
+    "Perfume": "140 - Pure XS F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/041231644020131420787e9104123456.webp"
   },
   {
-    "Perfume": "270 - Tom Ford Lost Cherry - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6aa75eb7bb3fd5630fac9aba72548bd6.webp"
+    "Perfume": "141 - Toy 2 F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/141231644020131420787e9114123456.webp"
   },
   {
-    "Perfume": "285 - Joop M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/203596a8eca11f8403ceb878dc652db3.webp"
+    "Perfume": "142 - Invictus Platinum M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/241231641018335420787e9124123456.webp"
   },
   {
-    "Perfume": "286 - Ferrari Black - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1b3d79f22bf750669200dbe79796e51b.webp"
+    "Perfume": "143 - Olympea Solar F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/341231644020131420787e9134123456.webp"
   },
   {
-    "Perfume": "288 - Tiffany & Love F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6b8232aca22daa56ad13658801e082b7.webp"
+    "Perfume": "144 - One Million Elixir M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/441231641018335420787e9144123456.webp"
   },
   {
-    "Perfume": "292 - La Vie Est Belle L’eau de Parfum F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1f9a65bd75994e41b7f688516136a7a2.webp"
+    "Perfume": "145 - 212 Heroes M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/541231641018335420787e9154123456.webp"
   },
   {
-    "Perfume": "294 - Givenchy L’interdit Rouge F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3c110f0a1b4f69f1448ff5b966113c25.webp"
+    "Perfume": "146 - Bad Boy Cobalt M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/641231641018335420787e9164123456.webp"
   },
   {
-    "Perfume": "295 - Ariana Grande Cloud F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/844087d60b7797180bdec49858b5c934.webp"
+    "Perfume": "147 - Good Girl Very F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/741231644020131420787e9174123456.webp"
   },
   {
-    "Perfume": "304 - Elysium pour Homme EDP - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e7136693236176dae263f1d5ea7a4bb0.webp"
+    "Perfume": "148 - Lady Million Lucky F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/841231644020131420787e9184123456.webp"
   },
   {
-    "Perfume": "308 - Thameen Blue Heart M - 25 ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/253cda953ba2c88c377e4d1448aa08aa.webp"
+    "Perfume": "149 - Olympea Blossom F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/941231644020131420787e9194123456.webp"
   },
   {
-    "Perfume": "314 - Louis Vuitton California Dream F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e1e97c706008e425da026f0c75dc3e2f.webp"
+    "Perfume": "150 - Scandal Le Parfum M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/051231641018335420787e9105123456.webp"
   },
   {
-    "Perfume": "318 - Burberry Her F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/15a81e3d549888849576bf8d533ed9a5.webp"
+    "Perfume": "151 - Sauvage Parfum M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/151231641018335420787e9115123456.webp"
   },
   {
-    "Perfume": "320 - Chloé Naturelle - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bb11af2064aae8c67ea13a536f443018.webp"
+    "Perfume": "152 - Spicebomb Extreme M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/251231641018335420787e9125123456.webp"
   },
   {
-    "Perfume": "324 - Jean Paul Gualtier La Belle F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c4f025045ce59b28693db54e67d96904.webp"
+    "Perfume": "153 - Stronger With You M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/351231641018335420787e9135123456.webp"
   },
   {
-    "Perfume": "332- Good Girl Very Glam 25ml",
-    "Venda": "R$79,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/46593cb4b12da2899c10d7500b26ccad.webp"
+    "Perfume": "154 - Terre D'Hermes M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/451231641018335420787e9145123456.webp"
   },
   {
-    "Perfume": "333 - Les Absolu Bois Mystérieux Guerlain - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/eeb36865e317cc61d75bbce9bc720bf1.webp"
+    "Perfume": "155 - Victoria's Secret Bombshell F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/551231644020131420787e9155123456.webp"
   },
   {
-    "Perfume": "334 - My Way Glitter - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8b5233ae660579582ef42ef4caf6601f.webp"
+    "Perfume": "156 - 212 VIP Rose Extra F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/651231644020131420787e9165123456.webp"
   },
   {
-    "Perfume": "335 - My Way Floral F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/921bd1d8b712bb2a33b5c714448c1cdc.webp"
+    "Perfume": "157 - Alien F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/751231644020131420787e9175123456.webp"
   },
   {
-    "Perfume": "336 - My Way Intense F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8975006d99b4d5d0d3ca23ee961973f1.webp"
+    "Perfume": "158 - Armani Si Passione F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/851231644020131420787e9185123456.webp"
   },
   {
-    "Perfume": "369 - Mefisto Xerjoff - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4164c66cdf256ba4d52ad983af34b23e.webp"
+    "Perfume": "159 - Black Opium F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/951231644020131420787e9195123456.webp"
   },
   {
-    "Perfume": "341 - Chloé Nômade F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/054c165eda3cc614a5783a50d3e0e45d.webp"
+    "Perfume": "160 - Dolce Garden F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/061231644020131420787e9106123456.webp"
   },
   {
-    "Perfume": "342 - Miss Dior Rose Essence - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/650b6c4e3bb1ab9f93c1904518ea4308.webp"
+    "Perfume": "161 - Good Girl Legere F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/161231644020131420787e9116123456.webp"
   },
   {
-    "Perfume": "343 - Chanel N0.1 L’eau Rouge F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/36159488ea367e70f8b87637d882c833.webp"
+    "Perfume": "162 - Hypnotic Poison F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/261231644020131420787e9126123456.webp"
   },
   {
-    "Perfume": "379 - 212 Héroes Skate M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/494d5488117563ad9ecfd2652f8e773d.webp"
+    "Perfume": "163 - Lady Million Privé F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/361231644020131420787e9136123456.webp"
   },
   {
-    "Perfume": "349 - Olympea Solar Paco Rabanne - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/fb32c8b253257617c88585770bee3507.webp"
+    "Perfume": "164 - Narciso Rodriguez For Her F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/461231644020131420787e9146123456.webp"
   },
   {
-    "Perfume": "357- Good Girl Midnight 25ml",
-    "Venda": "R$79,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0cc7b6731a7960d58bd4eb3cf8eac32e.webp"
+    "Perfume": "165 - Olympea Intense F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/561231644020131420787e9156123456.webp"
   },
   {
-    "Perfume": "365 - Fame Paco Rabanne F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/36c0a4eb79dc5195796f29545c1b69ce.webp"
+    "Perfume": "166 - Scandal By Night F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/661231644020131420787e9166123456.webp"
   },
   {
-    "Perfume": "367 - Valaya F 25 ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2141db1e51e8c5298feb5c69f8f235c5.webp"
+    "Perfume": "167 - Versace Bright Crystal F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/761231644020131420787e9176123456.webp"
   },
   {
-    "Perfume": "368 - Tom Ford Cherry Smoke - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b2196ff3c73c222f65f5a57ec992f69d.webp"
+    "Perfume": "168 - Versace Eros F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/861231644020131420787e9186123456.webp"
   },
   {
-    "Perfume": "370 - Versace Dylan Purple F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5d6222f51f02ab0ca28aec7085e98aae.webp"
+    "Perfume": "169 - 212 VIP Black Smiley M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/961231641018335420787e9196123456.webp"
   },
   {
-    "Perfume": "371 - Fantasy Naked F 25ml",
-    "Venda": "R$64,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0f62bc488361e61d0b48b10bb3f9375d.webp"
+    "Perfume": "170 - Azzaro Wanted By Night M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/071231641018335420787e9107123456.webp"
   },
   {
-    "Perfume": "374 - Black Opium Le Parfum - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/841d3ee7f658e869d9627992cdf7b05e.webp"
+    "Perfume": "171 - Bad Boy M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/171231641018335420787e9117123456.webp"
   },
   {
-    "Perfume": "378 - Fame Rosa Blomming Pink Paco Rabanne F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/697f0b2a3cc7e16f72bb64816d8ef6b3.webp"
+    "Perfume": "172 - Bleu de Chanel M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/271231641018335420787e9127123456.webp"
   },
   {
-    "Perfume": "379 - Gucci Bloom Intense - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d008fd7d7cfbcd2ad0e9fad8caa7bb5b.webp"
+    "Perfume": "173 - Eros Flame M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/371231641018335420787e9137123456.webp"
   },
   {
-    "Perfume": "692 - Givenchy L’interdit F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dadaa1a4a0ba9161cedb40799dd8d0b0.webp"
+    "Perfume": "174 - Invictus Victory M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/471231641018335420787e9147123456.webp"
   },
   {
-    "Perfume": "694 - Moschino Toy Boy Preto M 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5e69fb75d189bc805a5619fed55d2149.webp"
+    "Perfume": "175 - One Million Lucky M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/571231641018335420787e9157123456.webp"
   },
   {
-    "Perfume": "696 - Moschino Toy Boy 2 Branco F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/513f1dd7edef17a4dc1cb64b21e45a88.webp"
+    "Perfume": "176 - Phantom M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/671231641018335420787e9167123456.webp"
   },
   {
-    "Perfume": "408 - Rose Chérie Guerlain - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cc4cac58de4b83c6c1ec25b8683ff3ed.webp"
+    "Perfume": "177 - Sauvage Elixir M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/771231641018335420787e9177123456.webp"
   },
   {
-    "Perfume": "410 - Dolce & Gabanna Red F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/28342079b749b220cfb75fb5f8d60f55.webp"
+    "Perfume": "178 - Silver Scent Midnight M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/871231641018335420787e9187123456.webp"
   },
   {
-    "Perfume": "414 - Boucheron Quatre F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ece6a9dd23abe58f1e97192269e90bef.webp"
+    "Perfume": "179 - Toy Boy M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/971231641018335420787e9197123456.webp"
   },
   {
-    "Perfume": "415 - Fame Parfum F 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f8b5853cd74f7e694e3cc8d8bcd4d6ea.webp"
+    "Perfume": "180 - Armani Code M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/081231641018335420787e9108123456.webp"
   },
   {
-    "Perfume": "417 - Opium Rouge EDP - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/23444d768f74ab5e4a2f3715e742504c.webp"
+    "Perfume": "181 - Boss Bottled M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/181231641018335420787e9118123456.webp"
   },
   {
-    "Perfume": "424 - Olympea Extrait Parfum - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/413b5b5ce6945cc191591a53167daa05.webp"
+    "Perfume": "182 - Ferrari Black M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/281231641018335420787e9128123456.webp"
   },
   {
-    "Perfume": "434 - Kilian Angel’s Share F - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/caf5b2e92730902978b8e7979513d9e2.webp"
+    "Perfume": "183 - Invictus M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/381231641018335420787e9138123456.webp"
   },
   {
-    "Perfume": "436 - Louis Vuitton Ombre Nômade Noir - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/54f31e07ef1c092e627044a02216150a.webp"
+    "Perfume": "184 - One Million M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/481231641018335420787e9148123456.webp"
   },
   {
-    "Perfume": "479 - Louis Vuitton Imagination- 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/15b09025c52ef7025a334606e08bd469.webp"
+    "Perfume": "185 - Polo Blue M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/581231641018335420787e9158123456.webp"
   },
   {
-    "Perfume": "455 - Narciso Rodriguez Poudree - 25ml",
-    "Venda": "R$69,90",
-    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ce815cd4b3e9d6c1120572bcc495649f.webp"
+    "Perfume": "186 - Sauvage M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/681231641018335420787e9168123456.webp"
+  },
+  {
+    "Perfume": "187 - Silver Scent M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/781231641018335420787e9178123456.webp"
+  },
+  {
+    "Perfume": "188 - 212 VIP Black M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/881231641018335420787e9188123456.webp"
+  },
+  {
+    "Perfume": "189 - 212 VIP Men M 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/981231641018335420787e9198123456.webp"
+  },
+  {
+    "Perfume": "190 - 212 VIP Rose Smiley F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/091231644020131420787e9109123456.webp"
+  },
+  {
+    "Perfume": "191 - Good Girl Very F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/191231644020131420787e9119123456.webp"
+  },
+  {
+    "Perfume": "192 - Idôle F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/291231644020131420787e9129123456.webp"
+  },
+  {
+    "Perfume": "193 - Libre F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/391231644020131420787e9139123456.webp"
+  },
+  {
+    "Perfume": "194 - My Way F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/491231644020131420787e9149123456.webp"
+  },
+  {
+    "Perfume": "195 - Olympea Solar F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/591231644020131420787e9159123456.webp"
+  },
+  {
+    "Perfume": "196 - Scandal Le Parfum F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/691231644020131420787e9169123456.webp"
+  },
+  {
+    "Perfume": "197 - 212 VIP F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/791231644020131420787e9179123456.webp"
+  },
+  {
+    "Perfume": "198 - 212 VIP Rose F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/891231644020131420787e9189123456.webp"
+  },
+  {
+    "Perfume": "199 - Good Girl F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/991231644020131420787e9199123456.webp"
+  },
+  {
+    "Perfume": "200 - J'adore F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/002231644020131420787e9100223456.webp"
+  },
+  {
+    "Perfume": "201 - La Vie Est Belle F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/102231644020131420787e9110223456.webp"
+  },
+  {
+    "Perfume": "202 - Lady Million F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/202231644020131420787e9120223456.webp"
+  },
+  {
+    "Perfume": "203 - Olympea F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/302231644020131420787e9130223456.webp"
+  },
+  {
+    "Perfume": "204 - Scandal F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/402231644020131420787e9140223456.webp"
+  },
+  {
+    "Perfume": "204 - Scandal F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/402231644020131420787e9140223456.webp"
+  },
+  {
+    "Perfume": "301 - Invictus M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/103231641018335420787e9110323456.webp"
+  },
+  {
+    "Perfume": "302 - 212 VIP Men M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/203231641018335420787e9120323456.webp"
+  },
+  {
+    "Perfume": "303 - Silver Scent M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/303231641018335420787e9130323456.webp"
+  },
+  {
+    "Perfume": "304 - Ferrari Black M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/403231641018335420787e9140323456.webp"
+  },
+  {
+    "Perfume": "305 - Bad Boy M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/503231641018335420787e9150323456.webp"
+  },
+  {
+    "Perfume": "306 - Sauvage M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/603231641018335420787e9160323456.webp"
+  },
+  {
+    "Perfume": "307 - One Million M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/703231641018335420787e9170323456.webp"
+  },
+  {
+    "Perfume": "308 - 212 VIP Black M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/803231641018335420787e9180323456.webp"
+  },
+  {
+    "Perfume": "309 - Azzaro Pour Homme M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/903231641018335420787e9190323456.webp"
+  },
+  {
+    "Perfume": "310 - Polo Blue M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/013231641018335420787e9101323456.webp"
+  },
+  {
+    "Perfume": "311 - Boss Bottled M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/113231641018335420787e9111323456.webp"
+  },
+  {
+    "Perfume": "312 - Animale For Men M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/213231641018335420787e9121323456.webp"
+  },
+  {
+    "Perfume": "314 - Eros M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/413231641018335420787e9141323456.webp"
+  },
+  {
+    "Perfume": "315 - Bleu de Chanel M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/513231641018335420787e9151323456.webp"
+  },
+  {
+    "Perfume": "316 - Scandal Pour Homme M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/613231641018335420787e9161323456.webp"
+  },
+  {
+    "Perfume": "317 - Polo Sport M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/713231641018335420787e9171323456.webp"
+  },
+  {
+    "Perfume": "318 - Kouros M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/813231641018335420787e9181323456.webp"
+  },
+  {
+    "Perfume": "319 - Armani Code M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/913231641018335420787e9191323456.webp"
+  },
+  {
+    "Perfume": "320 - Le Male M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/023231641018335420787e9102323456.webp"
+  },
+  {
+    "Perfume": "321 - Invictus Victory M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/123231641018335420787e9112323456.webp"
+  },
+  {
+    "Perfume": "322 - Phantom M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/223231641018335420787e9122323456.webp"
+  },
+  {
+    "Perfume": "323 - Toy Boy M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/323231641018335420787e9132323456.webp"
+  },
+  {
+    "Perfume": "324 - 212 Sexy Men M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/423231641018335420787e9142323456.webp"
+  },
+  {
+    "Perfume": "325 - Fahrenheit M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/523231641018335420787e9152323456.webp"
+  },
+  {
+    "Perfume": "326 - One Million Elixir M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/623231641018335420787e9162323456.webp"
+  },
+  {
+    "Perfume": "327 - Terre D'Hermès M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/723231641018335420787e9172323456.webp"
+  },
+  {
+    "Perfume": "328 - 212 Heroes M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/823231641018335420787e9182323456.webp"
+  },
+  {
+    "Perfume": "329 - Silver Scent Intense M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/923231641018335420787e9192323456.webp"
+  },
+  {
+    "Perfume": "330 - Polo Black M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/033231641018335420787e9103323456.webp"
+  },
+  {
+    "Perfume": "331 - Acqua di Gió M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/133231641018335420787e9113323456.webp"
+  },
+  {
+    "Perfume": "332 - Joop Nightflight M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/233231641018335420787e9123323456.webp"
+  },
+  {
+    "Perfume": "333 - Montblanc Explorer M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/333231641018335420787e9133323456.webp"
+  },
+  {
+    "Perfume": "334 - One Million Royal M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/433231641018335420787e9143323456.webp"
+  },
+  {
+    "Perfume": "335 - Invictus Platinum M 25ml (Brand Collection)",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/533231641018335420787e9153323456.webp"
+  },
+  {
+    "Perfume": "451 - Libre Intense F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/154231644020131420787e9115423456.webp"
+  },
+  {
+    "Perfume": "452 - My Way Floral F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/254231644020131420787e9125423456.webp"
+  },
+  {
+    "Perfume": "453 - J'adore Parfum d'Eau F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/354231644020131420787e9135423456.webp"
+  },
+  {
+    "Perfume": "454 - Good Girl Blush F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/454231644020131420787e9145423456.webp"
+  },
+  {
+    "Perfume": "455 - Narciso Rodriguez Poudree F 25ml",
+    "Venda": "R$68,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/554231644020131420787e9155423456.webp"
   }
 ]
