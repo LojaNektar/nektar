@@ -1,12 +1,12 @@
 [
   {
     "Marca": "Afnan",
-    "Perfume": "9AM Dive EDP",
-    "Genero": "UNI",
+    "Perfume": "Souvenir Desert Rose",
+    "Genero": "FEM",
     "ml": "100 ml",
-    "Venda": "R$ 440,00",
-    "OBS": "Inspirado no Versace Dylan Blue",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/dive-bf3611113e0a6ea33517278953529759-1024-1024.webp"
+    "Venda": "R$ 375,90",
+    "OBS": "Fragância autoral",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos/4f10e58ba2f280d30c4659790f394d04.webp"
   },
   {
     "Marca": "Afnan",
@@ -118,6 +118,15 @@
   },
   {
     "Marca": "French Avenue",
+    "Perfume": "Spectre Ghost",
+    "Genero": "MASC",
+    "ml": "100 ml",
+    "Venda": "R$ 499,00",
+    "OBS": "Inspirado no Nishane Ani",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/ghost-9a4c5bdbd4b08d3db417212383363898-640-0.webp"
+  },
+  {
+    "Marca": "French Avenue",
     "Perfume": "Vulcan Feu",
     "Genero": "UNI",
     "ml": "100 ml",
@@ -205,6 +214,15 @@
     "Venda": "R$ 310,50",
     "OBS": "Inspirado em Lancôme La Vie Est Belle",
     "Imagem": "https://acdn-us.mitiendanube.com/stores/004/403/645/products/padrao-do-site-2025-04-17t081255-096-98cd8633daa061b7ea17448884302623-1024-1024.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Fakhar Platin EDP",
+    "Genero": "UNI",
+    "ml": "100 ml",
+    "Venda": "R$ 339,90",
+    "OBS": "Inspirado em Yves Saint Laurent Y Eau de Parfum",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos/890a370f2923df9b7d1e9809749b3101.webp"
   },
   {
     "Marca": "Lattafa",
@@ -349,5 +367,13 @@
     "Venda": "R$ 374,90",
     "OBS": "Inspirado no Hacivat Nishane",
     "Imagem": "https://www.domperfumes.com.br/cdn/shop/files/51qvwayoo1l-_ac_uf10001000_ql80.png?v=1751187207&width=600"
+  },
+  {
+    "Marca": "Rasasi",
+    "Perfume": "Hawas Elixir",
+    "Genero": "UNI",
+    "ml": "100 ml",
+    "Venda": "R$ 419,90",
+    "OBS": "Fragância autoral"
   }
 ]
