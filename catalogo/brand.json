@@ -722,7 +722,6 @@
   {
     "Perfume": "357 - Good Girl Midnight 25ml",
     "Venda": "R$ 79,90",
-    "Promocao_De": "R$ 94,90",
     "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0cc7b6731a7960d58bd4eb3cf8eac32e.webp"
   },
   {
@@ -738,7 +737,6 @@
   {
     "Perfume": "367 - Valaya F 25 ml",
     "Venda": "R$ 69,90",
-    "Promocao_De": "R$ 86,90",
     "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2141db1e51e8c5298feb5c39f8f235c5.webp"
   },
   {
@@ -753,9 +751,13 @@
   },
   {
     "Perfume": "371 - Fantasy Naked F 25ml",
-    "Venda": "R$ 34,90",
-    "Promocao_De": "R$ 69,90",
+    "Venda": "R$ 69,90",
     "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0f62bc488361e61d0b48b10bb3f9375d.webp"
+  },
+  {
+    "Perfume": "373 - Dolce & Gabbana Queen 25ml",
+    "Venda": "R$ 69,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6e78a57336cb625b39b7aa603aa3241c.webp"
   },
   {
     "Perfume": "374 - Black Opium Le Parfum 25ml",
@@ -831,6 +833,11 @@
     "Perfume": "417 - Opium Rouge EDP 25ml",
     "Venda": "R$ 69,90",
     "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/23444d768f74ab5e4a2f3715e742504c.webp"
+  },
+  {
+    "Perfume": "420 - Dior Etoile Bonne 25ml",
+    "Venda": "R$ 69,90",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/819b112bf03ec5783c10c1eb96d1e0a0.webp"
   },
   {
     "Perfume": "423 - Invictus Victory Extrait 25ml",
