@@ -87,7 +87,7 @@ const tenisBackup = [
     "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/f183617d-3681-448d-b2a5-342de31e1597-fac87c1f8a2c7f58f916480765806211-1024-1024.webp",
     "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/9832a9f9-ecb7-4134-ba89-89d6a507c951-ac9ebeff6417973e3a16493768226023-1024-1024.webp"
   },
-  {
+  /*{
     "Marca": "Mizuno",
     "Modelos": "MIZUNO PROPHECY 11",
     "Venda": "R$ 494,00",
@@ -119,6 +119,49 @@ const tenisBackup = [
   },
   {
     "Marca": "Mizuno",
+    "Modelos": "MIZUNO PROPHECY BETA 2",
+    "Venda": "R$ 479,00",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1742-1e626b05210baa184317091534519734-480-0.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1793-82977f8197cff4fcc717095674142571-480-0.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1728-2c19fb746a8653eb7f17090702393547-480-0.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1785-e407f8a91dd452cfa817091582328341-480-0.webp"
+  },
+  {
+    "Marca": "Mizuno",
+    "Modelos": "MIZUNO PROPHECY X",
+    "Venda": "R$ 469,90",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/6c1181cd-498e-4b0f-9e90-5b2579573290-9ae2d3291515e2109016424537914977-480-0.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/6b34b2d7-a2f2-4174-bd2d-e8280e797a93-2d03b4905eedb422d016425314126409-480-0.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/64c812f5-3d2c-4899-8cd3-0c3d6302ec9f-6d84cc45659ba013e916424538283810-480-0.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/5966a67f-a23d-4f16-9e80-28fbcfb23b46-b5897fe92d6ea0c3c316425313780458-480-0.webp",
+    "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/e7b29b4d-448c-4992-b5c2-8243f947fac4-182b2234f8baaa172316424589678428-480-0.webp",
+    "Imagem6": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/37be29db-03f9-422c-bcf9-39b8c4507a6f-b1c694f5ba04daa57916424507472417-480-0.webp"
+  },
+  */
+  {
+    "Marca": "Mizuno",
+    "Modelos": "MIZUNO PROPHECY 6,7,8,9",
+    "Venda": "R$ 494,90",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/2dd94f8b-2ad5-4d14-8bbf-6ced626056ff-aa8ee9b5c7a878caa916595313931947-1024-1024.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2777-207f61c9de6ed477f917108833957787-1024-1024.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2209-1686e111bfa031681317097581117306-1024-1024.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/2638e879-4d3f-4172-8159-e12eb27a0060-5cb56c7322e3bf068016357912043424-1024-1024.webp"
+  },
+  {
+    "Marca": "Mizuno",
+    "Modelos": "MIZUNO PROPHECY LS",
+    "Venda": "R$ 479,00",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00311-86a80e66517a1ee7f716879572764998-480-0.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00361-80ae7ff1096b4ca6fe16879569646258-480-0.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00251-56642657c7ea4cd2fd16879573704976-480-0.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00411-905a921468870dad6b16879570606203-480-0.webp"
+  },
+  {
+    "Marca": "Mizuno",
     "Modelos": "MIZUNO PROPHECY 13",
     "Venda": "R$ 474,50",
     "Tamanho": "38 - 43",
@@ -143,48 +186,20 @@ const tenisBackup = [
     "Imagem6": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2277-7c42927da66ad4ac8d17411960271500-480-0.webp",
     "Imagem7": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3529-364cfee3ff4c0a12d717430083943391-480-0.webp"
   },
-  {
+    {
     "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY 6,7,8,9",
-    "Venda": "R$ 494,90",
+    "Modelos": "MIZUNO PROPHECY 15",
+    "Venda": "R$ 549,00",
     "Tamanho": "38 - 43",
-    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/2dd94f8b-2ad5-4d14-8bbf-6ced626056ff-aa8ee9b5c7a878caa916595313931947-1024-1024.webp",
-    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2777-207f61c9de6ed477f917108833957787-1024-1024.webp",
-    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_2209-1686e111bfa031681317097581117306-1024-1024.webp",
-    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/2638e879-4d3f-4172-8159-e12eb27a0060-5cb56c7322e3bf068016357912043424-1024-1024.webp"
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4955-facd7529914b34fedd17703176717959-1024-1024.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4958-b4ca43ccd3cc809f6017703176403894-1024-1024.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4961-81630c59328e78b4f917703176113990-1024-1024.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4952-b91e213ae836de421f17703177045978-1024-1024.webp",
+    "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_6309-23aca1b85cfd96697517718711802361-1024-1024.webp",
+    "Imagem6": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4718-28aa688140ff61469b17700636349619-1024-1024.webp",
+    "Imagem7": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4716-ecc2deba058ffcc21917700636653354-1024-1024.webp"
   },
-  {
-    "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY BETA 2",
-    "Venda": "R$ 479,00",
-    "Tamanho": "38 - 43",
-    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1742-1e626b05210baa184317091534519734-480-0.webp",
-    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1793-82977f8197cff4fcc717095674142571-480-0.webp",
-    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1728-2c19fb746a8653eb7f17090702393547-480-0.webp",
-    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1785-e407f8a91dd452cfa817091582328341-480-0.webp"
-  },
-  {
-    "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY LS",
-    "Venda": "R$ 479,00",
-    "Tamanho": "38 - 43",
-    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00311-86a80e66517a1ee7f716879572764998-480-0.webp",
-    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00361-80ae7ff1096b4ca6fe16879569646258-480-0.webp",
-    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00251-56642657c7ea4cd2fd16879573704976-480-0.webp",
-    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_00411-905a921468870dad6b16879570606203-480-0.webp"
-  },
-  {
-    "Marca": "Mizuno",
-    "Modelos": "MIZUNO PROPHECY X",
-    "Venda": "R$ 469,90",
-    "Tamanho": "38 - 43",
-    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/6c1181cd-498e-4b0f-9e90-5b2579573290-9ae2d3291515e2109016424537914977-480-0.webp",
-    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/6b34b2d7-a2f2-4174-bd2d-e8280e797a93-2d03b4905eedb422d016425314126409-480-0.webp",
-    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/64c812f5-3d2c-4899-8cd3-0c3d6302ec9f-6d84cc45659ba013e916424538283810-480-0.webp",
-    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/5966a67f-a23d-4f16-9e80-28fbcfb23b46-b5897fe92d6ea0c3c316425313780458-480-0.webp",
-    "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/e7b29b4d-448c-4992-b5c2-8243f947fac4-182b2234f8baaa172316424589678428-480-0.webp",
-    "Imagem6": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/37be29db-03f9-422c-bcf9-39b8c4507a6f-b1c694f5ba04daa57916424507472417-480-0.webp"
-  },
+
   {
     "Marca": "New Balance",
     "Modelos": "NEW BALANCE 530",
@@ -477,7 +492,7 @@ const tenisBackup = [
     "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5280-af7bc642765d61c4b217605639515605-480-0.webp",
     "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3656-14f9cccc71f77dd1a417587510082997-480-0.webp"
   },
-  {
+  /*{
     "Marca": "Puma",
     "Modelos": "PUMA PALERMO",
     "Venda": "R$ 239,90",
@@ -487,7 +502,7 @@ const tenisBackup = [
     "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3667-365d9f01ffcf1b78f417431102675160-1024-1024.webp",
     "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3651-105bf2e631fd9546b617431102296014-1024-1024.webp",
     "Imagem6": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3658-43677671eaa1f7e94517431101942697-1024-1024.webp"
-  },
+  },*/
   {
     "Marca": "Puma",
     "Modelos": "PUMA SUEDE XL",
@@ -519,10 +534,11 @@ const tenisBackup = [
   },
   {
     "Marca": "Vans",
-    "Modelos": "VANS TRADICIONAL",
-    "Venda": "R$ 255,00",
-    "Tamanho": "34 - 43",
-    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0708-25a3c0eff63ba0210417066375969376-1024-1024.webp"
+    "Modelos": "VANS ULTRARANGE VR3",
+    "Venda": "R$ 280,00",
+    "Tamanho": "34 - 39",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_0077-08b46714372be1d35a17217732218709-1024-1024.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4481-4d7de0037815e8406317286623124586-1024-1024.webp"
   },
   {
     "Marca": "Vans",
