@@ -69,14 +69,31 @@
     "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1694-6020e06dddddf7d96217563161489178-1024-1024.webp",
     "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_1419-6a2155070f79d69fc217561415714624-1024-1024.webp"
   },
+    {
+    "Marca": "Asics",
+    "Modelos": "ASICS GEL NYC",
+    "Venda": "R$ 638,50",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7153-9ef5bdfa178010ccfc17728201255227-1024-1024.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7161-5d2a87f2ab2bbff3ca17728201511061-1024-1024.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7170-3d33a16a518f64109717728201767614-1024-1024.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7184-fdfda752eb34add4c817728202083356-1024-1024.webp",
+    "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7100-c1d4376035c794063a17728198430046-1024-1024.webp",
+    "Imagem6": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7126-518411b965bc35770c17728200622006-1024-1024.webp"
+  },
   {
     "Marca": "Lacoste",
     "Modelos": "LACOSTE T-CLIP SPORT",
-    "Venda": "R$ 310,50",
+    "Venda": "R$ 324,90",
     "Tamanho": "38 - 43",
-    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/ebfd0f44-45fa-4cd5-b787-f3fb6a5b31d2-fd597b9ffa67b1807016515081735539-1024-1024.webp",
-    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/f183617d-3681-448d-b2a5-342de31e1597-fac87c1f8a2c7f58f916480765806211-1024-1024.webp",
-    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/9832a9f9-ecb7-4134-ba89-89d6a507c951-ac9ebeff6417973e3a16493768226023-1024-1024.webp"
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7118-829295cc6ec9edd30d17728203937012-1024-1024.webp"
+  },
+  {
+    "Marca": "Lacoste",
+    "Modelos": "LACOSTE T-CLIP SPORT",
+    "Venda": "R$ 324,90",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_7108-37dc8178c0ccfbf6cb17728204675299-1024-1024.webp"
   },
   {
     "Marca": "Mizuno",
@@ -418,6 +435,17 @@
     "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3208-3014e8b6999bad83f717266803918992-480-0.webp",
     "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_4384-b01d2d20fbf1add8b517284318870961-480-0.webp",
     "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_3226-e00d36406710c540e017266039085778-480-0.webp"
+  },
+    {
+    "Marca": "Nike",
+    "Modelos": "NIKE ZOOM PEGASUS",
+    "Venda": "R$ 710,00",
+    "Tamanho": "38 - 43",
+    "Imagem1": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5133-92b6fb861de5c23bd917704000108487-1024-1024.webp",
+    "Imagem2": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5118-780fe1fffcd5f8556d17704005127661-1024-1024.webp",
+    "Imagem3": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5136-112ee2f43498727ff217703999768455-1024-1024.webp",
+    "Imagem4": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5130-b425ac09e6e93f85d717703999447954-1024-1024.webp",
+    "Imagem5": "https://acdn-us.mitiendanube.com/stores/001/909/072/products/img_5139-f253f826d6533ea37717703994053632-1024-1024.webp"
   },
   {
     "Marca": "On Cloud",
