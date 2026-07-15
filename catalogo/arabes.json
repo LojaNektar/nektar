@@ -8,6 +8,24 @@
     "OBS": "Fragância autoral",
     "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e89e76ac0e077a8c3ecdca6a046bd9fd.webp"
   },
+    {
+    "Marca": "Afnan",
+    "Perfume": "Historic Doria",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 340,90",
+    "OBS": "Fragância autoral",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b3a3829620cd921d601ff29a5324051f.webp"
+  },
+  {
+    "Marca": "Afnan",
+    "Perfume": "Historic Olmeda",
+    "Genero": "UNI",
+    "ml": "100 ml",
+    "Venda": "R$ 324,90",
+    "OBS": "Fragância autoral",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/007/305/027/products/img_9817-27f741e6b327609b2217775918378664-240-0.webp"
+  },
   {
     "Marca": "Afnan",
     "Perfume": "Souvenir Desert Rose",
@@ -136,6 +154,15 @@
   },
   {
     "Marca": "Armaf",
+    "Perfume": "Infinity Gold EDP",
+    "Genero": "FEM",
+    "ml": "105 ml",
+    "Venda": "R$ 470,00",
+    "OBS": "Inspirado no Million Gold For Her da Rabanne",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2e0de549e399e0fbd706daf563898e5e.webp"
+  },
+  {
+    "Marca": "Armaf",
     "Perfume": "Yum Yum EDP",
     "Genero": "FEM",
     "ml": "100 ml",
@@ -214,15 +241,6 @@
     "Venda": "R$ 360,00",
     "OBS": "Inspirado no Dior Sauvage Elixir",
     "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e42dbf9602572b4acbae5926ce1bbaad.webp"
-  },
-    {
-    "Marca": "Lattafa",
-    "Perfume": "Asad Bourbon EDP",
-    "Genero": "MASC",
-    "ml": "100 ml",
-    "Venda": "R$ 340,00",
-    "OBS": "Inspirado no Carolina Herrera Bad Boy Le Parfum",
-    "Imagem": "https://acdn-us.mitiendanube.com/stores/007/305/027/products/asad-bourbon-lattafa-eau-de-parfum-masculino-03-447f3324261fb7303417752377910827-1024-1024.webp"
   },
   {
     "Marca": "Lattafa",
@@ -342,6 +360,33 @@
     "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/yara-2af04e4a5977def71516968893462259-1024-1024.webp"
   },
   {
+    "Marca": "Lattafa",
+    "Perfume": "Sakeena EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 270,00",
+    "OBS": "",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/fc070d4050f67bc4e59c4888c3a4da6c.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Emaan EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 270,00",
+    "OBS": "",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8347870d89103d320303847762a31c15.webp"
+  },
+  {
+    "Marca": "Lattafa",
+    "Perfume": "Maahir Honor EDP",
+    "Genero": "UNI",
+    "ml": "100 ml",
+    "Venda": "R$ 384,90",
+    "OBS": "Inspirando no Xerjoff Torino",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/007/305/027/products/img_4670-f0928c1ab444053a6817824225341343-1024-1024.webp"
+  },
+  {
     "Marca": "Maison Alhambra",
     "Perfume": "Como Moiselle EDP",
     "Genero": "FEM",
@@ -361,12 +406,48 @@
   },
   {
     "Marca": "Maison Alhambra",
+    "Perfume": "La Voie EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 264,90",
+    "OBS": "Inspirado no My Way",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/007/305/027/products/img_6102-10de779d05d7b55dbb17751390392903-1024-1024.webp"
+  },
+  {
+    "Marca": "Maison Alhambra",
+    "Perfume": "La Vivacité Intensa EDP",
+    "Genero": "FEM",
+    "ml": "100 ml",
+    "Venda": "R$ 249,90",
+    "OBS": "Inspirado no La Vie Est Belle Intense",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/007/305/027/products/img_6102-10de779d05d7b55dbb17751390392903-1024-1024.webp"
+  },
+    {
+    "Marca": "Maison Alhambra",
+    "Perfume": "Alpine Homme Sport EDP",
+    "Genero": "MASC",
+    "ml": "100 ml",
+    "Venda": "R$ 270,00",
+    "OBS": "Inspirado no Allure Homme Sport",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2cb531e4338ebc0cb23af6cb8733325c.webp"
+  },
+  {
+    "Marca": "Maison Alhambra",
     "Perfume": "Perseus EDP",
     "Genero": "MASC",
     "ml": "100 ml",
     "Venda": "R$ 255,00",
     "OBS": "Inspirado no Pegasus da Parfums de Marly",
     "Imagem": "https://acdn-us.mitiendanube.com/stores/001/216/674/products/perseus-ma-37d53fc37e035ef6eb17091476184483-1024-1024.webp"
+  },
+  {
+    "Marca": "Maison Alhambra",
+    "Perfume": "NO.2 EDP",
+    "Genero": "MASC",
+    "ml": "100 ml",
+    "Venda": "R$ 215,00",
+    "OBS": "Inspirado no 212 Men",
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/007/305/027/products/img_6062-1733b645db7881c39617751093395518-480-0.webp"
   },
   {
     "Marca": "Maison Alhambra",
@@ -402,7 +483,16 @@
     "ml": "100 ml",
     "Venda": "R$ 374,90",
     "OBS": "Inspirado no Hacivat Nishane",
-    "Imagem": "https://www.domperfumes.com.br/cdn/shop/files/51qvwayoo1l-_ac_uf10001000_ql80.png?v=1751187207&width=600"
+    "Imagem": "https://acdn-us.mitiendanube.com/stores/007/305/027/products/img_7388-75539a796b210d3bba17761771698225-1024-1024.webp"
+  },
+  {
+    "Marca": "Rasasi",
+    "Perfume": "Hawas Kobra",
+    "Genero": "MASC",
+    "ml": "100 ml",
+    "Venda": "R$ 374,90",
+    "OBS": "Inspirado no Imagination da Louis Vuitton",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6de10df31f16aa5b036e8c549519d6c1.webp"
   },
   {
     "Marca": "Rasasi",
@@ -410,6 +500,7 @@
     "Genero": "UNI",
     "ml": "100 ml",
     "Venda": "R$ 419,90",
-    "OBS": "Fragância autoral"
+    "OBS": "Fragância autoral",
+    "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f7cb95af3235918b7d4573aba30878a5.webp"
   }
 ]
