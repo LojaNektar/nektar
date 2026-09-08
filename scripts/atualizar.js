@@ -49,6 +49,59 @@ function definirStatus(mensagem, tipo = "") {
   elemento.className = "status " + tipo;
 }
 
+function transformarVendiZap(retorno) {
+
+    console.log("========== RESPOSTA VENDIZAP ==========");
+    console.log(retorno);
+    console.log("Chaves da resposta:", Object.keys(retorno || {}));
+    console.log("listas:", retorno?.listas);
+    console.log(
+        "listaGaleria:",
+        retorno?.listas?.listaGaleria
+    );
+    console.log(
+        "É array?",
+        Array.isArray(retorno?.listas?.listaGaleria)
+    );
+    console.log("========================================");
+
+    if (
+        !retorno ||
+        !retorno.listas ||
+        !Array.isArray(retorno.listas.listaGaleria)
+    ) {
+        throw new Error(
+            "A resposta da VendiZap não possui listas.listaGaleria como array."
+        );
+    }
+
+    const produtos = retorno.listas.listaGaleria;
+
+    return produtos
+        .filter(produto => {
+
+            if (!produto || !produto.descricao) {
+                return false;
+            }
+
+            // Não importar produtos com "Decant" no nome
+            return !produto.descricao
+                .toLowerCase()
+                .includes("decant");
+        })
+        .map(produto => {
+
+            return {
+                Perfume: produto.descricao.trim(),
+
+                Venda: formatarPreco(
+                    calcularPreco(produto.preco)
+                ),
+
+                Imagem: obterImagem(produto)
+            };
+        });
+}
 
 function calcularPreco(preco) {
   if (preco === null || preco === undefined) {
