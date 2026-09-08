@@ -150,32 +150,7 @@ function obterImagem(produto) {
   return produto.imagens[0]?.link || "";
 }
 
-function transformarVendiZap(retorno) {
-    if (!retorno || !retorno.listas || !Array.isArray(retorno.listas.listaGaleria)) {
-        throw new Error(
-            "A resposta da VendiZap não possui listas.listaGaleria como array."
-        );
-    }
 
-    const produtos = retorno.listas.listaGaleria;
-    return produtos
-        .filter(produto => {
-            if (!produto || !produto.descricao) {
-                return false;
-            }
-            // Ignora decants
-            return !produto.descricao
-                .toLowerCase()
-                .includes("decant");
-        })
-        .map(produto => {
-            return {
-                Perfume: produto.descricao.trim(),
-                Venda: formatarPreco(calcularPreco(produto.preco)),
-                Imagem: obterImagem(produto)
-            };
-        });
-}
 
 function normalizarNome(nome) {
   return String(nome || "")
