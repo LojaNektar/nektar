@@ -234,6 +234,8 @@
 
       function renderizarCatalogo(lista) {
         const c = document.getElementById("catalogoContainer");
+        // Remove produtos desativados
+        lista = lista.filter((p) => p.Ativo !== false);
         let html = `<div class="row g-3">`;
 
         lista.forEach((p) => {
