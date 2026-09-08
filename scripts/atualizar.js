@@ -8,18 +8,19 @@ const CONFIG = {
   catalogos: {
     arabic: {
       nome: "Arabic",
-
       categoria: "67f96dec31eec05a330d4bcb",
-
       arquivo: "../catalogo/arabic.json",
     },
 
     brand: {
       nome: "Brand",
-
       categoria: "66eb7c36eaa70632845c4ca",
-
       arquivo: "../catalogo/brand.json",
+    },
+    bodysplash: {
+      nome: "Body Splash",
+      categoria: "66ecfd221a781479a43ac285",
+      arquivo: "../catalogo/bodysplash.json",
     },
   },
 };
@@ -150,39 +151,30 @@ function obterImagem(produto) {
 }
 
 function transformarVendiZap(retorno) {
-  const lista = retorno?.dados?.listas?.listaGaleria;
+    if (!retorno || !retorno.listas || !Array.isArray(retorno.listas.listaGaleria)) {
+        throw new Error(
+            "A resposta da VendiZap não possui listas.listaGaleria como array."
+        );
+    }
 
-  if (!Array.isArray(lista)) {
-    throw new Error(
-      "A resposta da VendiZap não possui dados.listas.listaGaleria como array.",
-    );
-  }
-
-  return (
-    lista
-
-      .filter((produto) => {
-        const nome = String(produto?.descricao || "").trim();
-
-        if (nome === "") {
-          return false;
-        }
-
-        return !nome.toLowerCase().includes("decant");
-      })
-
-      .map((produto) => {
-        const preco = calcularPreco(produto.preco);
-
-        return {
-          Perfume: String(produto.descricao).trim(),
-
-          Venda: formatarPreco(preco),
-
-          Imagem: obterImagem(produto),
-        };
-      })
-  );
+    const produtos = retorno.listas.listaGaleria;
+    return produtos
+        .filter(produto => {
+            if (!produto || !produto.descricao) {
+                return false;
+            }
+            // Ignora decants
+            return !produto.descricao
+                .toLowerCase()
+                .includes("decant");
+        })
+        .map(produto => {
+            return {
+                Perfume: produto.descricao.trim(),
+                Venda: formatarPreco(calcularPreco(produto.preco)),
+                Imagem: obterImagem(produto)
+            };
+        });
 }
 
 function normalizarNome(nome) {
