@@ -233,6 +233,7 @@
 
       function renderizarCatalogo(lista) {
         const c = document.getElementById("catalogoContainer");
+        lista = lista.filter((p) => p.Ativo !== false);
         let html = `<div class="row g-3">`;
 
         lista.forEach((p) => {
