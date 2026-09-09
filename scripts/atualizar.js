@@ -163,6 +163,7 @@ function normalizarNome(nome) {
   return String(nome || "")
     .trim()
     .toLowerCase()
+    .replace(/^[a-z]\d+\s*-\s*/i, "")
     .replace(/\s+/g, " ");
 }
 
