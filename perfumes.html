@@ -7,13 +7,14 @@
 	<title>Catálogo de Perfumes</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
-	
+
 	<style>
 		.carrinho-flutuante {
 			position: fixed;
 			bottom: 20px;
 			right: 20px;
-			background-color: #25D366; /* Cor do WhatsApp */
+			background-color: #25D366;
+			/* Cor do WhatsApp */
 			color: white;
 			border: none;
 			border-radius: 50px;
@@ -41,21 +42,22 @@
 			font-size: 0.9em;
 			line-height: 1;
 		}
-		
+
 		/* Ajuste para o botão no card */
 		.btn-add-carrinho {
-		    background-color: #198754; /* Verde do Success */
-		    color: white;
-		    border: none;
-		    transition: background-color 0.3s;
-			margin-top: 10px; 
+			background-color: #198754;
+			/* Verde do Success */
+			color: white;
+			border: none;
+			transition: background-color 0.3s;
+			margin-top: 10px;
 		}
-		
+
 		.btn-add-carrinho:hover {
-		    background-color: #157347;
-		    color: white;
+			background-color: #157347;
+			color: white;
 		}
-		
+
 		/* Garante que o card-body tenha padding na parte inferior */
 		.card-body {
 			padding-bottom: 15px !important;
@@ -65,12 +67,13 @@
 		.card[onclick] {
 			cursor: default !important;
 		}
-		
+
 		/* Estilo para o modal de carrinho */
 		#modalCarrinho .modal-footer {
 			border-top: none;
 			padding-top: 0;
 		}
+
 		#modalCarrinho .modal-body {
 			padding-bottom: 0;
 		}
@@ -86,10 +89,12 @@
 				<a href="index.html" class="btn-grad btn btn-outline-primary">Início</a>
 				<a href="perfumes.html" class="btn-grad btn btn-outline-primary">Importados</a>
 				<a href="arabes.html" class="btn-grad btn btn-outline-primary">Árabes</a>
-				<a href="brand.html" class="btn-grad btn btn-outline-primary">Brand Collection</a>
+				<a href="brand.html" class="btn-grad btn btn-outline-primary active">Brand Collection</a>
 				<a href="arabic.html" class="btn-grad btn btn-outline-primary active">Arabic Collection</a>
-				<!-- <a href="bodysplash.html" class="btn-grad btn btn-outline-primary">Body Splash</a>
-				<a href="tenis.html" class="btn-grad btn btn-outline-primary">Tênis</a> -->
+				<a href="bodysplash.html" class="btn-grad btn btn-outline-primary">Body Splash</a>
+				<a href="hidratantes.html" class="btn-grad btn btn-outline-primary">Hidratantes</a>
+				<a href="isabelle.html" class="btn-grad btn btn-outline-primary">Isabelle La Belle</a>
+				<!-- <a href="tenis.html" class="btn-grad btn btn-outline-primary">Tênis</a> -->
 			</nav>
 		</div>
 
@@ -126,7 +131,7 @@
 		</div>
 	</div>
 	<button id="abrirCarrinho" class="carrinho-flutuante" onclick="abrirModalCarrinho()">
-	    🛒 Meu Pedido (<span id="contadorCarrinho">0</span>)
+		🛒 Meu Pedido (<span id="contadorCarrinho">0</span>)
 	</button>
 	<div class="modal fade" id="modalCarrinho" tabindex="-1" aria-labelledby="modalCarrinhoLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered modal-lg">
@@ -137,7 +142,7 @@
 				</div>
 				<div class="modal-body">
 					<div id="itensCarrinhoLista">
-						</div>
+					</div>
 				</div>
 				<div class="modal-footer d-flex flex-column align-items-stretch">
 					<p class="h4 text-end mb-3" id="carrinhoTotal">Total Estimado: R$ 0,00</p>
@@ -156,7 +161,7 @@
 		const generos = { "MASC": "Masculino", "FEM": "Feminino", "UNI": "Unissex" };
 		const NUMERO_WHATSAPP = "5537998195214";
 		let carrinho = []; // Variável global para armazenar o carrinho
-		
+
 		// --- Funções de Carrinho (NOVAS) ---
 		function carregarCarrinho() {
 			try {
@@ -167,10 +172,10 @@
 			}
 			atualizarContadorCarrinho();
 		}
-		
+
 		function salvarCarrinho() {
-		    localStorage.setItem('carrinho', JSON.stringify(carrinho));
-		    atualizarContadorCarrinho();
+			localStorage.setItem('carrinho', JSON.stringify(carrinho));
+			atualizarContadorCarrinho();
 		}
 
 		function atualizarContadorCarrinho() {
@@ -186,30 +191,30 @@
 				marca: marca,
 				preco: venda,
 				tipo: tipo,
-				id: Date.now() 
+				id: Date.now()
 			};
 			carrinho.push(item);
 			salvarCarrinho();
 			alert(`${nome} (${marca}) foi adicionado ao seu pedido!`);
 		}
-		
+
 		function removerDoCarrinho(id) {
-		    // 1. Remove o item
-		    carrinho = carrinho.filter(item => item.id !== id);
-		    salvarCarrinho();
-		
-		    // 2. Verifica se o carrinho ficou vazio após a remoção
-		    if (carrinho.length === 0) {
-		        // Se estiver vazio, fecha o modal imediatamente
-		        const modalEl = document.getElementById('modalCarrinho');
-		        const modal = bootstrap.Modal.getInstance(modalEl);
-		        if (modal) modal.hide();
-		    } else {
-		        // Se ainda houver itens, re-renderiza a lista (mantendo o modal aberto)
-		        abrirModalCarrinho(true); 
-		    }
+			// 1. Remove o item
+			carrinho = carrinho.filter(item => item.id !== id);
+			salvarCarrinho();
+
+			// 2. Verifica se o carrinho ficou vazio após a remoção
+			if (carrinho.length === 0) {
+				// Se estiver vazio, fecha o modal imediatamente
+				const modalEl = document.getElementById('modalCarrinho');
+				const modal = bootstrap.Modal.getInstance(modalEl);
+				if (modal) modal.hide();
+			} else {
+				// Se ainda houver itens, re-renderiza a lista (mantendo o modal aberto)
+				abrirModalCarrinho(true);
+			}
 		}
-		
+
 		// Converte string de preço (R$ 1.000,00) para número (1000.00)
 		function stringParaFloat(precoStr) {
 			if (!precoStr) return 0;
@@ -226,16 +231,16 @@
 				}
 				return;
 			}
-			
+
 			// 2. Se houver itens, preenche o modal normalmente
 			const listaContainer = document.getElementById('itensCarrinhoLista');
 			let html = `<ul class="list-group list-group-flush">`;
 			let totalEstimado = 0;
-		
+
 			carrinho.forEach(item => {
 				const valorItem = stringParaFloat(item.preco);
 				totalEstimado += valorItem;
-		
+
 				html += `
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<div>
@@ -248,13 +253,13 @@
 					</li>
 				`;
 			});
-		
+
 			html += `</ul>`;
 			listaContainer.innerHTML = html;
-		
+
 			const totalFormatado = totalEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 			document.getElementById('carrinhoTotal').innerHTML = `Total Estimado: ${totalFormatado}`;
-			
+
 			if (!reabrir) {
 				// Apenas abre o modal se não estivermos apenas re-renderizando
 				const modal = new bootstrap.Modal(document.getElementById("modalCarrinho"));
@@ -263,37 +268,37 @@
 		}
 
 		function finalizarPedidoWhatsApp() {
-		    if (carrinho.length === 0) {
-		        alert("O carrinho está vazio. Adicione itens antes de finalizar.");
-		        return;
-		    }
-		
-		    let mensagem = "Olá! Gostaria de finalizar a compra dos seguintes itens:\n\n";
-		    let totalEstimado = 0;
-		
-		    carrinho.forEach((item, index) => {
-		        const valorItem = stringParaFloat(item.preco);
-		        totalEstimado += valorItem;
-		
-		        mensagem += `${index + 1}. [${item.tipo}] ${item.nome} (${item.marca}) - ${item.preco}\n`;
-		    });
-		
-		    const totalFormatado = totalEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
-		    
-		    mensagem += `\nTotal Estimado: ${totalFormatado}`;
-		    mensagem += `\n*Os valores são estimados. Favor confirmar disponibilidade e preço final.`;
-		
-		    const linkWhatsApp = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensagem)}`;
-		
+			if (carrinho.length === 0) {
+				alert("O carrinho está vazio. Adicione itens antes de finalizar.");
+				return;
+			}
+
+			let mensagem = "Olá! Gostaria de finalizar a compra dos seguintes itens:\n\n";
+			let totalEstimado = 0;
+
+			carrinho.forEach((item, index) => {
+				const valorItem = stringParaFloat(item.preco);
+				totalEstimado += valorItem;
+
+				mensagem += `${index + 1}. [${item.tipo}] ${item.nome} (${item.marca}) - ${item.preco}\n`;
+			});
+
+			const totalFormatado = totalEstimado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
+			mensagem += `\nTotal Estimado: ${totalFormatado}`;
+			mensagem += `\n*Os valores são estimados. Favor confirmar disponibilidade e preço final.`;
+
+			const linkWhatsApp = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensagem)}`;
+
 			// Fecha o modal antes de abrir o WhatsApp
 			const modalEl = document.getElementById('modalCarrinho');
 			const modal = bootstrap.Modal.getInstance(modalEl);
 			if (modal) modal.hide();
-			
-		    window.open(linkWhatsApp, '_blank');
+
+			window.open(linkWhatsApp, '_blank');
 		}
 
-		
+
 		// --- Funções de Renderização e Catálogo (Adaptadas) ---
 
 		// Monta a lista de marcas (botões e seções)
@@ -374,14 +379,14 @@
 				perfumes = await response.json();
 				renderizarMarcas(perfumes);
 				setTimeout(() => {
-			      const hash = window.location.hash.replace("#", "");
-			      if (hash) {
-			        const target = document.getElementById(hash);
-			        if (target) {
-			          target.scrollIntoView({ behavior: "smooth", block: "start" });
-			        }
-			      }
-			    }, 400); // aguarda o DOM renderizar
+					const hash = window.location.hash.replace("#", "");
+					if (hash) {
+						const target = document.getElementById(hash);
+						if (target) {
+							target.scrollIntoView({ behavior: "smooth", block: "start" });
+						}
+					}
+				}, 400); // aguarda o DOM renderizar
 			} catch (error) {
 				console.error("Erro ao carregar JSON:", error);
 			}
