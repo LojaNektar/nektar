@@ -80,11 +80,12 @@ function log(mensagem) {
  */
 function normalizarNome(nome) {
     return String(nome || "")
+        .replace(/\u00A0/g, " ")
         .trim()
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")
-        .replace(/^[a-z]\d+\s*-\s*/i, "")
+        .replace(/[^a-z0-9]+/g, " ")
         .replace(/\s+/g, " ")
         .trim();
 }
