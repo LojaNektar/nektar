@@ -92,9 +92,9 @@ function normalizarNome(nome) {
 /**
  * Calcula o preço de venda.
  *
- * 49,90 -> 40 + 39,90 = 79,90
- * 59,90 -> 50 + 39,90 = 89,90
- * 69,90 -> 60 + 39,90 = 99,90
+ * 49,90 -> 40 + 49,90 = 89,90
+ * 59,90 -> 50 + 49,90 = 99,90
+ * 69,90 -> 60 + 49,90 = 100,90
  */
 function calcularPreco(valor) {
     const numero = Number(valor);
@@ -106,7 +106,7 @@ function calcularPreco(valor) {
     const primeiraDezena =
         Math.floor(numero / 10) * 10;
 
-    return primeiraDezena + 39.9;
+    return primeiraDezena + 49.9;
 }
 
 /**
