@@ -3,6 +3,7 @@ const path = require("path");
 
 const CONFIG = {
   url: "https://app.vendizap.com/webservice/Vitrine/carregarVitrine",
+
   idUsuario: "66eafec34887036c5220fa95",
 
   categorias: [
@@ -13,7 +14,7 @@ const CONFIG = {
     },
     {
       nome: "Brand",
-      categoria: "66eb7c36eaa70632845c4ca5",
+      categoria: "66eb7c36eaa70632845c4ca",
       arquivo: "catalogo/brand.json",
     },
     {
@@ -21,24 +22,32 @@ const CONFIG = {
       categoria: "66ecfd221a781479a43ac285",
       arquivo: "catalogo/bodysplash.json",
     },
-    {
-      nome: "Hidratantes",
-      categoria: "68ce1c4484e32309023b6387",
-      arquivo: "catalogo/hidratantes.json",
-    },
-    {
-      nome: "Isabelle La Belle",
-      categoria: "680da10602180a328b77659a",
-      arquivo: "catalogo/isabelle.json",
-    },
   ],
 
-  // Segurança:
-  // Não permite substituir um catálogo por uma lista vazia.
-  permitirListaVazia: false,
+  /*
+   * Quantidade máxima de produtos por página.
+   *
+   * Descoberto através da resposta da API:
+   * qtdPaginaGerais = 40
+   */
+  produtosPorPagina: 40,
 
-  // Tempo máximo para aguardar a API.
+  /*
+   * Aparentemente a primeira página é 1.
+   */
+  paginaInicial: 1,
+
+  /*
+   * Tempo máximo para cada requisição.
+   */
   timeoutMs: 30000,
+
+  /*
+   * Segurança:
+   *
+   * Se a API retornar zero produtos, não altera o catálogo.
+   */
+  permitirListaVazia: false,
 };
 
 /**
@@ -53,12 +62,12 @@ function log(mensagem) {
  *
  * Exemplos:
  *
- * "A024 - Arabic Royal Amber - 25ml"
- * "Arabic Royal Amber - 25ml"
+ * A024 - Arabic Royal Amber - 25ml
+ * Arabic Royal Amber - 25ml
  *
  * tornam-se:
  *
- * "arabic royal amber - 25ml"
+ * arabic royal amber - 25ml
  */
 function normalizarNome(nome) {
   return String(nome || "")
@@ -85,40 +94,56 @@ function calcularPreco(valor) {
     return null;
   }
 
-  const primeiraDezena = Math.floor(numero / 10) * 10;
+  const primeiraDezena =
+    Math.floor(numero / 10) * 10;
 
   return primeiraDezena + 39.9;
 }
 
 /**
- * Formata o preço no padrão utilizado no catálogo.
+ * Formata o preço.
  */
 function formatarPreco(valor) {
-  return `R$ ${Number(valor).toFixed(2).replace(".", ",")}`;
+  return `R$ ${Number(valor)
+    .toFixed(2)
+    .replace(".", ",")}`;
 }
 
 /**
- * Lê o JSON atual do catálogo.
+ * Carrega o JSON atual.
  */
 function carregarJsonAtual(arquivo) {
-  const caminho = path.resolve(process.cwd(), arquivo);
+  const caminho = path.resolve(
+    process.cwd(),
+    arquivo
+  );
 
   if (!fs.existsSync(caminho)) {
-    log(`Arquivo não existe. Será criado: ${arquivo}`);
+    log(
+      `Arquivo não existe. Será criado: ${arquivo}`
+    );
+
     return [];
   }
 
   try {
-    const conteudo = fs.readFileSync(caminho, "utf8");
+    const conteudo =
+      fs.readFileSync(
+        caminho,
+        "utf8"
+      );
 
     if (!conteudo.trim()) {
       return [];
     }
 
-    const json = JSON.parse(conteudo);
+    const json =
+      JSON.parse(conteudo);
 
     if (!Array.isArray(json)) {
-      throw new Error("O conteúdo do JSON não é um array.");
+      throw new Error(
+        "O conteúdo do JSON não é um array."
+      );
     }
 
     return json;
@@ -130,93 +155,133 @@ function carregarJsonAtual(arquivo) {
 }
 
 /**
- * Salva o JSON atualizado.
+ * Salva o JSON.
  */
 function salvarJson(arquivo, dados) {
-  const caminho = path.resolve(process.cwd(), arquivo);
-  const diretorio = path.dirname(caminho);
+  const caminho = path.resolve(
+    process.cwd(),
+    arquivo
+  );
+
+  const diretorio =
+    path.dirname(caminho);
 
   if (!fs.existsSync(diretorio)) {
-    fs.mkdirSync(diretorio, { recursive: true });
+    fs.mkdirSync(
+      diretorio,
+      {
+        recursive: true,
+      }
+    );
   }
 
   fs.writeFileSync(
     caminho,
-    JSON.stringify(dados, null, 4) + "\n",
+    JSON.stringify(
+      dados,
+      null,
+      4
+    ) + "\n",
     "utf8"
   );
 }
 
 /**
- * Consulta os produtos de uma categoria no VendiZap.
- *
- * IMPORTANTE:
- * A requisição foi feita de forma equivalente ao AJAX
- * informado pelo usuário:
- *
- * {
- *   "idUsuario": "...",
- *   "categoria": [
- *      "..."
- *   ]
- * }
+ * Faz uma requisição para uma página específica
+ * do VendiZap.
  */
-async function consultarVendiZap(categoria) {
-  log(`Consultando VendiZap: ${categoria.nome}`);
-  log(`URL: ${CONFIG.url}`);
-  log(`Categoria: ${categoria.categoria}`);
-
+async function consultarPaginaVendiZap(
+  categoria,
+  pagina
+) {
   const dadosRequisicao = {
     idUsuario: CONFIG.idUsuario,
 
-    // IMPORTANTE:
-    // O VendiZap espera um ARRAY aqui.
-    categoria: [categoria.categoria],
+    /*
+     * IMPORTANTE:
+     * A API espera categoria como ARRAY.
+     */
+    categoria: [
+      categoria.categoria,
+    ],
+
+    /*
+     * Paginação descoberta na API.
+     */
+    qtdPaginaGerais:
+      CONFIG.produtosPorPagina,
+
+    paginaGerais: pagina,
   };
 
-  const corpo = JSON.stringify(dadosRequisicao);
+  const corpo =
+    JSON.stringify(
+      dadosRequisicao
+    );
 
-  log(`Payload: ${corpo}`);
+  log(
+    `Consultando ${categoria.nome} - página ${pagina}`
+  );
+
+  log(
+    `Payload: ${corpo}`
+  );
 
   let resposta;
 
   try {
-    resposta = await fetch(CONFIG.url, {
-      method: "POST",
+    resposta = await fetch(
+      CONFIG.url,
+      {
+        method: "POST",
 
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json",
-      },
+        headers: {
+          "Content-Type":
+            "application/json",
 
-      body: corpo,
+          "Accept":
+            "application/json",
+        },
 
-      signal: AbortSignal.timeout(CONFIG.timeoutMs),
-    });
+        body: corpo,
+
+        signal:
+          AbortSignal.timeout(
+            CONFIG.timeoutMs
+          ),
+      }
+    );
   } catch (erro) {
-    let mensagem = erro && erro.message
-      ? erro.message
-      : String(erro);
+    let mensagem =
+      erro &&
+      erro.message
+        ? erro.message
+        : String(erro);
 
     if (erro && erro.cause) {
       if (erro.cause.message) {
-        mensagem += ` | causa: ${erro.cause.message}`;
+        mensagem +=
+          ` | causa: ${erro.cause.message}`;
       }
 
       if (erro.cause.code) {
-        mensagem += ` | código: ${erro.cause.code}`;
+        mensagem +=
+          ` | código: ${erro.cause.code}`;
       }
 
       if (erro.cause.errno) {
-        mensagem += ` | errno: ${erro.cause.errno}`;
+        mensagem +=
+          ` | errno: ${erro.cause.errno}`;
       }
 
       if (erro.cause.syscall) {
-        mensagem += ` | syscall: ${erro.cause.syscall}`;
+        mensagem +=
+          ` | syscall: ${erro.cause.syscall}`;
       }
 
       if (erro.cause.hostname) {
-        mensagem += ` | host: ${erro.cause.hostname}`;
+        mensagem +=
+          ` | host: ${erro.cause.hostname}`;
       }
     }
 
@@ -232,7 +297,8 @@ async function consultarVendiZap(categoria) {
   let textoResposta = "";
 
   try {
-    textoResposta = await resposta.text();
+    textoResposta =
+      await resposta.text();
   } catch (erro) {
     throw new Error(
       `Não foi possível ler a resposta do VendiZap: ${erro.message}`
@@ -242,18 +308,27 @@ async function consultarVendiZap(categoria) {
   if (!resposta.ok) {
     throw new Error(
       `VendiZap retornou HTTP ${resposta.status} ${resposta.statusText}. ` +
-      `Resposta: ${textoResposta.substring(0, 1000)}`
+      `Resposta: ${textoResposta.substring(
+        0,
+        1000
+      )}`
     );
   }
 
   let retorno;
 
   try {
-    retorno = JSON.parse(textoResposta);
+    retorno =
+      JSON.parse(
+        textoResposta
+      );
   } catch (erro) {
     throw new Error(
       `VendiZap não retornou JSON válido. ` +
-      `Resposta: ${textoResposta.substring(0, 1000)}`
+      `Resposta: ${textoResposta.substring(
+        0,
+        1000
+      )}`
     );
   }
 
@@ -269,50 +344,200 @@ async function consultarVendiZap(categoria) {
     );
   }
 
-  if (!Array.isArray(retorno.listas.listaGaleria)) {
+  if (
+    !Array.isArray(
+      retorno.listas.listaGaleria
+    )
+  ) {
     throw new Error(
       "Resposta do VendiZap não possui 'listas.listaGaleria' como array."
     );
   }
 
-  const quantidadeRecebida =
-    retorno.listas.listaGaleria.length;
-
-  log(
-    `Produtos recebidos da API: ${quantidadeRecebida}`
-  );
-
   /*
-   * Proteção importante.
-   *
-   * Se a API responder corretamente, mas vier uma lista vazia,
-   * não vamos considerar que todos os produtos foram removidos.
+   * quantidadePaginacao representa
+   * a quantidade total de produtos.
    */
+  const quantidadeTotal =
+    Number(
+      retorno.quantidadePaginacao
+    );
+
   if (
-    CONFIG.permitirListaVazia === false &&
-    quantidadeRecebida === 0
+    !Number.isFinite(
+      quantidadeTotal
+    )
   ) {
     throw new Error(
-      "A API retornou listaGaleria vazia. " +
-      "O catálogo não será alterado por segurança."
+      "A resposta do VendiZap não possui 'quantidadePaginacao' válido."
     );
   }
+
+  log(
+    `Página ${pagina}: ${retorno.listas.listaGaleria.length} produtos`
+  );
+
+  log(
+    `Total informado pela API: ${quantidadeTotal}`
+  );
 
   return retorno;
 }
 
 /**
- * Converte os produtos do VendiZap para o formato do catálogo.
+ * Consulta TODAS as páginas de uma categoria.
  *
- * Também:
+ * Exemplo:
  *
- * - remove produtos sem descrição;
- * - remove decants;
- * - calcula o preço de venda;
- * - pega a primeira imagem.
+ * quantidadePaginacao = 67
+ * produtosPorPagina = 40
+ *
+ * Math.ceil(67 / 40) = 2
+ *
+ * Então:
+ *
+ * página 1
+ * página 2
  */
-function transformarVendiZap(retorno) {
-  const produtos = retorno.listas.listaGaleria;
+async function consultarVendiZap(categoria) {
+  /*
+   * Primeiro consulta a página inicial.
+   *
+   * Isso nos permite descobrir
+   * quantidadePaginacao.
+   */
+  const primeiraPagina =
+    await consultarPaginaVendiZap(
+      categoria,
+      CONFIG.paginaInicial
+    );
+
+  const primeiraLista =
+    primeiraPagina.listas
+      .listaGaleria;
+
+  const quantidadeTotal =
+    Number(
+      primeiraPagina.quantidadePaginacao
+    );
+
+  const totalPaginas =
+    Math.ceil(
+      quantidadeTotal /
+        CONFIG.produtosPorPagina
+    );
+
+  log("");
+  log(
+    `Total de produtos informado pela API: ${quantidadeTotal}`
+  );
+
+  log(
+    `Produtos por página: ${CONFIG.produtosPorPagina}`
+  );
+
+  log(
+    `Total de páginas: ${totalPaginas}`
+  );
+
+  /*
+   * Começamos com os produtos
+   * da primeira página.
+   */
+  const todosProdutos = [
+    ...primeiraLista,
+  ];
+
+  /*
+   * Consulta as demais páginas.
+   */
+  for (
+    let pagina =
+      CONFIG.paginaInicial + 1;
+    pagina <= totalPaginas;
+    pagina++
+  ) {
+    const retorno =
+      await consultarPaginaVendiZap(
+        categoria,
+        pagina
+      );
+
+    const produtosPagina =
+      retorno.listas.listaGaleria;
+
+    /*
+     * Se esperávamos produtos nessa página
+     * e a API retornou zero, consideramos
+     * a resposta inconsistente.
+     *
+     * Isso evita inativar produtos
+     * por uma resposta incompleta.
+     */
+    if (
+      produtosPagina.length === 0 &&
+      quantidadeTotal > 0
+    ) {
+      throw new Error(
+        `A API informou ${totalPaginas} páginas, ` +
+        `mas a página ${pagina} veio vazia. ` +
+        `O catálogo não será alterado.`
+      );
+    }
+
+    todosProdutos.push(
+      ...produtosPagina
+    );
+  }
+
+  /*
+   * Confere se recebemos aproximadamente
+   * a quantidade esperada.
+   *
+   * Não usamos igualdade rígida porque
+   * a API pode sofrer alterações durante
+   * a consulta.
+   */
+  if (
+    todosProdutos.length === 0 &&
+    quantidadeTotal > 0
+  ) {
+    throw new Error(
+      "A API informou produtos, mas nenhuma página retornou produtos."
+    );
+  }
+
+  log("");
+  log(
+    `Total de produtos coletados de todas as páginas: ${todosProdutos.length}`
+  );
+
+  return {
+    quantidadePaginacao:
+      quantidadeTotal,
+
+    quantidadePaginas:
+      totalPaginas,
+
+    produtos:
+      todosProdutos,
+  };
+}
+
+/**
+ * Transforma os produtos recebidos da API
+ * no formato do catálogo.
+ *
+ * Filtros:
+ *
+ * - sem descrição = ignora
+ * - contendo "decant" = ignora
+ */
+function transformarVendiZap(
+  dados
+) {
+  const produtos =
+    dados.produtos;
 
   const resultado = [];
 
@@ -320,13 +545,17 @@ function transformarVendiZap(retorno) {
   let ignoradosDecant = 0;
   let ignoradosPreco = 0;
 
-  for (const produto of produtos) {
-    const descricao = String(
-      produto.descricao || ""
-    ).trim();
+  for (
+    const produto
+    of produtos
+  ) {
+    const descricao =
+      String(
+        produto.descricao || ""
+      ).trim();
 
     /*
-     * Produto sem descrição não pode ser importado.
+     * Sem descrição.
      */
     if (!descricao) {
       ignoradosSemDescricao++;
@@ -334,7 +563,7 @@ function transformarVendiZap(retorno) {
     }
 
     /*
-     * Não importar decants.
+     * Decants.
      */
     if (
       descricao
@@ -345,7 +574,13 @@ function transformarVendiZap(retorno) {
       continue;
     }
 
-    const preco = calcularPreco(produto.preco);
+    /*
+     * Calcula preço.
+     */
+    const preco =
+      calcularPreco(
+        produto.preco
+      );
 
     if (preco === null) {
       log(
@@ -353,25 +588,38 @@ function transformarVendiZap(retorno) {
       );
 
       ignoradosPreco++;
+
       continue;
     }
 
+    /*
+     * Primeira imagem.
+     */
     const imagem =
       produto.imagens &&
-      Array.isArray(produto.imagens) &&
+      Array.isArray(
+        produto.imagens
+      ) &&
       produto.imagens.length > 0
-        ? produto.imagens[0].link || ""
+        ? produto.imagens[0].link ||
+          ""
         : "";
 
     resultado.push({
       Perfume: descricao,
-      Venda: formatarPreco(preco),
+
+      Venda:
+        formatarPreco(
+          preco
+        ),
+
       Imagem: imagem,
     });
   }
 
+  log("");
   log(
-    `Após filtros: ${resultado.length} produtos`
+    `Produtos válidos após filtros: ${resultado.length}`
   );
 
   log(
@@ -390,30 +638,33 @@ function transformarVendiZap(retorno) {
 }
 
 /**
- * Remove duplicidades dos produtos vindos da API.
- *
- * Se a própria API retornar:
- *
- * A024 - Arabic Royal Amber - 25ml
- * Arabic Royal Amber - 25ml
- *
- * os dois terão a mesma chave normalizada.
+ * Remove duplicidades dos produtos
+ * recebidos pela API.
  */
-function deduplicarProdutos(produtos) {
-  const mapa = new Map();
+function deduplicarProdutos(
+  produtos
+) {
+  const mapa =
+    new Map();
 
   let duplicados = 0;
 
-  for (const produto of produtos) {
-    const chave = normalizarNome(
-      produto.Perfume
-    );
+  for (
+    const produto
+    of produtos
+  ) {
+    const chave =
+      normalizarNome(
+        produto.Perfume
+      );
 
     if (!chave) {
       continue;
     }
 
-    if (mapa.has(chave)) {
+    if (
+      mapa.has(chave)
+    ) {
       duplicados++;
 
       log(
@@ -421,43 +672,25 @@ function deduplicarProdutos(produtos) {
       );
     }
 
-    /*
-     * Mantém a última informação recebida.
-     */
-    mapa.set(chave, produto);
+    mapa.set(
+      chave,
+      produto
+    );
   }
 
   return {
-    produtos: Array.from(mapa.values()),
+    produtos:
+      Array.from(
+        mapa.values()
+      ),
+
     duplicados,
   };
 }
 
 /**
- * Atualiza o catálogo atual utilizando os produtos
- * encontrados no VendiZap.
- *
- * Regras:
- *
- * 1. Produto encontrado:
- *    - mantém o objeto existente;
- *    - atualiza Perfume;
- *    - atualiza Venda;
- *    - atualiza Imagem;
- *    - Ativo = true.
- *
- * 2. Produto antigo que não está mais no VendiZap:
- *    - mantém todos os dados antigos;
- *    - Ativo = false.
- *
- * 3. Produto novo:
- *    - veio da API;
- *    - adiciona no final;
- *    - Ativo = true.
- *
- * 4. Produtos duplicados antigos:
- *    - mantém somente o primeiro;
- *    - remove as duplicidades.
+ * Compara o catálogo antigo
+ * com os produtos da API.
  */
 function compararCatalogos(
   catalogoAtual,
@@ -465,40 +698,56 @@ function compararCatalogos(
 ) {
   const resultado = [];
 
-  const deduplicacao = deduplicarProdutos(
-    produtosVendiZap
-  );
-
-  const produtosNovos = deduplicacao.produtos;
-
-  const mapaNovo = new Map();
-
-  for (const produto of produtosNovos) {
-    const chave = normalizarNome(
-      produto.Perfume
+  /*
+   * Primeiro remove duplicidades
+   * vindas da própria API.
+   */
+  const deduplicacao =
+    deduplicarProdutos(
+      produtosVendiZap
     );
+
+  const produtosNovos =
+    deduplicacao.produtos;
+
+  /*
+   * Mapa da API.
+   */
+  const mapaNovo =
+    new Map();
+
+  for (
+    const produto
+    of produtosNovos
+  ) {
+    const chave =
+      normalizarNome(
+        produto.Perfume
+      );
 
     if (!chave) {
       continue;
     }
 
-    mapaNovo.set(chave, produto);
+    mapaNovo.set(
+      chave,
+      produto
+    );
   }
 
   /*
-   * Guarda quais produtos do JSON antigo
-   * já foram processados.
+   * Guarda os produtos antigos
+   * já processados.
    */
-  const chavesProcessadas = new Set();
+  const chavesProcessadas =
+    new Set();
 
   /*
-   * Guarda quais produtos da API já foram
-   * efetivamente utilizados.
-   *
-   * Isso garante que somente produtos realmente
-   * vindos da API sejam adicionados como novos.
+   * Guarda os produtos da API
+   * encontrados no catálogo.
    */
-  const chavesEncontradas = new Set();
+  const chavesEncontradas =
+    new Set();
 
   let encontrados = 0;
   let inativos = 0;
@@ -512,18 +761,19 @@ function compararCatalogos(
    * PRIMEIRA ETAPA:
    *
    * Percorre o JSON existente.
-   *
-   * Isso mantém a ordem original dos produtos.
    */
-  for (const produtoAntigo of catalogoAtual) {
-    const nomeAntigo = String(
-      produtoAntigo.Perfume || ""
-    ).trim();
+  for (
+    const produtoAntigo
+    of catalogoAtual
+  ) {
+    const nomeAntigo =
+      String(
+        produtoAntigo.Perfume ||
+          ""
+      ).trim();
 
     /*
-     * Produto antigo sem nome.
-     *
-     * Mantemos para não apagar informação.
+     * Produto sem nome.
      */
     if (!nomeAntigo) {
       resultado.push({
@@ -536,16 +786,21 @@ function compararCatalogos(
       continue;
     }
 
-    const chave = normalizarNome(
-      nomeAntigo
-    );
+    const chave =
+      normalizarNome(
+        nomeAntigo
+      );
 
     /*
-     * Duplicidade no JSON antigo.
-     *
-     * Mantemos somente a primeira ocorrência.
+     * Se o JSON antigo possui
+     * duas versões do mesmo produto,
+     * mantém apenas a primeira.
      */
-    if (chavesProcessadas.has(chave)) {
+    if (
+      chavesProcessadas.has(
+        chave
+      )
+    ) {
       duplicadosRemovidos++;
 
       log(
@@ -555,40 +810,54 @@ function compararCatalogos(
       continue;
     }
 
-    chavesProcessadas.add(chave);
-
-    const produtoNovo = mapaNovo.get(chave);
+    chavesProcessadas.add(
+      chave
+    );
 
     /*
-     * PRODUTO ENCONTRADO NA API
+     * Procura na API.
+     */
+    const produtoNovo =
+      mapaNovo.get(
+        chave
+      );
+
+    /*
+     * ENCONTRADO NA API
      */
     if (produtoNovo) {
       /*
-       * IMPORTANTE:
-       *
-       * Mantemos o objeto antigo.
-       *
-       * Assim, caso futuramente você tenha outros campos
-       * personalizados no JSON, eles não serão apagados.
+       * Preserva o objeto antigo
+       * e seus demais campos.
        */
       const produtoAtualizado = {
         ...produtoAntigo,
 
-        Perfume: produtoNovo.Perfume,
-        Venda: produtoNovo.Venda,
-        Imagem: produtoNovo.Imagem,
+        Perfume:
+          produtoNovo.Perfume,
+
+        Venda:
+          produtoNovo.Venda,
+
+        Imagem:
+          produtoNovo.Imagem,
+
         Ativo: true,
       };
 
-      resultado.push(produtoAtualizado);
+      resultado.push(
+        produtoAtualizado
+      );
 
-      chavesEncontradas.add(chave);
+      chavesEncontradas.add(
+        chave
+      );
 
       encontrados++;
     }
 
     /*
-     * PRODUTO ANTIGO NÃO ENCONTRADO NA API
+     * NÃO ENCONTRADO NA API
      */
     else {
       resultado.push({
@@ -607,48 +876,70 @@ function compararCatalogos(
   /*
    * SEGUNDA ETAPA:
    *
-   * Adiciona somente produtos que:
-   *
-   * 1. vieram da API;
-   * 2. não existiam no JSON antigo.
+   * Adiciona somente produtos
+   * realmente vindos da API que
+   * não existiam no JSON antigo.
    */
-  for (const produtoNovo of produtosNovos) {
-    const chave = normalizarNome(
-      produtoNovo.Perfume
-    );
+  for (
+    const produtoNovo
+    of produtosNovos
+  ) {
+    const chave =
+      normalizarNome(
+        produtoNovo.Perfume
+      );
 
     if (!chave) {
       continue;
     }
 
     /*
-     * Já existia no JSON antigo.
+     * Já existia no JSON.
      */
-    if (chavesProcessadas.has(chave)) {
+    if (
+      chavesProcessadas.has(
+        chave
+      )
+    ) {
       continue;
     }
 
     /*
-     * Já foi encontrado anteriormente.
+     * Já encontrado.
      */
-    if (chavesEncontradas.has(chave)) {
+    if (
+      chavesEncontradas.has(
+        chave
+      )
+    ) {
       continue;
     }
 
     /*
-     * Produto NOVO.
+     * Produto realmente novo.
      *
-     * Ele só chegou aqui porque veio da API.
+     * Ele veio da API.
      */
     resultado.push({
-      Perfume: produtoNovo.Perfume,
-      Venda: produtoNovo.Venda,
-      Imagem: produtoNovo.Imagem,
+      Perfume:
+        produtoNovo.Perfume,
+
+      Venda:
+        produtoNovo.Venda,
+
+      Imagem:
+        produtoNovo.Imagem,
+
       Ativo: true,
     });
 
-    chavesProcessadas.add(chave);
-    chavesEncontradas.add(chave);
+    chavesProcessadas.add(
+      chave
+    );
+
+    chavesEncontradas.add(
+      chave
+    );
 
     novos++;
 
@@ -658,82 +949,117 @@ function compararCatalogos(
   }
 
   return {
-    catalogo: resultado,
+    catalogo:
+      resultado,
 
     estatisticas: {
-      totalAnterior: catalogoAtual.length,
-      totalVendiZap: produtosNovos.length,
+      totalAnterior:
+        catalogoAtual.length,
+
+      totalVendiZap:
+        produtosNovos.length,
+
       encontrados,
+
       novos,
+
       inativos,
+
       duplicadosRemovidos:
         duplicadosRemovidos +
         deduplicacao.duplicados,
-      totalFinal: resultado.length,
+
+      totalFinal:
+        resultado.length,
+
       produtosInativados,
+
       produtosAdicionados,
     },
   };
 }
 
 /**
- * Atualiza uma categoria completa.
+ * Atualiza uma categoria.
  */
-async function atualizarCategoria(config) {
+async function atualizarCategoria(
+  config
+) {
   log("");
-  log("========================================");
-  log(`Atualizando: ${config.nome}`);
-  log("========================================");
+  log(
+    "========================================"
+  );
+
+  log(
+    `Atualizando: ${config.nome}`
+  );
+
+  log(
+    "========================================"
+  );
 
   /*
-   * Primeiro lemos o JSON atual.
-   *
-   * Ainda não alteramos nada.
+   * Carrega o JSON atual.
    */
   const catalogoAtual =
-    carregarJsonAtual(config.arquivo);
+    carregarJsonAtual(
+      config.arquivo
+    );
 
   log(
     `Produtos atuais no JSON: ${catalogoAtual.length}`
   );
 
   /*
-   * Consulta a API.
+   * Consulta TODAS as páginas.
    *
-   * Se der erro, a função lança exceção
-   * e NÃO chegamos ao salvarJson().
+   * Se houver qualquer erro,
+   * esta função lança exceção
+   * e o JSON não é salvo.
    */
-  const retorno =
-    await consultarVendiZap(config);
+  const dadosVendiZap =
+    await consultarVendiZap(
+      config
+    );
 
   /*
-   * Só chegamos aqui se a API respondeu
-   * corretamente.
+   * Segurança adicional.
+   */
+  if (
+    !CONFIG.permitirListaVazia &&
+    dadosVendiZap.produtos.length === 0
+  ) {
+    throw new Error(
+      "A API retornou nenhum produto. O catálogo não será alterado por segurança."
+    );
+  }
+
+  /*
+   * Transforma os produtos.
    */
   const produtosVendiZap =
-    transformarVendiZap(retorno);
+    transformarVendiZap(
+      dadosVendiZap
+    );
 
   /*
-   * Proteção adicional.
-   *
-   * Caso todos os produtos tenham sido filtrados
-   * e a API tenha retornado produtos, não vamos
-   * automaticamente inativar todo o catálogo.
+   * Se havia produtos na API,
+   * mas todos foram eliminados
+   * pelos filtros, não vamos
+   * inativar todo o catálogo.
    */
   if (
     !CONFIG.permitirListaVazia &&
     produtosVendiZap.length === 0
   ) {
     throw new Error(
-      "Nenhum produto válido restou após os filtros. " +
-      "O catálogo não será alterado por segurança."
+      "Nenhum produto válido restou após os filtros. O catálogo não será alterado por segurança."
     );
   }
 
-  log(
-    `Produtos válidos para comparação: ${produtosVendiZap.length}`
-  );
-
+  /*
+   * Compara.
+   */
   const comparacao =
     compararCatalogos(
       catalogoAtual,
@@ -741,7 +1067,7 @@ async function atualizarCategoria(config) {
     );
 
   /*
-   * SOMENTE AGORA o JSON é salvo.
+   * SOMENTE agora salvamos.
    */
   salvarJson(
     config.arquivo,
@@ -752,14 +1078,28 @@ async function atualizarCategoria(config) {
     comparacao.estatisticas;
 
   log("");
-  log(`Resultado: ${config.nome}`);
+  log(
+    `Resultado: ${config.nome}`
+  );
 
   log(
     `- JSON anterior: ${stats.totalAnterior}`
   );
 
   log(
-    `- Produtos recebidos da API: ${stats.totalVendiZap}`
+    `- Total informado pela API: ${dadosVendiZap.quantidadePaginacao}`
+  );
+
+  log(
+    `- Total de páginas consultadas: ${dadosVendiZap.quantidadePaginas}`
+  );
+
+  log(
+    `- Produtos coletados: ${dadosVendiZap.produtos.length}`
+  );
+
+  log(
+    `- Produtos válidos: ${stats.totalVendiZap}`
   );
 
   log(
@@ -783,30 +1123,50 @@ async function atualizarCategoria(config) {
   );
 
   log(
-    `Arquivo: ${config.arquivo}`
+    `- Arquivo: ${config.arquivo}`
   );
 
   /*
-   * Lista produtos adicionados.
+   * Produtos adicionados.
    */
-  if (stats.produtosAdicionados.length > 0) {
+  if (
+    stats.produtosAdicionados.length >
+    0
+  ) {
     log("");
-    log("Produtos adicionados:");
+    log(
+      "Produtos adicionados:"
+    );
 
-    for (const nome of stats.produtosAdicionados) {
-      log(`  + ${nome}`);
+    for (
+      const nome
+      of stats.produtosAdicionados
+    ) {
+      log(
+        `  + ${nome}`
+      );
     }
   }
 
   /*
-   * Lista produtos inativados.
+   * Produtos inativados.
    */
-  if (stats.produtosInativados.length > 0) {
+  if (
+    stats.produtosInativados.length >
+    0
+  ) {
     log("");
-    log("Produtos inativados:");
+    log(
+      "Produtos inativados:"
+    );
 
-    for (const nome of stats.produtosInativados) {
-      log(`  - ${nome}`);
+    for (
+      const nome
+      of stats.produtosInativados
+    ) {
+      log(
+        `  - ${nome}`
+      );
     }
   }
 
@@ -814,49 +1174,91 @@ async function atualizarCategoria(config) {
 }
 
 /**
- * Executa todas as categorias.
+ * Atualiza todas as categorias.
  */
 async function atualizarCatalogos() {
-  log("========================================");
-  log("INÍCIO DA ATUALIZAÇÃO DOS CATÁLOGOS");
-  log("========================================");
+  log(
+    "========================================"
+  );
+
+  log(
+    "INÍCIO DA ATUALIZAÇÃO DOS CATÁLOGOS"
+  );
+
+  log(
+    "========================================"
+  );
 
   const resumo = [];
 
-  for (const categoria of CONFIG.categorias) {
+  for (
+    const categoria
+    of CONFIG.categorias
+  ) {
     try {
       const stats =
-        await atualizarCategoria(categoria);
+        await atualizarCategoria(
+          categoria
+        );
 
       resumo.push({
-        categoria: categoria.nome,
-        sucesso: true,
+        categoria:
+          categoria.nome,
+
+        sucesso:
+          true,
+
         stats,
       });
     } catch (erro) {
       console.error("");
 
       console.error(
-        `[ERRO] ${categoria.nome}: ${erro.message}`
+        `[CATÁLOGO] ❌ ${categoria.nome}: ERRO`
+      );
+
+      console.error(
+        `[CATÁLOGO]    ${erro.message}`
       );
 
       resumo.push({
-        categoria: categoria.nome,
-        sucesso: false,
-        erro: erro.message,
+        categoria:
+          categoria.nome,
+
+        sucesso:
+          false,
+
+        erro:
+          erro.message,
       });
     }
   }
 
   log("");
-  log("========================================");
-  log("RESUMO FINAL");
-  log("========================================");
+  log(
+    "========================================"
+  );
 
-  for (const item of resumo) {
+  log(
+    "RESUMO FINAL"
+  );
+
+  log(
+    "========================================"
+  );
+
+  for (
+    const item
+    of resumo
+  ) {
     if (!item.sucesso) {
-      log(`❌ ${item.categoria}: ERRO`);
-      log(`   ${item.erro}`);
+      log(
+        `❌ ${item.categoria}: ERRO`
+      );
+
+      log(
+        `   ${item.erro}`
+      );
 
       continue;
     }
@@ -868,7 +1270,8 @@ async function atualizarCatalogos() {
 
   const houveErro =
     resumo.some(
-      (item) => !item.sucesso
+      (item) =>
+        !item.sucesso
     );
 
   if (houveErro) {
@@ -878,21 +1281,43 @@ async function atualizarCatalogos() {
   }
 
   log("");
-  log("========================================");
-  log("ATUALIZAÇÃO CONCLUÍDA COM SUCESSO");
-  log("========================================");
+  log(
+    "========================================"
+  );
+
+  log(
+    "ATUALIZAÇÃO CONCLUÍDA COM SUCESSO"
+  );
+
+  log(
+    "========================================"
+  );
 }
 
 /**
- * Executa o processo.
+ * Executa.
  */
-atualizarCatalogos().catch((erro) => {
-  console.error("");
-  console.error("========================================");
-  console.error("ERRO FATAL");
-  console.error("========================================");
-  console.error(erro.message);
-  console.error("");
+atualizarCatalogos().catch(
+  (erro) => {
+    console.error("");
+    console.error(
+      "========================================"
+    );
 
-  process.exit(1);
-});
+    console.error(
+      "ERRO FATAL"
+    );
+
+    console.error(
+      "========================================"
+    );
+
+    console.error(
+      erro.message
+    );
+
+    console.error("");
+
+    process.exit(1);
+  }
+);
