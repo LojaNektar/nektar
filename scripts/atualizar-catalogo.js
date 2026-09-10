@@ -44,7 +44,7 @@ const CONFIG = {
     /*
      * Aparentemente a primeira página é 1.
      */
-    paginaInicial: 1,
+    paginaInicial: 0,
 
     /*
      * Tempo máximo para cada requisição.
