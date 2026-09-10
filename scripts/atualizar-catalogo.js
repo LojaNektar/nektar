@@ -13,13 +13,23 @@ const CONFIG = {
         },
         {
             nome: "Brand",
-            categoria: "66eb7c36eaa70632845c4ca",
+            categoria: "66eb7c36eaa70632845c4ca5",
             arquivo: "catalogo/brand.json",
         },
         {
             nome: "Body Splash",
             categoria: "66ecfd221a781479a43ac285",
             arquivo: "catalogo/bodysplash.json",
+        },
+        {
+            nome: "Hidratantes",
+            categoria: "68ce1c4484e32309023b6387",
+            arquivo: "catalogo/hidratantes.json",
+        },
+        {
+            nome: "Isabelle La Belle",
+            categoria: "680da10602180a328b77659a",
+            arquivo: "catalogo/isabelle.json",
         },
     ],
 
