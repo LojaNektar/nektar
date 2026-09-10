@@ -397,123 +397,130 @@ async function consultarPaginaVendiZap(
  * página 2
  */
 async function consultarVendiZap(categoria) {
+  /*
+   * Primeiro consulta a página inicial.
+   */
+  const primeiraPagina = await consultarPaginaVendiZap(
+    categoria,
+    CONFIG.paginaInicial
+  );
+
+  const primeiraLista =
+    primeiraPagina.listas.listaGaleria;
+
+  const quantidadeTotal =
+    Number(primeiraPagina.quantidadePaginacao);
+
+  const totalPaginas = Math.ceil(
+    quantidadeTotal / CONFIG.produtosPorPagina
+  );
+
+  log("");
+  log(
+    `Total de produtos informado pela API: ${quantidadeTotal}`
+  );
+
+  log(
+    `Produtos por página: ${CONFIG.produtosPorPagina}`
+  );
+
+  log(
+    `Total de páginas informado pela API: ${totalPaginas}`
+  );
+
+  /*
+   * Se a PRIMEIRA página vier vazia,
+   * não temos dados suficientes para atualizar
+   * o catálogo com segurança.
+   */
+  if (primeiraLista.length === 0) {
+    throw new Error(
+      "A primeira página da API veio vazia. O catálogo não será alterado."
+    );
+  }
+
+  /*
+   * Começa com os produtos da primeira página.
+   */
+  const todosProdutos = [
+    ...primeiraLista,
+  ];
+
+  /*
+   * Consulta as páginas seguintes.
+   */
+  for (
+    let pagina = CONFIG.paginaInicial + 1;
+    pagina <= totalPaginas;
+    pagina++
+  ) {
+    const retorno = await consultarPaginaVendiZap(
+      categoria,
+      pagina
+    );
+
+    const produtosPagina =
+      retorno.listas.listaGaleria;
+
     /*
-     * Primeiro consulta a página inicial.
+     * Se uma página posterior vier vazia,
+     * consideramos que chegamos ao fim.
      *
-     * Isso nos permite descobrir
-     * quantidadePaginacao.
+     * NÃO é erro.
+     *
+     * Processamos tudo o que já foi encontrado.
      */
-    const primeiraPagina =
-        await consultarPaginaVendiZap(
-            categoria,
-            CONFIG.paginaInicial
-        );
+    if (produtosPagina.length === 0) {
+      log("");
+      log(
+        `⚠️ Página ${pagina} veio vazia.`
+      );
 
-    const primeiraLista =
-        primeiraPagina.listas
-        .listaGaleria;
+      log(
+        `⚠️ Considerando a página ${pagina - 1} como a última página disponível.`
+      );
 
-    const quantidadeTotal =
-        Number(
-            primeiraPagina.quantidadePaginacao
-        );
-
-    const totalPaginas =
-        Math.ceil(
-            quantidadeTotal /
-            CONFIG.produtosPorPagina
-        );
-
-    log("");
-    log(
-        `Total de produtos informado pela API: ${quantidadeTotal}`
-    );
-
-    log(
-        `Produtos por página: ${CONFIG.produtosPorPagina}`
-    );
-
-    log(
-        `Total de páginas: ${totalPaginas}`
-    );
-
-    /*
-     * Começamos com os produtos
-     * da primeira página.
-     */
-    const todosProdutos = [
-        ...primeiraLista,
-    ];
-
-    /*
-     * Consulta as demais páginas.
-     */
-    for (
-        let pagina =
-            CONFIG.paginaInicial + 1; pagina <= totalPaginas; pagina++
-    ) {
-        const retorno =
-            await consultarPaginaVendiZap(
-                categoria,
-                pagina
-            );
-
-        const produtosPagina =
-            retorno.listas.listaGaleria;
-
-        /*
-         * Se esperávamos produtos nessa página
-         * e a API retornou zero, consideramos
-         * a resposta inconsistente.
-         *
-         * Isso evita inativar produtos
-         * por uma resposta incompleta.
-         */
-        if (
-            produtosPagina.length === 0 &&
-            quantidadeTotal > 0
-        ) {
-            throw new Error(
-                `A API informou ${totalPaginas} páginas, ` +
-                `mas a página ${pagina} veio vazia. ` +
-                `O catálogo não será alterado.`
-            );
-        }
-
-        todosProdutos.push(
-            ...produtosPagina
-        );
+      break;
     }
 
     /*
-     * Confere se recebemos aproximadamente
-     * a quantidade esperada.
-     *
-     * Não usamos igualdade rígida porque
-     * a API pode sofrer alterações durante
-     * a consulta.
+     * Adiciona os produtos encontrados
+     * nessa página.
      */
-    if (
-        todosProdutos.length === 0 &&
-        quantidadeTotal > 0
-    ) {
-        throw new Error(
-            "A API informou produtos, mas nenhuma página retornou produtos."
-        );
-    }
-
-    log("");
-    log(
-        `Total de produtos coletados de todas as páginas: ${todosProdutos.length}`
+    todosProdutos.push(
+      ...produtosPagina
     );
+  }
 
-    return {
-        quantidadePaginacao: quantidadeTotal,
+  log("");
+  log(
+    `Total de produtos coletados: ${todosProdutos.length}`
+  );
 
-        quantidadePaginas: totalPaginas,
+  log(
+    `Total de páginas efetivamente processadas: ${
+      todosProdutos.length > 0
+        ? Math.ceil(
+            todosProdutos.length /
+              CONFIG.produtosPorPagina
+          )
+        : 0
+    }`
+  );
 
-        produtos: todosProdutos,
-    };
+  /*
+   * Retorna tudo que foi encontrado.
+   */
+  return {
+    quantidadePaginacao:
+      quantidadeTotal,
+
+    quantidadePaginas:
+      totalPaginas,
+
+    produtos:
+      todosProdutos,
+  };
 }
 
 function limparDescricao(descricao) {
