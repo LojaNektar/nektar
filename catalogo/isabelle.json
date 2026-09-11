@@ -63,7 +63,7 @@
         "Perfume": "Body Splash Al Noble Safeer - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3c6a02801359b721ec77931ff6325729.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Amber Oud - 300ml",
@@ -471,7 +471,7 @@
         "Perfume": "Hidratante Allien Mugler - 200ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/86e3741390749b921c8ada32a2286ad8.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Hidratante Angel - 200ml",
