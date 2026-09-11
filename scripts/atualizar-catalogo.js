@@ -184,6 +184,18 @@ function salvarJson(arquivo, dados) {
         );
     }
 
+    dados.sort((a, b) => {
+        return String(a.Perfume || "")
+            .localeCompare(
+                String(b.Perfume || ""),
+                "pt-BR",
+                {
+                    sensitivity: "base",
+                    numeric: true
+                }
+            );
+    });
+
     fs.writeFileSync(
         caminho,
         JSON.stringify(
