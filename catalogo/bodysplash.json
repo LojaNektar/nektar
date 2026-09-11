@@ -18,21 +18,9 @@
         "Ativo": true
     },
     {
-        "Perfume": "Body Splash Brand 087 - Olympea - 250ml",
+        "Perfume": "Body Splash Brand 007 - J’adore - 250ml",
         "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/060473869f9669f405b0d226e7d8aade.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Brand 402 - Erba Pura - 250ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0bb1bc938ddf497dfae9fa30660c303f.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Brand 126 - Good Girl Tradicional - 250ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/879681dbee46c0e8e004eaeb6df54cdb.webp",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0673d1540a88ee59f43745fd975b19a4.webp",
         "Ativo": true
     },
     {
@@ -42,15 +30,33 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Brand 021 - Chanel Coco Mademoiselle - 250ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a1066556df1a9a169220226eb7f8d856.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Brand 087 - Olympea - 250ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/060473869f9669f405b0d226e7d8aade.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Brand 116 - Invictus Paco Rabanne - 250ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/897af0f653a4b0765982cff2a63f25f8.webp",
         "Ativo": true
     },
     {
-        "Perfume": "Body Splash Brand 021 - Chanel Coco Mademoiselle - 250ml",
+        "Perfume": "Body Splash Brand 126 - Good Girl Tradicional - 250ml",
         "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a1066556df1a9a169220226eb7f8d856.webp",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/879681dbee46c0e8e004eaeb6df54cdb.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Brand 151 - Parfums de Marly Delina - 250ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4c4a3a874070d30c328594dfd6bb072a.webp",
         "Ativo": true
     },
     {
@@ -66,9 +72,9 @@
         "Ativo": true
     },
     {
-        "Perfume": "Body Splash Brand 007 - J’adore - 250ml",
+        "Perfume": "Body Splash Brand 402 - Erba Pura - 250ml",
         "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0673d1540a88ee59f43745fd975b19a4.webp",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0bb1bc938ddf497dfae9fa30660c303f.webp",
         "Ativo": true
     },
     {
@@ -78,15 +84,57 @@
         "Ativo": true
     },
     {
-        "Perfume": "Body Splash Brand 151 - Parfums de Marly Delina - 250ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4c4a3a874070d30c328594dfd6bb072a.webp",
-        "Ativo": true
-    },
-    {
         "Perfume": "Body Splash Brand 445 - Prada Paradoxe - 250ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/50401514ecbc3ee7cf31d7054d491d62.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Dream Brand Bare Vanilla - 250ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/da9f58225e56ca44b59b615b3366ac83.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Dream Brand Collection Coconut Passion - 200ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7ea092b48830fefbb9ab60a8320f7532.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Dream Brand Collection Love Spell -200ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/01ffe3ff41db79e2f9e7ee43d65a9c0d.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Dream Brand Collection Pure Seduction -200ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/817b8b5c3f9f514f7c85f1e5328ae8ec.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Dream Brand Collection Strawberry and Champagne -200ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/33e2af0c95cd67bf5e9c6ae232943cda.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Dream Brand Pear Glace - 250ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0c8cab2169d1878dd61358e8a371f250.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Dream Brand Velvet Petals - 250ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a6d9f7aacba521edd577043f2c6b67cc.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Shimmer Dream Brand Bare Vanilla - 250ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/71f079a5371c8430753c8b5270d7eb74.webp",
         "Ativo": true
     },
     {
@@ -102,9 +150,9 @@
         "Ativo": true
     },
     {
-        "Perfume": "Body Splash ShimmerDream Brand Strawberries & Champagne - 250ml",
+        "Perfume": "Body Splash Shimmer Dream Brand Pure Seduction - 250ml",
         "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3b136494b36d8f26ece1da8c9bfcf384.webp",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/92a43af79d91a4b0f46fc646d3ecb161.webp",
         "Ativo": true
     },
     {
@@ -114,57 +162,9 @@
         "Ativo": true
     },
     {
-        "Perfume": "Body Splash Shimmer Dream Brand Pure Seduction - 250ml",
+        "Perfume": "Body Splash ShimmerDream Brand Strawberries & Champagne - 250ml",
         "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/92a43af79d91a4b0f46fc646d3ecb161.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Shimmer Dream Brand Bare Vanilla - 250ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/71f079a5371c8430753c8b5270d7eb74.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Dream Brand Bare Vanilla - 250ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/da9f58225e56ca44b59b615b3366ac83.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Dream Brand Velvet Petals - 250ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a6d9f7aacba521edd577043f2c6b67cc.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Dream Brand Pear Glace - 250ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0c8cab2169d1878dd61358e8a371f250.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Dream Brand Collection Strawberry and Champagne -200ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/33e2af0c95cd67bf5e9c6ae232943cda.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Dream Brand Collection Love Spell -200ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/01ffe3ff41db79e2f9e7ee43d65a9c0d.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Dream Brand Collection Coconut Passion - 200ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7ea092b48830fefbb9ab60a8320f7532.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Dream Brand Collection Pure Seduction -200ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/817b8b5c3f9f514f7c85f1e5328ae8ec.webp",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3b136494b36d8f26ece1da8c9bfcf384.webp",
         "Ativo": true
     }
 ]

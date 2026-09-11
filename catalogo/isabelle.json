@@ -1,269 +1,5 @@
 [
     {
-        "Perfume": "Body Splash Delilah Blanc - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/335c52b1da4880eea599e09da0f57399.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Queen Of Arábia - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dd23472240f4f75c54828fff68eaf85f.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Eclaire - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bd1b3e7e0afd6438eb437999f37f2a93.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Supremacy Collector Edition - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/616a95ddd0658e878a720c4c39676c5e.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Fakhar Rose Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e05224ef3ec053e35bf14d7a2de418d1.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Lá Vie Est Belle Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/52210d76cc1c21378daa453f78c92986.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Attar Al Wesal - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e413e1ab6cfbeff92de58604f3546046.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Idole - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ee731c1fc28a7ad2ef72dab06b71a2d0.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Maison Asrar Oh Honey - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/12c61dd7a4bbca6146c03150a7c67f60.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Sabah Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d55f4ae7c6c04f0db7f9ec10cbeb18c5.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Sabah Garden of Edèn - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a2cd648ab5dd5a97cec0212e99857fd9.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Sahah Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/81e795b3ce1dab81b65a86d963349cc1.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Atheeri Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/935078d63659c852a80f290604d8b312.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splah Yara Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ae6cc6e28463f89a7907e0bcee0befaa.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Afeef Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d928fdc107ba38515a8b9d33d2e7cbd9.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Vanilla Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d920af5e81bf8fa585f262c7f3d42b7a.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Lá Bomba Shimmer - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/760148e6117a749fa59f891dbe3f2a70.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Tharwah Gold - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8a941713cfc00fe37c0b99366c3dae2f.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Queen Of Arábia - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b425e1034a648beb0bc8944764ee8ba5.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Sabah Delilah - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5b056e1c9b6952a79b597281ce648e12.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta The Kingdom - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/08da4ab959d1474b792fc2dcbb7d94d1.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Marshmallow Blush - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/46eca90948623aa056d20578295db110.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Good Girl - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/645d0880bcdd6178e5b11cd2d86ba70c.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta J’adore - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1cdbdec334a7a8ed73c5f31414aee361.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Al Noble Wazeer - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f42915934eb1b2ce331809096ad034ce.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Lá Vie Est Belle (Lá Vida Es Bella) - 200gr",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e3c7cde706c6325df8cd4aac7d23e595.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Lá vida es bella - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5e99ff16043a5e66248ca062e623c4e2.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Veneno Bianco - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/95e6b6f78b1b9b10abe81d66570f8b71.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Sabah - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0e5b01145a7f28449617ac27a85514e6.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Yara Elixir - 200ml",
-        "Venda": "R$ 119,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e4c7440fbef7c89433a7321154063ec7.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Como Moiselle - 200ml",
-        "Venda": "R$ 119,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a5bf3b1782ad31e84637dc63db4b1e1a.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Delilah - 200ml",
-        "Venda": "R$ 119,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/be5008532608fe2e0cd078f0876cef8a.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Vanila - 200ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e0f7485fe0ca99d310b328ec4d52b49b.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Marshmallow Blush - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4e432c6dfeb2d4ce16d0ccb6b542e603.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Body Splash Sabah Valentine - 300ml",
-        "Venda": "R$ 109,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e83536b392b30e4ffeed76a46c5060aa.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Fakhar Black - 200ml",
-        "Venda": "R$ 119,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3f97d1cafefd948c6c496844cd6be6cd.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Yara Candy - 200ml",
-        "Venda": "R$ 119,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cf97804a4e64b6bc15dc757b0059ec02.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Candid - 200ml",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/67e3a2cade08a635610f3183c4918df2.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta Atheeri - 200ml",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/266f745cf7606529877ff97daf42e336.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Pasta La Bomba - 200ml",
-        "Venda": "R$ 159,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/eedfeff5f5ab45da837db1e01ce4de70.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Fakhar Gold - 15ml",
-        "Venda": "R$ 69,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/818beb8e24f7417eb4dd936e225ece38.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante La Vie Est Belle - 200ml",
-        "Venda": "R$ 99,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/356fee141fad1f6f5a5f5f0bd3df9863.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Salvo - 200ml",
-        "Venda": "R$ 119,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a2acd4c56ac889e45c0b257a0b2c107a.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Spectre Ghost - 15ml",
-        "Venda": "R$ 69,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4df60b1fafd1677e2b8d256b3aa9130c.webp",
-        "Ativo": true
-    },
-    {
         "Perfume": "9 Pm Rebel - 15ml",
         "Venda": "R$ 69,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6adf39afe6244a60c07d24e6a59c5646.webp",
@@ -306,9 +42,21 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splah Yara Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ae6cc6e28463f89a7907e0bcee0befaa.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Afeef - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e87df2afea648fe716f1f22dee3c3e4b.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Afeef Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d928fdc107ba38515a8b9d33d2e7cbd9.webp",
         "Ativo": true
     },
     {
@@ -366,6 +114,18 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Atheeri Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/935078d63659c852a80f290604d8b312.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Attar Al Wesal - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e413e1ab6cfbeff92de58604f3546046.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Club de Nuit Iconic - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cc90ad8c397990c8cbc2713ae664d9d6.webp",
@@ -414,6 +174,18 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Delilah Blanc - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/335c52b1da4880eea599e09da0f57399.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Eclaire - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bd1b3e7e0afd6438eb437999f37f2a93.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Erba Pura - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ceb8adb3f2422bf37109e862c64c1e58.webp",
@@ -438,9 +210,21 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Fakhar Rose Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e05224ef3ec053e35bf14d7a2de418d1.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Good Girl - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/35ec4b66f1f1059b42de5f7ac22c2760.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Idole - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ee731c1fc28a7ad2ef72dab06b71a2d0.webp",
         "Ativo": true
     },
     {
@@ -462,6 +246,24 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Lá Bomba Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/760148e6117a749fa59f891dbe3f2a70.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Lá vida es bella - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5e99ff16043a5e66248ca062e623c4e2.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Lá Vie Est Belle Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/52210d76cc1c21378daa453f78c92986.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Liquid Brun - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5aec50fe2d11011531c0329cdb4d4416.webp",
@@ -474,15 +276,57 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Maison Asrar Oh Honey - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/12c61dd7a4bbca6146c03150a7c67f60.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Marshmallow Blush - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4e432c6dfeb2d4ce16d0ccb6b542e603.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Queen Of Arábia - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dd23472240f4f75c54828fff68eaf85f.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Royal Amber - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/71b64033152a351491ed5f0d9215fcf3.webp",
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Sabah - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0e5b01145a7f28449617ac27a85514e6.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Sabah Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d55f4ae7c6c04f0db7f9ec10cbeb18c5.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Sabah Sugar - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1f575d8df36d9994f59ec73c92773d21.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Sabah Valentine - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e83536b392b30e4ffeed76a46c5060aa.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Sahah Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/81e795b3ce1dab81b65a86d963349cc1.webp",
         "Ativo": true
     },
     {
@@ -498,9 +342,33 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Supremacy Collector Edition - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/616a95ddd0658e878a720c4c39676c5e.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Tharwah Gold - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8a941713cfc00fe37c0b99366c3dae2f.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Vanilla - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1902a211844d98a020df4c4a318f2a79.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Vanilla Shimmer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d920af5e81bf8fa585f262c7f3d42b7a.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Veneno Bianco - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/95e6b6f78b1b9b10abe81d66570f8b71.webp",
         "Ativo": true
     },
     {
@@ -582,27 +450,15 @@
         "Ativo": true
     },
     {
+        "Perfume": "Fakhar Gold - 15ml",
+        "Venda": "R$ 69,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/818beb8e24f7417eb4dd936e225ece38.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Fakhar Rose - 15ml",
         "Venda": "R$ 69,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d250f8cb76697adfd21edde104ecb3d2.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Good Girl - 200ml",
-        "Venda": "R$ 99,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d2ae1086c71ebd397b1093a247a90fbc.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante Idole - 200ml",
-        "Venda": "R$ 99,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5c7bdb3f57bf6d21637881d8a5c87e8b.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "Hidratante L’interd - 200ml",
-        "Venda": "R$ 99,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a725cf9aca03fbddd5d685c309d6678d.webp",
         "Ativo": true
     },
     {
@@ -654,6 +510,24 @@
         "Ativo": true
     },
     {
+        "Perfume": "Hidratante Como Moiselle - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a5bf3b1782ad31e84637dc63db4b1e1a.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante Delilah - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/be5008532608fe2e0cd078f0876cef8a.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante Fakhar Black - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3f97d1cafefd948c6c496844cd6be6cd.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Hidratante Fakhar Rose - 200ml",
         "Venda": "R$ 119,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4ba735d819835de1c32344fdcc978948.webp",
@@ -672,9 +546,33 @@
         "Ativo": true
     },
     {
+        "Perfume": "Hidratante Good Girl - 200ml",
+        "Venda": "R$ 99,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d2ae1086c71ebd397b1093a247a90fbc.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante Idole - 200ml",
+        "Venda": "R$ 99,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5c7bdb3f57bf6d21637881d8a5c87e8b.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Hidratante Khamrah - 200ml",
         "Venda": "R$ 119,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c666cecb0294716421765d10a86409f0.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante L’interd - 200ml",
+        "Venda": "R$ 99,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a725cf9aca03fbddd5d685c309d6678d.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante La Vie Est Belle - 200ml",
+        "Venda": "R$ 99,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/356fee141fad1f6f5a5f5f0bd3df9863.webp",
         "Ativo": true
     },
     {
@@ -708,6 +606,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Hidratante Salvo - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a2acd4c56ac889e45c0b257a0b2c107a.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Hidratante Scandal - 200ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4a13e0c4cd45843fce1fb4a6bf46397e.webp",
@@ -717,6 +621,24 @@
         "Perfume": "Hidratante Silver Scent - 200ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/399ac42491654a990f8374dd28232f50.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante Vanila - 200ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e0f7485fe0ca99d310b328ec4d52b49b.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante Yara Candy - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cf97804a4e64b6bc15dc757b0059ec02.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante Yara Elixir - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e4c7440fbef7c89433a7321154063ec7.webp",
         "Ativo": true
     },
     {
@@ -744,6 +666,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "L’interd - 15ml",
+        "Venda": "R$ 69,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b618e94d3082e05f0990faa5dc54e61a.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Lady Million - 15ml",
         "Venda": "R$ 69,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7358fae1a3e493f6ef773a59c258814b.webp",
@@ -753,12 +681,6 @@
         "Perfume": "Liquid Brun - 15ml",
         "Venda": "R$ 69,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bf02e82a45a826021e5cd8b1a4fe9550.webp",
-        "Ativo": true
-    },
-    {
-        "Perfume": "L’interd - 15ml",
-        "Venda": "R$ 69,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b618e94d3082e05f0990faa5dc54e61a.webp",
         "Ativo": true
     },
     {
@@ -774,15 +696,15 @@
         "Ativo": true
     },
     {
-        "Perfume": "Pasta Angel - 200gr",
-        "Venda": "R$ 169,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1286b094b7b78ab785aa7801210a3dc6.webp",
-        "Ativo": true
-    },
-    {
         "Perfume": "Pasta Afeef - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cf9cee9c1057dde142f333a8a0d56930.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Al Noble Wazeer - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f42915934eb1b2ce331809096ad034ce.webp",
         "Ativo": true
     },
     {
@@ -798,6 +720,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Pasta Angel - 200gr",
+        "Venda": "R$ 169,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1286b094b7b78ab785aa7801210a3dc6.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Pasta Asad Bourbon - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0e8f33df4780b74903e42846cc9bd10d.webp",
@@ -810,9 +738,21 @@
         "Ativo": true
     },
     {
+        "Perfume": "Pasta Atheeri - 200ml",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/266f745cf7606529877ff97daf42e336.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Pasta Baccarat Rouge - 200gr",
         "Venda": "R$ 169,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5b1042d8205358227262aa37e54203fe.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Candid - 200ml",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/67e3a2cade08a635610f3183c4918df2.webp",
         "Ativo": true
     },
     {
@@ -852,15 +792,51 @@
         "Ativo": true
     },
     {
+        "Perfume": "Pasta Good Girl - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/645d0880bcdd6178e5b11cd2d86ba70c.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Pasta I Asad - 200gr",
         "Venda": "R$ 169,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0db436cce77acc990f2f93327fb2c4cb.webp",
         "Ativo": true
     },
     {
+        "Perfume": "Pasta J’adore - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1cdbdec334a7a8ed73c5f31414aee361.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta La Bomba - 200ml",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/eedfeff5f5ab45da837db1e01ce4de70.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Lá Vie Est Belle (Lá Vida Es Bella) - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e3c7cde706c6325df8cd4aac7d23e595.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Pasta Liquid Brun - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a0f7a187df0eea02d517d0e4c80898f4.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Marshmallow Blush - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/46eca90948623aa056d20578295db110.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Queen Of Arábia - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b425e1034a648beb0bc8944764ee8ba5.webp",
         "Ativo": true
     },
     {
@@ -876,6 +852,18 @@
         "Ativo": true
     },
     {
+        "Perfume": "Pasta Sabah Delilah - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5b056e1c9b6952a79b597281ce648e12.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Sabah Garden of Edèn - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a2cd648ab5dd5a97cec0212e99857fd9.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Pasta Sabah Sugar - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dc10081537a9d1d367e3c9c61848ab3a.webp",
@@ -885,6 +873,12 @@
         "Perfume": "Pasta Sabah Valentine - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b6c657d437ca43950e48541b7d9ebb28.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta The Kingdom - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/08da4ab959d1474b792fc2dcbb7d94d1.webp",
         "Ativo": true
     },
     {
@@ -933,6 +927,12 @@
         "Perfume": "Salvo - 15ml",
         "Venda": "R$ 69,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3fb50e76cda57d1cf930bbdfe1805e48.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Spectre Ghost - 15ml",
+        "Venda": "R$ 69,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4df60b1fafd1677e2b8d256b3aa9130c.webp",
         "Ativo": true
     },
     {
