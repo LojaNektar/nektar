@@ -79,9 +79,9 @@
     },
     {
         "Perfume": "Arabic Bade'e Al Oud Amethyst - 25ml",
-        "Venda": "R$ 79,90",
+        "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a07b4b7be120f9da0a75331c44958ed9.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Arabic Bade'e Al Oud for Glory -25ml",
@@ -193,9 +193,9 @@
     },
     {
         "Perfume": "Arabic Yara - 25ml",
-        "Venda": "R$ 79,90",
+        "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3aa9b388a62c8703a5d298a2fd6329ff.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Arabic Yara Candy - 25ml",
