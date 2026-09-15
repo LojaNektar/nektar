@@ -9,7 +9,7 @@
         "Perfume": "003 - Carolina Herrera F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b7cc18ef6bc37a058b12ffb326acd488.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "004 - Carolina Herrera M 25ml",
@@ -543,7 +543,7 @@
         "Perfume": "181 - Bad Boy 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ad55a6fe8ed936cb489f15f6c805d90e.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "188 - My Way F - 25ml",
@@ -591,7 +591,7 @@
         "Perfume": "203 - La Nuit Trésor A Lá Folie 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9c6b4d465a527f23d0c2050182a3de02.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "205 - Jean Divine 25ml",
@@ -825,7 +825,7 @@
         "Perfume": "309 - Hundred Silent Ways - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/24f054e8e674df749521a2cdaa60ac2d.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "311 - Versace Eros - 25ml",
