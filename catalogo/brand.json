@@ -87,7 +87,7 @@
         "Perfume": "021 - Chanel Coco Mademoiselle F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/56033ef5692bf8d4a253509dcff36690.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "022 - Marc Jacob’s Decadense - 25ml",
@@ -801,7 +801,7 @@
         "Perfume": "294 - Givenchy L’interdit Rouge F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3c110f0a1b4f39f1448ff5b966113c25.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "295 - Ariana Grande Cloud F 25ml",
