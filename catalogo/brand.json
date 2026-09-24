@@ -543,7 +543,7 @@
         "Perfume": "180 - Gucci Bloom Acqua Di Fiori - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6b5043082493ffd59d2188fc4d2a0d1d.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "181 - Bad Boy 25ml",
@@ -789,7 +789,7 @@
         "Perfume": "292 - La Vie Est Belle L’eau de Parfum F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1f9a65bd75994e41b7f688516136a7a2.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "293 - Idole Intense 25 ml",
@@ -855,7 +855,7 @@
         "Perfume": "320 - Chloé Naturelle - 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bb11af2064aae8c67ea13a536f443018.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "321 - Jean Paul Scandal M - 25ml",
