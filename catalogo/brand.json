@@ -453,7 +453,7 @@
         "Perfume": "152 - Meliora Perfums De Marly 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/318e40613914943f7107ed2c668f9537.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "153 - Jean Paul Lê male 25ml",
@@ -543,7 +543,7 @@
         "Perfume": "180 - Gucci Bloom Acqua Di Fiori - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6b5043082493ffd59d2188fc4d2a0d1d.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "181 - Bad Boy 25ml",
@@ -789,7 +789,7 @@
         "Perfume": "292 - La Vie Est Belle L’eau de Parfum F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1f9a65bd75994e41b7f688516136a7a2.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "293 - Idole Intense 25 ml",
