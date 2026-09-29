@@ -135,7 +135,7 @@
         "Perfume": "Body Splash Club de Nuit Intense - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7a44eb41e9892ec22ba6520e25c030a1.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Club de Nuit Maleka - 300ml",
@@ -321,7 +321,7 @@
         "Perfume": "Body Splash Queen Of Arábia - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dd23472240f4f75c54828fff68eaf85f.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Royal Amber - 300ml",
@@ -333,7 +333,7 @@
         "Perfume": "Body Splash Sabah - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0e5b01145a7f28449617ac27a85514e6.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Sabah Shimmer - 300ml",
