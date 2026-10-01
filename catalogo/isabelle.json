@@ -126,6 +126,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Attar Gold - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3c702381bacc8272a19068dd1d64feb7.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Club de Nuit Iconic - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cc90ad8c397990c8cbc2713ae664d9d6.webp",
@@ -135,7 +141,7 @@
         "Perfume": "Body Splash Club de Nuit Intense - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7a44eb41e9892ec22ba6520e25c030a1.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Club de Nuit Maleka - 300ml",
@@ -165,7 +171,7 @@
         "Perfume": "Body Splash Dalal - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/90812888cf6966768583181c9a773cb8.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Delilah - 300ml",
@@ -333,7 +339,7 @@
         "Perfume": "Body Splash Sabah - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0e5b01145a7f28449617ac27a85514e6.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Sabah Shimmer - 300ml",
@@ -525,7 +531,7 @@
         "Perfume": "Hidratante Asad Bourbon - 200ml",
         "Venda": "R$ 119,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d7d92c6cfc3ef2cf858579055c13a90e.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Hidratante Bad Boy - 200ml",
@@ -621,7 +627,7 @@
         "Perfume": "Hidratante My Way - 200ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/eef7152f391520d36dd88209cf0d32e1.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Hidratante Olympea - 200ml",
@@ -921,6 +927,12 @@
         "Perfume": "Pasta Sabah Valentine - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b6c657d437ca43950e48541b7d9ebb28.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Tharwah Gold - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e58238078c0ff3a5efd8d3f40378be03.webp",
         "Ativo": true
     },
     {
