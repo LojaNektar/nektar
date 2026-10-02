@@ -9,7 +9,7 @@
         "Perfume": "003 - Carolina Herrera F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b7cc18ef6bc37a058b12ffb326acd488.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "004 - Carolina Herrera M 25ml",
@@ -855,7 +855,7 @@
         "Perfume": "309 - Hundred Silent Ways - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/24f054e8e674df749521a2cdaa60ac2d.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "311 - Versace Eros - 25ml",
@@ -885,7 +885,7 @@
         "Perfume": "320 - Chloé Naturelle - 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bb11af2064aae8c67ea13a536f443018.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "321 - Jean Paul Scandal M - 25ml",
@@ -1173,7 +1173,7 @@
         "Perfume": "407 - Xerjoff Xj 1861 Naxos U - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c56d6814010635e99527787e7ff0f32c.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "408 - Rose Chérie Guerlain - 25ml",
@@ -1245,7 +1245,7 @@
         "Perfume": "435 - Burberry Goddness - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4bc7cd3bf8650858135899c205d5b91f.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "436 - Louis Vuitton Ombre Nômade Noir - 25ml",

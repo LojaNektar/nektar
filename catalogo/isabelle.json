@@ -777,7 +777,7 @@
         "Perfume": "Pasta Asad Elixir - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c8e6537fe3ca4214ef6e6624c2f4a7d7.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Pasta Atheeri - 200ml",
@@ -855,7 +855,7 @@
         "Perfume": "Pasta I Asad - 200gr",
         "Venda": "R$ 169,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0db436cce77acc990f2f93327fb2c4cb.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Pasta J’adore - 200gr",
