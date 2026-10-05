@@ -387,7 +387,7 @@
         "Perfume": "125 - Good Girl High Heel Red - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/051521d6f36150800fda552810513245.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "126- Good Girl Tradicional 25ml",
@@ -639,7 +639,7 @@
         "Perfume": "221 - Marc Jacobs Decadense (Bolsinha) - 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b37a182f3591726324c38d99eab67376.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "224 - Dolce & Gabbana K Men - 25ml",
@@ -837,7 +837,7 @@
         "Perfume": "296 - Phantom Paco Rabanne M 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5c510eab2349fe27b20969ed2fd94874.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "297- Good Girl Very 25ml",
