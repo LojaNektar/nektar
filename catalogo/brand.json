@@ -78,6 +78,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "018 - Hugo Boss Just Different M - 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/27800383622c73af5dcb926b04b1d629.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "020 - Dior Poison F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2ef1f59d18d4365df0b5c5a3d7122e5d.webp",
@@ -327,7 +333,7 @@
         "Perfume": "099 - Calvin Klein Euphoria Deep F 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/02e065a90675c383d3f26ef931208729.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "100 - Sauvage Dior M 25ml",
@@ -381,13 +387,13 @@
         "Perfume": "124 - Good Girl Glitter Collector - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cc69ec6ee5165263a9e3344aec8df69d.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "125 - Good Girl High Heel Red - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/051521d6f36150800fda552810513245.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "126- Good Girl Tradicional 25ml",
@@ -669,7 +675,7 @@
         "Perfume": "234 - Bulgari Petit El Mamans Bebe (Infantil) 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f91665d2dd5fbd54f74c890069a25e9c.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "235 - Bulgari Goldea F - 25ml",
@@ -939,6 +945,12 @@
         "Perfume": "332- Good Girl Very Glam 25ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/46593cb4b12da2899c10d7500b26ccad.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "334 - My Way Glitter - 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8b5233ae660547582ef42ef4caf6601f.webp",
         "Ativo": true
     },
     {
@@ -1341,6 +1353,12 @@
         "Perfume": "483 - Chanel Chance Splendide - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8fe4c60c9cdb320a87a3d5b75e4b1635.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "504 - Pista Crush - 25ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/817da94a2105d760494ef8288d165c37.webp",
         "Ativo": true
     }
 ]
