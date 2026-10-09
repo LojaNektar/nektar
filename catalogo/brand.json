@@ -51,7 +51,7 @@
         "Perfume": "011 - Angel Iced Star F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/482c53e72c7cdecb93f4330eb3ebfc7b.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "012 - La Vie Est Belle F 25ml",
@@ -393,7 +393,7 @@
         "Perfume": "125 - Good Girl High Heel Red - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/051521d6f36150800fda552810513245.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "126- Good Girl Tradicional 25ml",
@@ -1239,7 +1239,7 @@
         "Perfume": "433 - YSL Myself M - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/73bb2eeffa351fcb97c386ecbcbbced8.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "434 - Kilian Angel’s Share F - 25ml",
