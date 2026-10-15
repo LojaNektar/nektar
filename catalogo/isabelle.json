@@ -339,7 +339,7 @@
         "Perfume": "Body Splash Sabah - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0e5b01145a7f28449617ac27a85514e6.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Sabah Shimmer - 300ml",
@@ -369,7 +369,7 @@
         "Perfume": "Body Splash Sahah Shimmer - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/81e795b3ce1dab81b65a86d963349cc1.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Salvo - 300ml",
