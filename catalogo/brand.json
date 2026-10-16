@@ -147,7 +147,7 @@
         "Perfume": "032 - 212 VIP Man Club Edition - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a3f29629a12b010fcc7f729aeedc6271.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "034 - 212 VIP Rose Carolina Herrera F",
@@ -453,7 +453,7 @@
         "Perfume": "138 - Amor Amor F - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1f008450645c0498cc103343d652d00a.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "143 - Tom Ford Neroli Portofino - 25ml",
@@ -1047,7 +1047,7 @@
         "Perfume": "361 - Libre Intense - 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/80f54a8a750f582a5e42f6bdada130e5.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "365 - Fame Paco Rabanne F 25ml",
@@ -1113,7 +1113,7 @@
         "Perfume": "376 - Jean Paul Gualtier Le Beau - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c7d0e9e2563d89fa4bf386d906bca89d.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "377 - Xerjoff Alexandria lll F - 25ml",
