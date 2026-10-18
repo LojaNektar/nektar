@@ -66,6 +66,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Al Noble Wazeer - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2e05eecdd7772b2a3c277f639f65074b.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Amber Oud - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/add1e992cb49a1ed68513b5c7146f6f6.webp",
@@ -129,6 +135,18 @@
         "Perfume": "Body Splash Attar Gold - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3c702381bacc8272a19068dd1d64feb7.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Cedar Bunee - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/15fe62386d3169a1b6289486b1e5ab63.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Club de Nuit Élite - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ad6d33faf11570c831e8858458637464.webp",
         "Ativo": true
     },
     {
@@ -834,6 +852,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Pasta do Nayaat Lira - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ffe0b341406bd41bed4d7565f196e745.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Pasta Erba Pura (Pure Exclusive) - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/44dd0e090cfea1f96996c97213a59d74.webp",
@@ -933,6 +957,12 @@
         "Perfume": "Pasta Sabah Valentine - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b6c657d437ca43950e48541b7d9ebb28.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Supremacy Collector Edition - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dd006664461dcab73991e83ef1f43a7f.webp",
         "Ativo": true
     },
     {
