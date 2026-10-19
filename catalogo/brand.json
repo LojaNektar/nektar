@@ -687,7 +687,7 @@
         "Perfume": "234 - Bulgari Petit El Mamans Bebe (Infantil) 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f91665d2dd5fbd54f74c890069a25e9c.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "235 - Bulgari Goldea F - 25ml",
@@ -861,7 +861,7 @@
         "Perfume": "297- Good Girl Very 25ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ffc8c1446299267f765482af17b13708.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "303 - Dolce Gabbana Devotion Parfum - 25ml",
@@ -1071,7 +1071,7 @@
         "Perfume": "368 - Tom Ford Cherry Smoke - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b2196ff3c73c222f65f5a57ec992f39d.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "369 - Tom Ford Eletric Cherry - 25ml",
@@ -1161,7 +1161,7 @@
         "Perfume": "387 - The Most Wanted M - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/90b8da01864aad8ba32a92bfffea1792.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "389 - Lá Vie Est Belle Iris Absolu F 25ml",
@@ -1215,7 +1215,7 @@
         "Perfume": "410 - Dolce & Gabanna Red F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/28342079b749b220cfb75fb5f8d60f55.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "415 - Fame Parfum F 25ml",
