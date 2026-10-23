@@ -399,7 +399,7 @@
         "Perfume": "Body Splash Salvo - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2c9bcea8d0ad2dfc600d93f24ecd0ee4.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Spectre Ghost - 300ml",
@@ -615,7 +615,7 @@
         "Perfume": "Hidratante Good Girl - 200ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d2ae1086c71ebd397b1093a247a90fbc.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Hidratante Idole - 200ml",

@@ -321,7 +321,7 @@
         "Perfume": "092 - YSL Moon París F 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/68606b77a97c6e415511a55420b22d2c.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "093 - Dolce & Gabanna Light Blue F 25 ml",
@@ -687,7 +687,7 @@
         "Perfume": "234 - Bulgari Petit El Mamans Bebe (Infantil) 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f91665d2dd5fbd54f74c890069a25e9c.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "235 - Bulgari Goldea F - 25ml",
@@ -951,7 +951,7 @@
         "Perfume": "331 - Victoria’s Secret Bombshell Passion - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ca6340fd0e890c3562ff51285e8e9d0c.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "332- Good Girl Very Glam 25ml",
@@ -1071,7 +1071,7 @@
         "Perfume": "368 - Tom Ford Cherry Smoke - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b2196ff3c73c222f65f5a57ec992f39d.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "369 - Tom Ford Eletric Cherry - 25ml",
