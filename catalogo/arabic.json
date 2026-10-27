@@ -72,10 +72,16 @@
         "Ativo": true
     },
     {
+        "Perfume": "Arabic Asad Bourbon - 25ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3ea474e5d7184b9943c29f3c64c9699a.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Arabic Attar -25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/010def29407942735efdddb85c49c5c8.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Arabic Bade'e Al Oud Amethyst - 25ml",
@@ -144,6 +150,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Arabic Historic Doria - 25ml",
+        "Venda": "R$ 89,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b85baff6c76655c9b4d314ba2d38fe16.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Arabic Khamrah - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/52a4ac40ecbe7575ef14edb19ad43cf2.webp",
@@ -151,9 +163,9 @@
     },
     {
         "Perfume": "Arabic Musamam White - 25ml",
-        "Venda": "R$ 79,90",
+        "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/77ae78c9685b70c64caefcfe29daade5.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Arabic Nebras - 25ml",

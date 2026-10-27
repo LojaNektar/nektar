@@ -213,7 +213,7 @@
         "Perfume": "Body Splash Erba Pura - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ceb8adb3f2422bf37109e862c64c1e58.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Fakhar Black - 300ml",
@@ -417,7 +417,7 @@
         "Perfume": "Body Splash Tharwah Gold - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8a941713cfc00fe37c0b99366c3dae2f.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Vanilla - 300ml",

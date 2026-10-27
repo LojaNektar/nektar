@@ -213,7 +213,7 @@
         "Perfume": "061 - Dior Adict F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5618786b27f508574c79765e0bd9a875.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "062 - Nina Ricci Ricci F 25ml",
@@ -819,7 +819,7 @@
         "Perfume": "288 - Tiffany & Love F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6b8232aca22daa56ad13658801e082b7.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "289 - Marina Rouge Royal F 25ml",
@@ -837,7 +837,7 @@
         "Perfume": "293 - Idole Intense 25 ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/687647b6179fc30117d88c5a222bf6f7.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "294 - Givenchy L’interdit Rouge F 25ml",
@@ -855,7 +855,7 @@
         "Perfume": "296 - Phantom Paco Rabanne M 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5c510eab2349fe27b20969ed2fd94874.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "297- Good Girl Very 25ml",
@@ -867,7 +867,7 @@
         "Perfume": "303 - Dolce Gabbana Devotion Parfum - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a2ec30ff01ca931edd25d106fe16b283.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "309 - Hundred Silent Ways - 25ml",
@@ -1029,7 +1029,7 @@
         "Perfume": "351 - Versace Dylan Turquoise F 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/082d11ed52cf5b896325102633d63121.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "356 - J’adore White - 25ml",
@@ -1047,7 +1047,7 @@
         "Perfume": "361 - Libre Intense - 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/80f54a8a750f582a5e42f6bdada130e5.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "365 - Fame Paco Rabanne F 25ml",
@@ -1113,7 +1113,7 @@
         "Perfume": "376 - Jean Paul Gualtier Le Beau - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c7d0e9e2563d89fa4bf386d906bca89d.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "377 - Xerjoff Alexandria lll F - 25ml",
@@ -1233,7 +1233,7 @@
         "Perfume": "423 - Invictus Victory Extrait - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/630c9fd6574987fa8217486950cd57df.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "424 - Olympea Extrait Parfum - 25ml",
@@ -1293,7 +1293,7 @@
         "Perfume": "440 - Phantom Elixir - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/fdb585babd577566498523150d5cbcf0.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "443 - Bad Man Elixir - 25ml",
