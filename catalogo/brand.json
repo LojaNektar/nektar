@@ -756,6 +756,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "254 - Giorgio Armani Stronger With You - 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3580fc777001d548f1292443bb225b3f.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "256 - Lady Million Empire F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/05612794ade3e4922352d82a3cda4556.webp",
@@ -1077,7 +1083,7 @@
         "Perfume": "369 - Tom Ford Eletric Cherry - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/45e92b7ec6708e70e1ebbbb0265473fd.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "370 - Versace Dylan Purple F 25ml",
@@ -1251,6 +1257,18 @@
         "Perfume": "428 - Fame Intense - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a340fd77aef388599b9da05b8d06afb3.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "429 - Bvlgari Allegra Baciami - 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f099a94379c8003ceda4e806f037624e.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "430 - Bvlgari Riva Solare - 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/06c20cf4d8ac60a31f94378dc1a43c03.webp",
         "Ativo": true
     },
     {
