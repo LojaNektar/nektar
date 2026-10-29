@@ -51,7 +51,7 @@
         "Perfume": "Body Splash Afeef - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e87df2afea648fe716f1f22dee3c3e4b.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Afeef Shimmer - 300ml",
@@ -87,7 +87,7 @@
         "Perfume": "Body Splash Angel - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a26e110315844d79b209d894a86d7f8a.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Asad Bourbon - 300ml",
@@ -351,7 +351,7 @@
         "Perfume": "Body Splash Queen Of Arábia - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dd23472240f4f75c54828fff68eaf85f.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Royal Amber - 300ml",
