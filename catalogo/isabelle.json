@@ -123,7 +123,7 @@
         "Perfume": "Body Splash Atheeri Shimmer - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/935078d63659c852a80f290604d8b312.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Attar Al Wesal - 300ml",
@@ -189,7 +189,7 @@
         "Perfume": "Body Splash Dalal - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/90812888cf6966768583181c9a773cb8.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Delilah - 300ml",
