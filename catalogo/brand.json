@@ -403,8 +403,8 @@
     },
     {
         "Perfume": "126- Good Girl Tradicional 25ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/eaaa43b1b1aa7279b5f95e720d6bad08.webp",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c13d20c3445b8e0bdc9a24bcf3c59164.webp",
         "Ativo": true
     },
     {
@@ -1317,7 +1317,7 @@
         "Perfume": "443 - Bad Man Elixir - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6d20b94155d9191f776304b7a735bb90.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "444 - Fafá EDP - 25ml (Perfume para Pets, inspirado no Dolce & Gabbana Fefè)",
@@ -1335,7 +1335,7 @@
         "Perfume": "446 - Scandall Intense da Jean Paul Gualtier- 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b3111f31a4f990df5f44142917689ca6.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "447 - Louis Vuitton Imagination- 25ml",
