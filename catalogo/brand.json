@@ -9,7 +9,7 @@
         "Perfume": "003 - Carolina Herrera F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b7cc18ef6bc37a058b12ffb326acd488.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "004 - Carolina Herrera M 25ml",
@@ -405,7 +405,7 @@
         "Perfume": "126- Good Girl Tradicional 25ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c13d20c3445b8e0bdc9a24bcf3c59164.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "128 - Tragedy of The Marquis M 25ml",
@@ -1089,7 +1089,7 @@
         "Perfume": "370 - Versace Dylan Purple F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5d6222f51f02ab0ca28aec7085e98aae.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "372- Good Girl Gold Fantasy 25ml",
@@ -1329,7 +1329,7 @@
         "Perfume": "445 - Prada Paradoxe - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/497c14f231daa892a4fad6fb030669e8.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "446 - Scandall Intense da Jean Paul Gualtier- 25ml",
