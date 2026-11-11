@@ -201,7 +201,7 @@
         "Perfume": "057 - Valentino Valentina F - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3489fc03f97dff65681b0fa640b78323.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "060 - Narciso Rodriguez Parfum F 25ml",
@@ -909,7 +909,7 @@
         "Perfume": "311 - Versace Eros - 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3f316ff9cf25f314056a44ea83d44a2c.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "314 - Louis Vuitton California Dream F 25ml",
@@ -1239,7 +1239,7 @@
         "Perfume": "402 - Erba Pura F 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2bf0f86a4897e8b5b588dc86be9d7887.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "407 - Xerjoff Xj 1861 Naxos U - 25ml",
