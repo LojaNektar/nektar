@@ -45,7 +45,7 @@
         "Perfume": "Body Splah Yara Shimmer - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ae6cc6e28463f89a7907e0bcee0befaa.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Afeef - 300ml",
@@ -117,13 +117,13 @@
         "Perfume": "Body Splash Atheeri - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/83eef09aba69e71131e38c1ebb990603.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Atheeri Shimmer - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/935078d63659c852a80f290604d8b312.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Attar Al Wesal - 300ml",
@@ -189,7 +189,7 @@
         "Perfume": "Body Splash Dalal - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/90812888cf6966768583181c9a773cb8.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Delilah - 300ml",
@@ -213,13 +213,13 @@
         "Perfume": "Body Splash Erba Pura - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ceb8adb3f2422bf37109e862c64c1e58.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Fakhar Black - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/71c97c7ab5ea78048155c91c799bb8f7.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Fakhar Gold - 300ml",
@@ -255,7 +255,7 @@
         "Perfume": "Body Splash Invictus Paco Rabanne - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9ea7c1cc0853bddc9d2eb29476f8c3e2.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash J’adore - 300ml",
@@ -303,7 +303,7 @@
         "Perfume": "Body Splash Lattafa Musamam White - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f54d6ea9b73b4e95818b8d1cb95f07b8.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Liquid Brun - 300ml",
@@ -315,7 +315,7 @@
         "Perfume": "Body Splash Lira - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/65129c4e41a64159f8e0b52f66bf6b54.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Maison Alhambra The White Cloud - 300ml",
@@ -351,7 +351,7 @@
         "Perfume": "Body Splash Queen Of Arábia - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dd23472240f4f75c54828fff68eaf85f.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Royal Amber - 300ml",
@@ -447,7 +447,7 @@
         "Perfume": "Body Splash Vulcan Feu - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9e1e377a4001c2345c52a6177fb92987.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Yara Candy - 300ml",
