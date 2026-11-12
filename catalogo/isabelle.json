@@ -90,16 +90,22 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Armaf Club de Nuit Fuego - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/56ed0e8aef518fcf2bfedc7dbbe00e33.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Asad Bourbon - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7467fe413dd1875479db6a0d42fc7975.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Asad Elixir - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/493f0a67cbcf9c98176a07fad4a1594c.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Asad Zanzibar - 300ml",
@@ -300,6 +306,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Lattafa Fahad - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a40fe2338d8284f350978aa5545c1b92.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Lattafa Musamam White - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f54d6ea9b73b4e95818b8d1cb95f07b8.webp",
@@ -330,9 +342,33 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Maison Asrar Vanilla Voyage - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/db871deba90659cf058bbed165bce4a3.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Marshmallow Blush - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4e432c6dfeb2d4ce16d0ccb6b542e603.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Nayaat Nyra - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/88db82686d67c83889efec6705c47860.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Nayaat Vela - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bb63eb6974b257ce8a4e61742dcc920a.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Nishane Hacivat - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d6b1e444a3188883d66c80e427866f54.webp",
         "Ativo": true
     },
     {
@@ -468,6 +504,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Zaafaran Rafeef - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5ddc991623e0fbff452d0dee08a29279.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Chanel Coco Mademoiselle - 15ml",
         "Venda": "R$ 69,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cfa0e6becfe9106fd6e96ebc913fb6b5.webp",
@@ -531,6 +573,12 @@
         "Perfume": "Hidratante 212 Men Heroes - 200ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7e9e994c8cf4e4119e087078bc995143.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante Afeef - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/226550a5d49a0eb0903668a5e32290c4.webp",
         "Ativo": true
     },
     {
@@ -654,6 +702,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Hidratante Nayaat Lira - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e367147b11223ee3cdc44d21bbeda9d2.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Hidratante Olympea - 200ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3e2bb986fa636957f3e70e1c14c25b53.webp",
@@ -687,6 +741,12 @@
         "Perfume": "Hidratante Silver Scent - 200ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/399ac42491654a990f8374dd28232f50.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Hidratante Tharwah Gold - 200ml",
+        "Venda": "R$ 119,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3e2bf274a5aedbca89f3689502d966db.webp",
         "Ativo": true
     },
     {
@@ -789,6 +849,12 @@
         "Perfume": "Pasta Angel - 200gr",
         "Venda": "R$ 169,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1286b094b7b78ab785aa7801210a3dc6.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Armaf Club de Nuit Elite - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/22c384d1edfb6bc1b12aca66704f8300.webp",
         "Ativo": true
     },
     {
@@ -903,6 +969,12 @@
         "Perfume": "Pasta Lá Vie Est Belle (Lá Vida Es Bella) - 200gr",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e3c7cde706c6325df8cd4aac7d23e595.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Pasta Lattafa Eclaire - 200gr",
+        "Venda": "R$ 159,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3cf7cd9e67b15665edb6584668a93aeb.webp",
         "Ativo": true
     },
     {
