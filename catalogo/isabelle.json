@@ -51,7 +51,7 @@
         "Perfume": "Body Splash Afeef - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e87df2afea648fe716f1f22dee3c3e4b.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Afeef Shimmer - 300ml",
@@ -87,19 +87,19 @@
         "Perfume": "Body Splash Angel - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a26e110315844d79b209d894a86d7f8a.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Asad Bourbon - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7467fe413dd1875479db6a0d42fc7975.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Asad Elixir - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/493f0a67cbcf9c98176a07fad4a1594c.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Asad Zanzibar - 300ml",
@@ -159,7 +159,7 @@
         "Perfume": "Body Splash Club de Nuit Intense - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7a44eb41e9892ec22ba6520e25c030a1.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Club de Nuit Maleka - 300ml",
@@ -255,7 +255,7 @@
         "Perfume": "Body Splash Invictus Paco Rabanne - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9ea7c1cc0853bddc9d2eb29476f8c3e2.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash J’adore - 300ml",
@@ -399,7 +399,7 @@
         "Perfume": "Body Splash Salvo - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2c9bcea8d0ad2dfc600d93f24ecd0ee4.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Spectre Ghost - 300ml",
@@ -417,7 +417,7 @@
         "Perfume": "Body Splash Tharwah Gold - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8a941713cfc00fe37c0b99366c3dae2f.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Vanilla - 300ml",
@@ -435,7 +435,7 @@
         "Perfume": "Body Splash Veneno Bianco - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/95e6b6f78b1b9b10abe81d66570f8b71.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Victoria - 300ml",
@@ -789,7 +789,7 @@
         "Perfume": "Pasta Angel - 200gr",
         "Venda": "R$ 169,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1286b094b7b78ab785aa7801210a3dc6.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Pasta Asad Bourbon - 200ml",

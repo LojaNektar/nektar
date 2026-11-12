@@ -9,7 +9,7 @@
         "Perfume": "003 - Carolina Herrera F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b7cc18ef6bc37a058b12ffb326acd488.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "004 - Carolina Herrera M 25ml",
@@ -201,7 +201,7 @@
         "Perfume": "057 - Valentino Valentina F - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3489fc03f97dff65681b0fa640b78323.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "060 - Narciso Rodriguez Parfum F 25ml",
@@ -255,6 +255,12 @@
         "Perfume": "070 - Bleu de Chanel M 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8efcc2d257a9986b63460a071e6b276a.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "073 - Poison Girl F 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/64f453d0e3ef006b2647cf35dcf56d06.webp",
         "Ativo": true
     },
     {
@@ -465,7 +471,7 @@
         "Perfume": "138 - Amor Amor F - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1f008450645c0498cc103343d652d00a.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "143 - Tom Ford Neroli Portofino - 25ml",
@@ -552,6 +558,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "174 - Polo Blue - 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/061c8831dd189bdb2b045bae4f37c8fc.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "175 - Azzaro Pour Home M - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/92c44e4c7f9d95289dfcccaf48c59e45.webp",
@@ -615,13 +627,13 @@
         "Perfume": "193 - Good Girl Velvet - Fem. - 25ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/afc72c5ca3c57169bdebf8b542bd87f5.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "194 - 212 VIP Sexy - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/26ea8985d2cd5d4e7ddf4357160a563c.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "202 - Black XS M - 25ml",
@@ -663,7 +675,7 @@
         "Perfume": "216 - Kenzo Flower F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a400fc986fc108fe22b4fa18e6c0f30c.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "220 - Giorgio Armani Acqua di Giò Profumo - 25ml",
@@ -699,6 +711,12 @@
         "Perfume": "230 - Jimmy Choo Fem - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/1cf9560417f18e6e69d364a162bfc3dc.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "231 - YSL Y M 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5ce0e51f0e7b36b72a87dc46feaab69d.webp",
         "Ativo": true
     },
     {
@@ -912,6 +930,12 @@
         "Ativo": false
     },
     {
+        "Perfume": "312 - Guerlain Cherry Blossom - 25ml",
+        "Venda": "R$ 79,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/07692244b83c2b2fd1babf6748a43c3a.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "314 - Louis Vuitton California Dream F 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/e1e97c706008e425da026f0c75dc3e2f.webp",
@@ -975,7 +999,7 @@
         "Perfume": "329 - Fame Couture - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/82acf2f8007192b4b6a957e1b1733c8e.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "331 - Victoria’s Secret Bombshell Passion - 25ml",
@@ -1065,7 +1089,7 @@
         "Perfume": "356 - J’adore White - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/322964a8457a744791490a1c14647be5.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "357- Good Girl Midnight 25ml",
@@ -1239,7 +1263,7 @@
         "Perfume": "402 - Erba Pura F 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/2bf0f86a4897e8b5b588dc86be9d7887.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "407 - Xerjoff Xj 1861 Naxos U - 25ml",
