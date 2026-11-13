@@ -427,8 +427,8 @@
     },
     {
         "Perfume": "126- Good Girl Tradicional 25ml",
-        "Venda": "R$ 89,90",
-        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/eaaa43b1b1aa7279b5f95e720d6bad08.webp",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c13d20c3445b8e0bdc9a24bcf3c59164.webp",
         "Ativo": true
     },
     {
@@ -1011,7 +1011,7 @@
         "Perfume": "331 - Victoria’s Secret Bombshell Passion - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ca6340fd0e890c3562ff51285e8e9d0c.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "332- Good Girl Very Glam 25ml",
