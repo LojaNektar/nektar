@@ -33,7 +33,7 @@
         "Perfume": "A037 - Arabic Sakeena - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a1678c97e92d9e1ed09f2af011f5ae72.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "A040 - Arabic Dânia - 25ml",
@@ -123,7 +123,7 @@
         "Perfume": "Arabic Emaan - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/f954258c7bd6b628259b07c83fa0c658.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Arabic Emeer - 25ml",
@@ -165,7 +165,7 @@
         "Perfume": "Arabic Musamam White - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/77ae78c9685b70c64caefcfe29daade5.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Arabic Nebras - 25ml",
