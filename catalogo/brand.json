@@ -651,7 +651,7 @@
         "Perfume": "203 - La Nuit Trésor A Lá Folie 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9c6b4d465a527f23d0c2050182a3de02.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "205 - Jean Divine 25ml",
@@ -765,7 +765,7 @@
         "Perfume": "240 - Ex Nihilo Fleur Narcotique - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3bcc8c2e69f536db42558f2730799449.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "242 - Versace Eros M - 25 ml",
