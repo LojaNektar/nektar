@@ -87,7 +87,7 @@
         "Perfume": "Body Splash Angel - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/a26e110315844d79b209d894a86d7f8a.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Armaf Club de Nuit Fuego - 300ml",
@@ -99,7 +99,7 @@
         "Perfume": "Body Splash Asad Bourbon - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7467fe413dd1875479db6a0d42fc7975.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Asad Elixir - 300ml",
@@ -141,6 +141,24 @@
         "Perfume": "Body Splash Attar Gold - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3c702381bacc8272a19068dd1d64feb7.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Belle Amal (INFANTIL) - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9be7259123cbca599b0f76b5cae4844b.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Belle NouNou (INFANTIL) - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/10864f5c4d8ea48a8d7ddae10d91a346.webp",
+        "Ativo": true
+    },
+    {
+        "Perfume": "Body Splash Belle Nour (INFANTIL) - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/74c139a8156f5bc3a21ddd52d48912c1.webp",
         "Ativo": true
     },
     {
@@ -201,7 +219,7 @@
         "Perfume": "Body Splash Delilah - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ee3e322a859cb11dd1d589637eb325ab.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Delilah Blanc - 300ml",
@@ -345,7 +363,7 @@
         "Perfume": "Body Splash Maison Asrar Vanilla Voyage - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/db871deba90659cf058bbed165bce4a3.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Marshmallow Blush - 300ml",
@@ -375,7 +393,7 @@
         "Perfume": "Body Splash One Million - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/49e2f773239458dba40bc57946cb3d73.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Orientica Amber Noir - 300ml",
@@ -387,7 +405,7 @@
         "Perfume": "Body Splash Queen Of Arábia - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/dd23472240f4f75c54828fff68eaf85f.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Royal Amber - 300ml",
@@ -438,6 +456,12 @@
         "Ativo": true
     },
     {
+        "Perfume": "Body Splash Sarah (Lattafa Nebras) - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/88d3329cd4054b52c3d3333c4b6562d1.webp",
+        "Ativo": true
+    },
+    {
         "Perfume": "Body Splash Spectre Ghost - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/3f685515b29f3f2a256c2298b89aa6dd.webp",
@@ -447,7 +471,7 @@
         "Perfume": "Body Splash Supremacy Collector Edition - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/616a95ddd0658e878a720c4c39676c5e.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Tharwah Gold - 300ml",
@@ -825,7 +849,7 @@
         "Perfume": "Pasta Afeef - 200ml",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cf9cee9c1057dde142f333a8a0d56930.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Pasta Al Noble Wazeer - 200gr",
@@ -993,7 +1017,7 @@
         "Perfume": "Pasta Queen Of Arábia - 200gr",
         "Venda": "R$ 159,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/b425e1034a648beb0bc8944764ee8ba5.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Pasta Royal Amber - 200ml",
