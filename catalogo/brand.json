@@ -111,7 +111,7 @@
         "Perfume": "024 - Versace Bright Crystal - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bda071b9d8704c1c9a9b57eef08b4405.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "026 - Givenchy Irresistible F - 25ml",
@@ -1233,7 +1233,7 @@
         "Perfume": "387 - The Most Wanted M - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/90b8da01864aad8ba32a92bfffea1792.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "389 - Lá Vie Est Belle Iris Absolu F 25ml",
