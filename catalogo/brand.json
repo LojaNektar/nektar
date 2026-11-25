@@ -309,7 +309,7 @@
         "Perfume": "084 - Mont Blanc Legend M - 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d5935a7784dccdaecbd301ac385dded9.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "085 - Dolce & Gabanna Vermelho F 25ml",
@@ -525,7 +525,7 @@
         "Perfume": "164 - Armani Code - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8e185de10af25884cc53ca31127bb946.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "165 - Armani Code Colombia M 25ml",
@@ -1311,7 +1311,7 @@
         "Perfume": "423 - Invictus Victory Extrait - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/630c9fd6574987fa8217486950cd57df.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "424 - Olympea Extrait Parfum - 25ml",
@@ -1449,7 +1449,7 @@
         "Perfume": "477 - La Bomba da Carolina Herrera - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0b9cae5e47974887cbf64c52a2016819.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "478 - Libre L’eau Nue - 25ml",

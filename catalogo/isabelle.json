@@ -195,7 +195,7 @@
         "Perfume": "Body Splash Club de Nuit Overdose - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d1152a4a787e32ee3aa230ef48a400a7.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Club de Nuit Woman - 300ml",
@@ -231,7 +231,7 @@
         "Perfume": "Body Splash Eclaire - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bd1b3e7e0afd6438eb437999f37f2a93.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "Body Splash Erba Pura - 300ml",
@@ -795,7 +795,7 @@
         "Perfume": "Hidratante Yara Rosa - 200ml",
         "Venda": "R$ 119,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/cc6b03e9f84458a3d9d4bb86c6f5ed1a.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Hidratante Yara Tous - 200ml",
