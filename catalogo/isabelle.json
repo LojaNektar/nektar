@@ -255,7 +255,7 @@
         "Perfume": "Body Splash Fakhar Rose - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/01c374184ed1932a644eaca3b0062f79.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Fakhar Rose Shimmer - 300ml",
@@ -321,7 +321,7 @@
         "Perfume": "Body Splash Lá Vie Est Belle Shimmer - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/52210d76cc1c21378daa453f78c92986.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Lattafa Fahad - 300ml",
@@ -363,7 +363,7 @@
         "Perfume": "Body Splash Maison Asrar Vanilla Voyage - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/db871deba90659cf058bbed165bce4a3.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Marshmallow Blush - 300ml",
