@@ -63,7 +63,7 @@
         "Perfume": "014 - Miss Dior Blossoming F - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/eb927ca586fd0fbb319a2f9ec9cdfa4d.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "015 - Miss Dior F 25ml",
@@ -111,7 +111,7 @@
         "Perfume": "024 - Versace Bright Crystal - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/bda071b9d8704c1c9a9b57eef08b4405.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "026 - Givenchy Irresistible F - 25ml",
@@ -135,7 +135,7 @@
         "Perfume": "029 - Nina Ricci Nina L’elixir F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/5c7af5bb68e42bc3b301c6a0f998a2c3.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "030 - Versace Bright Crystal Absolute F 25ml",
@@ -147,7 +147,7 @@
         "Perfume": "031 - Chance Tendre - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/173767a46d13e47a953dad2f3fe86c2d.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "032 - 212 VIP Man Club Edition - 25ml",
@@ -285,7 +285,7 @@
         "Perfume": "079 - 212 VIP Men Wild Party - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/edc881133b028279549abe68a8dba551.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "080 - Ange or Demon Le Secret F 25ml",
@@ -309,7 +309,7 @@
         "Perfume": "084 - Mont Blanc Legend M - 25ml",
         "Venda": "R$ 99,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/d5935a7784dccdaecbd301ac385dded9.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "085 - Dolce & Gabanna Vermelho F 25ml",
@@ -525,7 +525,7 @@
         "Perfume": "164 - Armani Code - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/8e185de10af25884cc53ca31127bb946.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "165 - Armani Code Colombia M 25ml",
@@ -651,7 +651,7 @@
         "Perfume": "203 - La Nuit Trésor A Lá Folie 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/9c6b4d465a527f23d0c2050182a3de02.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "205 - Jean Divine 25ml",
@@ -1119,7 +1119,7 @@
         "Perfume": "366 - Angel Elixir Fem - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/c8991100ca22578fdc1a7aa18e4c774b.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "367 - Valaya F 25 ml",
@@ -1311,7 +1311,7 @@
         "Perfume": "423 - Invictus Victory Extrait - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/630c9fd6574987fa8217486950cd57df.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "424 - Olympea Extrait Parfum - 25ml",
@@ -1359,7 +1359,7 @@
         "Perfume": "434 - Kilian Angel’s Share F - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/caf5b2e92730902978b8e7979513d9e2.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "434 - Kilian Angels' Share 25ml",
@@ -1371,7 +1371,7 @@
         "Perfume": "435 - Burberry Goddness - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/4bc7cd3bf8650858135899c205d5b91f.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "436 - Louis Vuitton Ombre Nômade Noir - 25ml",
@@ -1449,7 +1449,7 @@
         "Perfume": "477 - La Bomba da Carolina Herrera - 25ml",
         "Venda": "R$ 89,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0b9cae5e47974887cbf64c52a2016819.webp",
-        "Ativo": false
+        "Ativo": true
     },
     {
         "Perfume": "478 - Libre L’eau Nue - 25ml",
