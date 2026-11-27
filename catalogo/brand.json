@@ -375,7 +375,7 @@
         "Perfume": "105 - Lady Million F 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/7539bf74092b6868d7f487b98d8b7dc1.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "106 - Versace Pour Homme M 25ml",
@@ -657,7 +657,7 @@
         "Perfume": "194 - 212 VIP Sexy da Carolina Herrera - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/6f01425491ab6f748950acd6ea98abe3.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "202 - Black XS M - 25ml",
@@ -1329,7 +1329,7 @@
         "Perfume": "423 - Invictus Victory Extrait - 25ml",
         "Venda": "R$ 79,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/630c9fd6574987fa8217486950cd57df.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "424 - Olympea Extrait Parfum - 25ml",

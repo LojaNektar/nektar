@@ -219,6 +219,12 @@
         "Perfume": "Body Splash Delilah - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ee3e322a859cb11dd1d589637eb325ab.webp",
+        "Ativo": false
+    },
+    {
+        "Perfume": "Body Splash Delilah (Delina) - 300ml",
+        "Venda": "R$ 109,90",
+        "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/ee3e322a859cb11dd1d589637eb325ab.webp",
         "Ativo": true
     },
     {
@@ -417,7 +423,7 @@
         "Perfume": "Body Splash Sabah - 300ml",
         "Venda": "R$ 109,90",
         "Imagem": "https://cdn.vendizap.com/vendizap-produtos-thumbs/0e5b01145a7f28449617ac27a85514e6.webp",
-        "Ativo": true
+        "Ativo": false
     },
     {
         "Perfume": "Body Splash Sabah Shimmer - 300ml",
